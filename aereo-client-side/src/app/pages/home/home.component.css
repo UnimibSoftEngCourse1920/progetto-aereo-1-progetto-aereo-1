@@ -1,0 +1,22 @@
+.hero {
+  background-image: url("/assets/img/uno.jpg") !important;
+  background-size: cover;
+  background-position: center center;
+}
+
+.container {
+  border: white solid 2px;
+  border-radius: 5px;
+  padding: 5px;
+  background: rgba(129, 129, 129, 0.38);
+  margin-bottom: 10px;
+}
+
+h1 {
+  color: black !important;
+}
+
+h2 {
+  color: black !important;
+}
+
