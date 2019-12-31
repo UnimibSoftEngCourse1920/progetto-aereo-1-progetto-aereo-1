@@ -10,9 +10,11 @@ import javax.persistence.*;
 import javax.validation.constraints.NotNull;
 import java.io.Serializable;
 import java.time.LocalDateTime;
+import java.util.List;
 
 @Entity
-@Table(name = "users") //, indexes = {@Index(name = "IDX_email", columnList = "email ASC")}
+@Table(name = "users")
+//, indexes = {@Index(name = "IDX_email", columnList = "email ASC")}
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
@@ -37,6 +39,9 @@ public class User implements Serializable {
     @NotNull
     private LocalDateTime dateCreation;
     private LocalDateTime dateDeletion;
+
+    @OneToMany(mappedBy = "buyer")
+    private List<Ticket> tickets;
 
     @Override
     public String toString() {

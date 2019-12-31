@@ -1,14 +1,15 @@
 package it.bicocca.aereoserverside.services.impl;
 
 import it.bicocca.aereoserverside.entity.User;
-import it.bicocca.aereoserverside.exception.UserNotFoundException;
+import it.bicocca.aereoserverside.exception.NotFoundException;
 import it.bicocca.aereoserverside.repository.UserRepository;
+import it.bicocca.aereoserverside.services.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 
 @Service
-public class UserServiceImpl {
+public class UserServiceImpl implements UserService {
 
     @Autowired
     private UserRepository userRepository;
@@ -17,14 +18,16 @@ public class UserServiceImpl {
         return (User) userRepository.save(user); //to be fixed
     }
 
-    public User getByMail(String mail) throws UserNotFoundException {
+    @Override
+    public User getByMail(String mail) throws NotFoundException {
         return userRepository.getByEmail(mail).orElseThrow(
-                () -> new UserNotFoundException("User not found"));
+                () -> new NotFoundException("User not found"));
     }
 
-    public User getById(Long id) throws UserNotFoundException {
+    @Override
+    public User getById(Long id) throws NotFoundException {
         return userRepository.getById(id).orElseThrow(
-                () -> new UserNotFoundException("User not found"));
+                () -> new NotFoundException("User not found"));
     }
 
 }//end class
