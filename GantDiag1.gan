@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?><project name="Untitled Gantt Project" company="" webLink="http://" view-date="2019-12-24" view-index="0" gantt-divider-location="300" resource-divider-location="300" version="2.8.10" locale="it_IT">
+    <description/>
+    <view zooming-state="default:1" id="gantt-chart">
+        <field id="tpd3" name="Nome" width="167" order="0"/>
+        <field id="tpd4" name="Data d'inizio" width="65" order="1"/>
+        <field id="tpd5" name="Data di fine" width="64" order="2"/>
+        <option id="color.recent"><![CDATA[#ffcc00 #999999 #ff6600 #3333ff #00ff00 #ff33cc]]></option>
+    </view>
+    <view id="resource-table">
+        <field id="0" name="Nome" width="210" order="0"/>
+        <field id="1" name="Ruolo predefinito" width="86" order="1"/>
+    </view>
+    <!-- -->
+    <calendars>
+        <day-types>
+            <day-type id="0"/>
+            <day-type id="1"/>
+            <default-week id="1" name="default" sun="1" mon="0" tue="0" wed="0" thu="0" fri="0" sat="1"/>
+            <only-show-weekends value="false"/>
+            <overriden-day-types/>
+            <days/>
+        </day-types>
+    </calendars>
+    <tasks empty-milestones="true">
+        <taskproperties>
+            <taskproperty id="tpd0" name="type" type="default" valuetype="icon"/>
+            <taskproperty id="tpd1" name="priority" type="default" valuetype="icon"/>
+            <taskproperty id="tpd2" name="info" type="default" valuetype="icon"/>
+            <taskproperty id="tpd3" name="name" type="default" valuetype="text"/>
+            <taskproperty id="tpd4" name="begindate" type="default" valuetype="date"/>
+            <taskproperty id="tpd5" name="enddate" type="default" valuetype="date"/>
+            <taskproperty id="tpd6" name="duration" type="default" valuetype="int"/>
+            <taskproperty id="tpd7" name="completion" type="default" valuetype="int"/>
+            <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
+            <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
+        </taskproperties>
+        <task id="0" name="Analisi Prerequisiti" color="#999999" meeting="false" start="2019-12-26" duration="3" complete="0" thirdDate="2019-12-30" thirdDate-constraint="0" expand="true">
+            <notes><![CDATA[Prerequisiti
+Scelta Tools e tecnologie
+Suddivisione lavori
+Setup Angular]]></notes>
+        </task>
+        <task id="6" name="DataBase, Ricerca Voli e API" color="#ff33cc" meeting="false" start="2020-01-01" duration="3" complete="0" thirdDate="2019-12-25" thirdDate-constraint="0" expand="true">
+            <notes><![CDATA[Ricerca e sviluppo classi DB tramite Spring (Hybernate)
+Sviluppo pagina HTML per Ricerca Voli
+Gestione DB Java 
+Ricerca API per tabella Voli]]></notes>
+        </task>
+        <task id="9" name="CompraBiglietto, Login e PaginaUtente" color="#00ff00" meeting="false" start="2020-01-06" duration="5" complete="0" thirdDate="2019-12-27" thirdDate-constraint="0" expand="true">
+            <notes><![CDATA[Implementazione HTML e Java di Pagina Compra/Prenota Biglietto e Pagina Utente
+Gestione dati utente e pagina Login HTML
+Testing features introdotte
+]]></notes>
+        </task>
+        <task id="21" name="Routine, Fedelta' e Prenotazione" color="#3333ff" meeting="false" start="2020-01-13" duration="5" complete="0" thirdDate="2019-12-26" thirdDate-constraint="0" expand="true">
+            <notes><![CDATA[Implementazione Routine di Controllo Java
+Sviluppo HTML e Java delle features di modifica prenotazione
+Pagina Login HTML
+Testing delle features]]></notes>
+        </task>
+        <task id="25" name="Promozioni e Pagine secondarie" color="#ff6600" meeting="false" start="2020-01-20" duration="5" complete="0" thirdDate="2020-01-06" thirdDate-constraint="0" expand="true">
+            <notes><![CDATA[Sviluppo gestione Java Promozioni
+Aggiunta pagine ausiliarie
+Testing features precedenti
+]]></notes>
+        </task>
+        <task id="27" name="Revisione e Test" color="#ffcc00" meeting="false" start="2020-01-27" duration="4" complete="0" thirdDate="2019-12-30" thirdDate-constraint="0" expand="true">
+            <notes><![CDATA[Testing e Revisione del progetto
+]]></notes>
+        </task>
+        <task id="30" name="Consegna Progetto" color="#8cb6ce" meeting="false" start="2020-01-31" duration="1" complete="0" thirdDate="2019-12-30" thirdDate-constraint="0" expand="true"/>
+    </tasks>
+    <resources>
+        <resource id="0" name="Feltrin Andrea" function="Default:0" contacts="" phone=""/>
+        <resource id="1" name="Restelli Andrea" function="Default:0" contacts="" phone=""/>
+        <resource id="2" name="Calaminici Andrea" function="Default:0" contacts="" phone=""/>
+    </resources>
+    <allocations/>
+    <vacations/>
+    <previous/>
+    <roles roleset-name="Default"/>
+</project>
