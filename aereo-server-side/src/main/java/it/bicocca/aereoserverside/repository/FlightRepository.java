@@ -13,7 +13,8 @@ import java.util.List;
 @Repository
 public interface FlightRepository extends JpaRepository<Flight, Long> {
 
-    List<Flight> getByLandingLocation(String landingLocation);
+    List<Flight> findByLandingLocation(String landingLocation);
+    List<Flight>
 
 
 //    @Query("select f from flights as f where f.landingLocation = " +
