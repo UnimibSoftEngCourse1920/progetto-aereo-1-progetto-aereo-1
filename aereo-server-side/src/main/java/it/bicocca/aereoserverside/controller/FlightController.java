@@ -38,17 +38,17 @@ public class FlightController {
                 HttpStatus.OK);
     }
 
-    @GetMapping("/flights/{landingLocation}/{departureDay}/{departureHour}")
-    public ResponseEntity getByDepartureLocationAndDateTime(
-            @PathVariable String landingLocation,
-            @PathVariable LocalDate departureDay,
-            @PathVariable LocalTime departureHour) {
-        return new ResponseEntity<>(flightService
-                                            .getByDepartureLocationAndDateTime(
-                                                    landingLocation,
-                                                    departureDay,
-                                                    departureHour),
-                                    HttpStatus.OK);
-    }
+//    @GetMapping("/flights/{landingLocation}/{departureDay}/{departureHour}")
+//    public ResponseEntity getByDepartureLocationAndDateTime(
+//            @PathVariable String landingLocation,
+//            @PathVariable LocalDate departureDay,
+//            @PathVariable LocalTime departureHour) {
+//        return new ResponseEntity<>(flightService
+//                                            .getByDepartureLocationAndDateTime(
+//                                                    landingLocation,
+//                                                    departureDay,
+//                                                    departureHour),
+//                                    HttpStatus.OK);
+//    }
 
 }//end class
