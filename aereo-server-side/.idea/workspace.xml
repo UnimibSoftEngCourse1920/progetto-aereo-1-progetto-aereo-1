@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="6329b797-0377-4ac5-9231-0643e3dd64e6" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1VcykfBJIEg677KMdzoUjvE5TXI" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="abbreviatePackageNames" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ExpandSpringBootJavaOptionsPanel" value="true" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.tools" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="it.bicocca.aereoserverside.exception" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\nextre\Desktop\progetto\aereo-server-side\src\main\resources" />
+    </key>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6329b797-0377-4ac5-9231-0643e3dd64e6" name="Default Changelist" comment="" />
+      <created>1577648129687</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1577648129687</updated>
+      <workItem from="1577648131537" duration="7087000" />
+      <workItem from="1577787569006" duration="13955000" />
+      <workItem from="1577974295571" duration="290000" />
+      <workItem from="1577974770718" duration="4980000" />
+    </task>
+    <task id="LOCAL-00001" summary="run debug config adeed">
+      <created>1577987268548</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1577987268548</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="run debug config adeed" />
+    <option name="LAST_COMMIT_MESSAGE" value="run debug config adeed" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="593" y="216" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1577987424616">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="593" y="216" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1577987424616" />
+    <state x="485" y="29" key="CommitChangelistDialog2" timestamp="1577987267621">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="485" y="29" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1577987267621" />
+    <state width="1877" height="521" key="GridCell.Tab.0.bottom" timestamp="1577986016827">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="521" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1577986016827" />
+    <state width="1877" height="521" key="GridCell.Tab.0.center" timestamp="1577986016824">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="521" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1577986016824" />
+    <state width="1877" height="521" key="GridCell.Tab.0.left" timestamp="1577986016820">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="521" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1577986016820" />
+    <state width="1877" height="521" key="GridCell.Tab.0.right" timestamp="1577986016825">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="521" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1577986016825" />
+    <state width="1877" height="521" key="GridCell.Tab.1.bottom" timestamp="1577986016828">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="521" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1577986016828" />
+    <state width="1877" height="521" key="GridCell.Tab.1.center" timestamp="1577986016827">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="521" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1577986016827" />
+    <state width="1877" height="521" key="GridCell.Tab.1.left" timestamp="1577986016827">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="521" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1577986016827" />
+    <state width="1877" height="521" key="GridCell.Tab.1.right" timestamp="1577986016828">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="521" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1577986016828" />
+    <state x="552" y="250" key="Vcs.Push.Dialog.v2" timestamp="1577987447016">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="250" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1577987447016" />
+    <state x="715" y="365" key="cloudConfig.PluginsDialog" timestamp="1577975220728">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="715" y="365" key="cloudConfig.PluginsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1577975220728" />
+    <state x="715" y="365" key="cloudConfig.SelfSettingsDialog" timestamp="1577975201552">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="715" y="365" key="cloudConfig.SelfSettingsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1577975201552" />
+    <state x="646" y="236" width="627" height="568" key="find.popup" timestamp="1577986299905">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="646" y="236" width="627" height="568" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1577986299905" />
+  </component>
+</project>
