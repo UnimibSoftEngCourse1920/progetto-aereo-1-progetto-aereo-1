@@ -14,31 +14,31 @@ const routes: Routes = [
     component: HomeComponent
   },
   {
-    path: '/home',
+    path: 'home',
     component: HomeComponent
   },
   {
-    path: '/login',
+    path: 'login',
     component: LoginComponent
   },
   {
-    path: '/register',
+    path: 'register',
     component: RegistrationComponent
   },
   {
-    path: '/profile/{userId}',
+    path: 'profile/{userId}',
     component: ProfileComponent
   },
   {
-    path: '/tickets/buy-ticket/{flightId}',
+    path: 'tickets/buy-ticket/{flightId}',
     component: BuyTicketComponent
   },
   {
-    path: '/tickets/edit-ticket/{ticketId}',
+    path: 'tickets/edit-ticket/{ticketId}',
     component: BuyTicketComponent
   },
   {
-    path: '/flight-list',
+    path: 'flight-list',
     component: FlightListComponent
   }
 ];

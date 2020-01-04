@@ -1,16 +1,17 @@
-import { BrowserModule } from '@angular/platform-browser';
-import { NgModule } from '@angular/core';
+import {BrowserModule} from '@angular/platform-browser';
+import {NgModule} from '@angular/core';
 
-import { AppRoutingModule } from './app-routing.module';
-import { AppComponent } from './app.component';
-import {CoreModule} from "./core/core.module";
-import { HomeComponent } from './pages/home/home.component';
-import { LoginComponent } from './pages/login/login.component';
-import { RegistrationComponent } from './pages/registration/registration.component';
-import { ProfileComponent } from './pages/profile/profile.component';
-import { BuyTicketComponent } from './pages/tickets/buy-ticket/buy-ticket.component';
-import { EditTicketComponent } from './pages/tickets/edit-ticket/edit-ticket.component';
-import { FlightListComponent } from './pages/flight-list/flight-list.component';
+import {AppRoutingModule} from './app-routing.module';
+import {AppComponent} from './app.component';
+import {CoreModule} from './core/core.module';
+import {HomeComponent} from './pages/home/home.component';
+import {LoginComponent} from './pages/login/login.component';
+import {RegistrationComponent} from './pages/registration/registration.component';
+import {ProfileComponent} from './pages/profile/profile.component';
+import {BuyTicketComponent} from './pages/tickets/buy-ticket/buy-ticket.component';
+import {EditTicketComponent} from './pages/tickets/edit-ticket/edit-ticket.component';
+import {FlightListComponent} from './pages/flight-list/flight-list.component';
+import {FormsModule} from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -23,12 +24,14 @@ import { FlightListComponent } from './pages/flight-list/flight-list.component';
     EditTicketComponent,
     FlightListComponent
   ],
-    imports: [
-        BrowserModule,
-        AppRoutingModule,
-        CoreModule
-    ],
+  imports: [
+    BrowserModule,
+    AppRoutingModule,
+    CoreModule,
+    FormsModule
+  ],
   providers: [],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule {
+}
