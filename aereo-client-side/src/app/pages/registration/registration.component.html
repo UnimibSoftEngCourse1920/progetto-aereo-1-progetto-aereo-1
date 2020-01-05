@@ -5,70 +5,92 @@
     <div class="column is-4 is-offset-4">
       <!-- to highlight the form with a shadow -->
       <div class="box">
-        <!-- first row -->
-        <div class="columns">
-          <div class="column is-6">
-            <div class="field">
-              <label class="label">Name</label>
-              <div class="control">
-                <input class="input" type="text" placeholder="Text input">
+        <form (ngSubmit)="submitForm()" #registrationForm="ngForm">
+          <!-- first row -->
+          <div class="columns">
+            <div class="column is-6">
+              <div class="field">
+                <label class="label">Name</label>
+                <div class="control">
+                  <input class="input" type="text" placeholder="Text input" name="name" [(ngModel)]="name"
+                         #nameInput="ngModel" required>
+                </div>
+                <p class="help is-danger" *ngIf="(nameInput.touched || nameInput.dirty) && nameInput.invalid">Name is
+                  required</p>
+              </div>
+            </div>
+            <div class="column is-6">
+              <div class="field">
+                <label class="label">Surname</label>
+                <div class="control">
+                  <input class="input" type="text" placeholder="Text input" name="surname" [(ngModel)]="surname"
+                         #surnameInput="ngModel" required="">
+                </div>
+                <p class="help is-danger" *ngIf="(surnameInput.touched || surnameInput.dirty) && surnameInput.invalid">
+                  Surname is required</p>
               </div>
             </div>
           </div>
-          <div class="column is-6">
-            <div class="field">
-              <label class="label">Surname</label>
-              <div class="control">
-                <input class="input" type="text" placeholder="Text input">
+          <!-- second row -->
+          <div class="columns">
+            <div class="column is-6">
+              <div class="field">
+                <label class="label">Email</label>
+                <div class="control">
+                  <input class="input" type="email" placeholder="address@email" pattern="[a-zA-Z._]*@[a-z.]*.[a-z]*"
+                         name="email" [(ngModel)]="email" #emailInput="ngModel" required>
+                </div>
+                <p class="help is-danger" *ngIf="(emailInput.touched || emailInput.dirty) && emailInput.invalid">Proper
+                  email is required</p>
+              </div>
+            </div>
+            <div class="column is-6">
+              <div class="field">
+                <label class="label">Date of birth</label>
+                <div class="control">
+                  <input class="input" type="text" placeholder="dd/mm/yyyy" maxlength="10"
+                         pattern="[0-3][0-9]/[0-1][0-9]/[0-9][0-9][0-9][0-9]" name="dateOfBirth"
+                         [(ngModel)]="dateOfBirth" #birthInput="ngModel" required>
+                </div>
+                <p class="help is-danger" *ngIf="(birthInput.touched || birthInput.dirty) && birthInput.invalid">Proper
+                  date of birth is required</p>
               </div>
             </div>
           </div>
-        </div>
-        <!-- second row -->
-        <div class="columns">
-          <div class="column is-6">
-            <div class="field">
-              <label class="label">Email</label>
-              <div class="control">
-                <input class="input" type="email" placeholder="address@email">
-              </div>
-              <p class="help is-danger">This email is invalid</p>
-            </div>
-          </div>
-          <div class="column is-6">
-            <div class="field">
-              <label class="label">Date of birth</label>
-              <div class="control">
-                <input class="input" type="text" placeholder="dd/mm/yyyy">
+          <!-- third row -->
+          <div class="columns">
+            <div class="column is-6">
+              <div class="field">
+                <label class="label">Password</label>
+                <div class="control">
+                  <input class="input" type="password" placeholder="Text input" minlength="8" name="password"
+                         [(ngModel)]="password" #passwordInput="ngModel">
+                </div>
+                <p class="help is-danger" *ngIf="(passwordInput.touched || passwordInput.dirty) && passwordInput.invalid">8 character password is needed</p>
+                <p class="help is-danger" *ngIf="(password != repeatPassword) && repeatPasswordInput.touched">passwords
+                  do not match</p>
               </div>
             </div>
-          </div>
-        </div>
-        <!-- third row -->
-        <div class="columns">
-          <div class="column is-6">
-            <div class="field">
-              <label class="label">Password</label>
-              <div class="control">
-                <input class="input" type="password" placeholder="Text input">
+            <div class="column is-6">
+              <div class="field">
+                <label class="label">Password</label>
+                <div class="control">
+                  <input class="input" type="password" placeholder="Text input" minlength="8" name="repeatPassword"
+                         [(ngModel)]="repeatPassword" #repeatPasswordInput="ngModel">
+                </div>
+                <p class="help is-danger" *ngIf="(repeatPasswordInput.touched || repeatPasswordInput.dirty) && repeatPasswordInput.invalid">8 character password is needed</p>
+                <p class="help is-danger" *ngIf="(password != repeatPassword) && passwordInput.touched">passwords do not
+                  match</p>
               </div>
             </div>
           </div>
-          <div class="column is-6">
-            <div class="field">
-              <label class="label">Repeat Password</label>
-              <div class="control">
-                <input class="input" type="password" placeholder="Text input">
-              </div>
+          <!-- button -->
+          <div class="field is-grouped">
+            <div class="control">
+              <button class="button is-success" [disabled]="registrationForm.invalid || (password != repeatPassword)">Submit</button>
             </div>
           </div>
-        </div>
-        <!-- button -->
-        <div class="field is-grouped">
-          <div class="control">
-            <button class="button is-success">Submit</button>
-          </div>
-        </div>
+        </form>
       </div>
     </div>
   </div>
