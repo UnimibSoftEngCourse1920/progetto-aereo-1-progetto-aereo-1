@@ -1,52 +1,77 @@
 <section class="hero is-primary is-fullheight is-bold">
-  <div class="hero-body">
-    <a class="card-image has-text-centered is-256x256" routerLink="register">
-      <img src="../../../assets/img/logo.png" alt="logo" class=centered>
-    </a>
-  </div>
-  <div class="container has-text-centered">
+  <div class="hero-body is-inline is-inline-block">
+    <br><br><br><a class="card-image has-text-centered is-64x64" routerLink="/home">
+    <img src="../../../assets/img/logo.png" alt="logo" class=centered>
+  </a>
     <h1 class="title">
-      <span style="color: blue; "><br> Triple A Flights</span>
+      <div style="color: blue; text-align: center;"><br> Triple A Flights</div>
     </h1>
     <h2 class="subtitle">
-      Imagination is the only limit
+      <div style="text-align: center;">Imagination is the only limit</div>
     </h2>
   </div>
 
-  <div class="container">
-    <form>
-      <div class="form-group"><label for="partenza">Partenza</label>
-        <select class="form-control" id="partenza">
-          <option selected="" value="">Scegli Partenza</option>
-          <option value="Milano">Milano</option>
-          <option value="Budapest">Budapest</option>
-          <option value="New York">New York</option>
-          <option value="Tokyo">Tokyo</option>
-          <option value="Mosca">Mosca</option>
-        </select></div>
-
-      <div class="form-group"><label for="destinazione">Destinazione</label>
-        <select class="form-control" id="destinazione">
-          <option selected="" value="">Scegli Destinazione</option>
-          <option value="Milano">Milano</option>
-          <option value="Budapest">Budapest</option>
-          <option value="New York">New York</option>
-          <option value="Tokyo">Tokyo</option>
-          <option value="Mosca">Mosca</option>
-        </select></div>
-
-      <div class="form-group">
-        <div class="form-row">
-          <div class="col-md-6"><label for="hire-date">Data Volo</label><input class="form-control" id="hire-date" type="date">
+  <div class="columns">
+    <div class="column is-4 is-offset-4">
+      <div class="box">
+        <form>
+          <div class="columns">
+            <div class="column is-6">
+              <div class="field">
+                <label class="label">Departure:</label>
+                <div class="control">
+                  <div class="select">
+                    <select>
+                      <option>Any Departure</option>
+                      <option>Milano</option>
+                      <option>Budapest</option>
+                      <option>New York</option>
+                      <option>Tokyo</option>
+                      <option>Mosca</option>
+                      <option>Londra</option>
+                    </select>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="column is-6">
+              <div class="field">
+                <label class="label">Arrival:</label>
+                <div class="control">
+                  <div class="select">
+                    <select>
+                      <option>Any Arrival</option>
+                      <option>Milano</option>
+                      <option>Budapest</option>
+                      <option>New York</option>
+                      <option>Tokyo</option>
+                      <option>Mosca</option>
+                      <option>Londra</option>
+                    </select>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
-        </div>
+          <div class="columns">
+            <div class="column is-6">
+              <div class="field">
+                <label class="label">Date</label>
+                <div class="control is-inline-block">
+                  <input class="input" maxlength="5" name="date" pattern="[0-1][0-9]/[0-3][0-9]"
+                         placeholder="dd/mm" required type="text">
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="field is-grouped">
+            <div class="control">
+              <button class="button is-success">Find Flights!</button>
+            </div>
+          </div>
+        </form>
       </div>
-
-      <div class="col-md-6 button">
-        <button class="btn btn-primary btn-block" type="submit">Cerca voli!</button>
-      </div>
-
-    </form>
+    </div>
   </div>
-
+  <br><br><br><br><br><br><br><!--sono stupido non ho trovato modi più eleganti-->
 </section>
