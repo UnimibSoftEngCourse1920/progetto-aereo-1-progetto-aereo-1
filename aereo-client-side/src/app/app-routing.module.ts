@@ -1,11 +1,11 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
-import {HomeComponent} from "./pages/home/home.component";
-import {LoginComponent} from "./pages/login/login.component";
-import {ProfileComponent} from "./pages/profile/profile.component";
-import {RegistrationComponent} from "./pages/registration/registration.component";
-import {BuyTicketComponent} from "./pages/tickets/buy-ticket/buy-ticket.component";
-import {FlightListComponent} from "./pages/flight-list/flight-list.component";
+import {HomeComponent} from './pages/home/home.component';
+import {LoginComponent} from './pages/login/login.component';
+import {ProfileComponent} from './pages/profile/profile.component';
+import {RegistrationComponent} from './pages/registration/registration.component';
+import {BuyTicketComponent} from './pages/tickets/buy-ticket/buy-ticket.component';
+import {FlightListComponent} from './pages/flight-list/flight-list.component';
 
 
 const routes: Routes = [
