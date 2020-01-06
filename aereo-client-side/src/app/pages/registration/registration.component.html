@@ -4,11 +4,10 @@
     <!-- column to center the content -->
     <br><br><br>
     <h1 class="title">
-      <div style="text-align: center;"><br> Register</div>
+      <div style="text-align: center;"><br> Register a Fedeltà Account</div>
     </h1>
     <div class="columns">
       <div class="column is-4 is-offset-4">
-        <!-- to highlight the form with a shadow -->
         <div class="box">
           <form (ngSubmit)="submitForm()" #registrationForm="ngForm">
             <!-- first row -->
@@ -71,21 +70,6 @@
                 <div class="field">
                   <label class="label">Password</label>
                   <div class="control">
-                    <input class="input" type="password" placeholder="Text input" minlength="8" name="password"
-                           [(ngModel)]="password" #passwordInput="ngModel">
-                  </div>
-                  <p class="help is-danger"
-                     *ngIf="(passwordInput.touched || passwordInput.dirty) && passwordInput.invalid">8 character
-                    password is needed</p>
-                  <p class="help is-danger" *ngIf="(password != repeatPassword) && repeatPasswordInput.touched">
-                    passwords
-                    do not match</p>
-                </div>
-              </div>
-              <div class="column is-6">
-                <div class="field">
-                  <label class="label">Password</label>
-                  <div class="control">
                     <input class="input" type="password" placeholder="Text input" minlength="8" name="repeatPassword"
                            [(ngModel)]="repeatPassword" #repeatPasswordInput="ngModel">
                   </div>
@@ -97,8 +81,35 @@
                     match</p>
                 </div>
               </div>
+              <div class="column is-6">
+                <div class="field">
+                  <label class="label">Confirm Password</label>
+                  <div class="control">
+                    <input class="input" type="password" placeholder="Text input" minlength="8" name="password"
+                           [(ngModel)]="password" #passwordInput="ngModel">
+                  </div>
+                  <p class="help is-danger"
+                     *ngIf="(passwordInput.touched || passwordInput.dirty) && passwordInput.invalid">8 character
+                    password is needed</p>
+                  <p class="help is-danger" *ngIf="(password != repeatPassword) && repeatPasswordInput.touched">
+                    passwords
+                    do not match</p>
+                </div>
+              </div>
             </div>
             <!-- button -->
+
+            <div class="columns">
+              <div class="column is-6">
+              <label class="label">Address</label>
+                <div class="control">
+                  <div class="input">
+
+                  </div>
+                </div>
+              </div>
+            </div>
+<!-- to format-->
             <div class="field is-grouped">
               <div class="control">
                 <button class="button is-success" [disabled]="registrationForm.invalid || (password != repeatPassword)">
