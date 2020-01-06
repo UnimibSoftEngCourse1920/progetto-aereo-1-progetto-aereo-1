@@ -4,16 +4,13 @@
   background-position: center center;
 }
 
-.container {
-  border: white solid 2px;
-  border-radius: 5px;
-  padding: 5px;
-  background: rgba(129, 129, 129, 0.38);
-  margin-bottom: 10px;
+.box {
+  border: 1px #cccccc solid
 }
 
+
 h1 {
-  color: black !important;
+  color: blue !important;
 }
 
 h2 {
