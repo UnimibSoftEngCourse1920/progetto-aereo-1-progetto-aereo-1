@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><project name="Untitled Gantt Project" company="" webLink="http://" view-date="2019-12-24" view-index="0" gantt-divider-location="300" resource-divider-location="300" version="2.8.10" locale="it_IT">
+<?xml version="1.0" encoding="UTF-8"?><project name="Untitled Gantt Project" company="" webLink="http://" view-date="2019-12-24" view-index="0" gantt-divider-location="300" resource-divider-location="300" version="2.8.10" locale="it">
     <description/>
     <view zooming-state="default:1" id="gantt-chart">
         <field id="tpd3" name="Nome" width="167" order="0"/>
@@ -40,17 +40,17 @@ Scelta Tools e tecnologie
 Suddivisione lavori
 Setup Angular]]></notes>
         </task>
-        <task id="6" name="DataBase, Ricerca Voli e API" color="#ff33cc" meeting="false" start="2020-01-01" duration="3" complete="0" thirdDate="2019-12-25" thirdDate-constraint="0" expand="true">
+        <task id="6" name="DataBase, HTML" color="#ff33cc" meeting="false" start="2019-12-31" duration="4" complete="0" thirdDate="2019-12-25" thirdDate-constraint="0" expand="true">
             <notes><![CDATA[Ricerca e sviluppo classi DB tramite Spring (Hybernate)
-Sviluppo pagina HTML per Ricerca Voli
-Gestione DB Java 
-Ricerca API per tabella Voli]]></notes>
+Sviluppo pagina HTML per: 
+Ricerca Voli, Home, Login, Register, Pagina Utente]]></notes>
         </task>
         <task id="9" name="CompraBiglietto, Login e PaginaUtente" color="#00ff00" meeting="false" start="2020-01-06" duration="5" complete="0" thirdDate="2019-12-27" thirdDate-constraint="0" expand="true">
-            <notes><![CDATA[Implementazione HTML e Java di Pagina Compra/Prenota Biglietto e Pagina Utente
-Gestione dati utente e pagina Login HTML
+            <notes><![CDATA[Gestione DB Java (Hybernate)
+Ricerca API per tabella Voli
+Implementazione HTML e Java di Pagina Compra/Prenota Biglietto
 Testing features introdotte
-]]></notes>
+Setup SonarQube]]></notes>
         </task>
         <task id="21" name="Routine, Fedelta' e Prenotazione" color="#3333ff" meeting="false" start="2020-01-13" duration="5" complete="0" thirdDate="2019-12-26" thirdDate-constraint="0" expand="true">
             <notes><![CDATA[Implementazione Routine di Controllo Java
