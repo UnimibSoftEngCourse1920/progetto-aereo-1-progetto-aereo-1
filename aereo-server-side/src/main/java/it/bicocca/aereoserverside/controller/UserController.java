@@ -25,15 +25,6 @@ public class UserController {
         return new ResponseEntity<>(HttpStatus.CREATED);
     }
 
-//    @PutMapping("/edit")
-//    public ResponseEntity updateUser(
-//            @RequestParam(name = "user") String userStr)
-//    throws JsonProcessingException {
-//        User user = new ObjectMapper().readValue(userStr, User.class);
-//        userService.u(user);
-//        return new ResponseEntity<>(HttpStatus.CREATED);
-//    }
-
     @GetMapping("/user/{id}")
     public ResponseEntity getUserById(@PathVariable Long id) {
         return new ResponseEntity<>(userService.getById(id), HttpStatus.OK);

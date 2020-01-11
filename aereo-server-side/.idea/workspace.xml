@@ -2,10 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6329b797-0377-4ac5-9231-0643e3dd64e6" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../aereo-client-side/src/app/app-routing.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../aereo-client-side/src/app/app-routing.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../aereo-client-side/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../aereo-client-side/src/app/app.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../aereo-client-side/src/app/pages/registration/registration.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../aereo-client-side/src/app/pages/registration/registration.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/it/bicocca/aereoserverside/controller/TicketController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/it/bicocca/aereoserverside/repository/TicketRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/it/bicocca/aereoserverside/services/TicketService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/it/bicocca/aereoserverside/services/impl/TicketsServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aereo-client-side/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../aereo-client-side/src/app/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aereo-client-side/src/app/class-for-entity/User.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../aereo-client-side/src/app/class-for-entity/User.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aereo-client-side/src/app/pages/img/BG.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aereo-client-side/src/app/pages/img/desktop.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aereo-client-side/src/app/pages/img/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aereo-client-side/src/app/pages/img/uno.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aereo-client-side/src/app/pages/registration/registration.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../aereo-client-side/src/app/pages/registration/registration.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aereo-client-side/src/environments/environment.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../aereo-client-side/src/environments/environment.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/it/bicocca/aereoserverside/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/it/bicocca/aereoserverside/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/it/bicocca/aereoserverside/repository/FlightRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/it/bicocca/aereoserverside/repository/FlightRepository.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,6 +25,20 @@
   </component>
   <component name="CodeStyleSettingsInfer">
     <option name="done" value="true" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -30,6 +55,7 @@
     <option name="importingSettings">
       <MavenImportingSettings>
         <option name="importAutomatically" value="true" />
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
       </MavenImportingSettings>
     </option>
   </component>
@@ -58,10 +84,14 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.tools" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.runner" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="it.bicocca.aereoserverside.controller" />
+      <recent name="it.bicocca.aereoserverside.services.impl" />
+      <recent name="it.bicocca.aereoserverside.services" />
+      <recent name="it.bicocca.aereoserverside.repository" />
       <recent name="it.bicocca.aereoserverside.exception" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
@@ -93,7 +123,8 @@
       <workItem from="1577648131537" duration="7087000" />
       <workItem from="1577787569006" duration="13955000" />
       <workItem from="1577974295571" duration="290000" />
-      <workItem from="1577974770718" duration="5063000" />
+      <workItem from="1577974770718" duration="5914000" />
+      <workItem from="1578736726128" duration="7181000" />
     </task>
     <task id="LOCAL-00001" summary="run debug config adeed">
       <created>1577987268548</created>
@@ -126,54 +157,70 @@
     <option name="LAST_COMMIT_MESSAGE" value="run debug config adeed" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="593" y="216" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1577987424616">
+    <state x="371" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1578738932931">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="593" y="216" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1577987424616" />
+    <state x="371" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1578738932931" />
+    <state x="765" y="224" key="#com.intellij.ide.util.MemberChooser" timestamp="1578760965104">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="765" y="224" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1578760965104" />
+    <state x="1114" y="318" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1578738170228">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1114" y="318" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1578738170228" />
+    <state x="107" y="176" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1578739842760">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="107" y="176" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1578739842760" />
     <state x="485" y="29" key="CommitChangelistDialog2" timestamp="1577987267621">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="485" y="29" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1577987267621" />
-    <state width="1877" height="521" key="GridCell.Tab.0.bottom" timestamp="1577986016827">
+    <state width="1877" height="516" key="GridCell.Tab.0.bottom" timestamp="1578738612143">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="521" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1577986016827" />
-    <state width="1877" height="521" key="GridCell.Tab.0.center" timestamp="1577986016824">
+    <state width="1877" height="516" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1578738612143" />
+    <state width="1877" height="516" key="GridCell.Tab.0.center" timestamp="1578738612143">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="521" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1577986016824" />
-    <state width="1877" height="521" key="GridCell.Tab.0.left" timestamp="1577986016820">
+    <state width="1877" height="516" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1578738612143" />
+    <state width="1877" height="516" key="GridCell.Tab.0.left" timestamp="1578738612143">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="521" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1577986016820" />
-    <state width="1877" height="521" key="GridCell.Tab.0.right" timestamp="1577986016825">
+    <state width="1877" height="516" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1578738612143" />
+    <state width="1877" height="516" key="GridCell.Tab.0.right" timestamp="1578738612143">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="521" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1577986016825" />
-    <state width="1877" height="521" key="GridCell.Tab.1.bottom" timestamp="1577986016828">
+    <state width="1877" height="516" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1578738612143" />
+    <state width="1877" height="521" key="GridCell.Tab.1.bottom" timestamp="1578736638091">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="521" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1577986016828" />
-    <state width="1877" height="521" key="GridCell.Tab.1.center" timestamp="1577986016827">
+    <state width="1877" height="521" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1578736638091" />
+    <state width="1877" height="521" key="GridCell.Tab.1.center" timestamp="1578736638091">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="521" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1577986016827" />
-    <state width="1877" height="521" key="GridCell.Tab.1.left" timestamp="1577986016827">
+    <state width="1877" height="521" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1578736638091" />
+    <state width="1877" height="521" key="GridCell.Tab.1.left" timestamp="1578736638091">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="521" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1577986016827" />
-    <state width="1877" height="521" key="GridCell.Tab.1.right" timestamp="1577986016828">
+    <state width="1877" height="521" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1578736638091" />
+    <state width="1877" height="521" key="GridCell.Tab.1.right" timestamp="1578736638091">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="521" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1577986016828" />
+    <state width="1877" height="521" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1578736638091" />
+    <state x="51" y="156" key="SettingsEditor" timestamp="1578740303565">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="51" y="156" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1578740303565" />
     <state x="552" y="250" key="Vcs.Push.Dialog.v2" timestamp="1577987447016">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="250" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1577987447016" />
-    <state x="715" y="365" key="cloudConfig.PluginsDialog" timestamp="1577975220728">
+    <state x="715" y="365" key="cloudConfig.PluginsDialog" timestamp="1578740573630">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="715" y="365" key="cloudConfig.PluginsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1577975220728" />
+    <state x="715" y="365" key="cloudConfig.PluginsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1578740573630" />
     <state x="715" y="365" key="cloudConfig.SelfSettingsDialog" timestamp="1577975201552">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

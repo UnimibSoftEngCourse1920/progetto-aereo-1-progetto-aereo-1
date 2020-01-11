@@ -12,6 +12,7 @@ import {BuyTicketComponent} from './pages/tickets/buy-ticket/buy-ticket.componen
 import {EditTicketComponent} from './pages/tickets/edit-ticket/edit-ticket.component';
 import {FlightListComponent} from './pages/flight-list/flight-list.component';
 import {FormsModule} from '@angular/forms';
+import {HttpClientModule} from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -28,7 +29,8 @@ import {FormsModule} from '@angular/forms';
     BrowserModule,
     AppRoutingModule,
     CoreModule,
-    FormsModule
+    FormsModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -14,16 +14,5 @@ import java.util.List;
 public interface FlightRepository extends JpaRepository<Flight, Long> {
 
     List<Flight> findByLandingLocation(String landingLocation);
-    List<Flight>
-
-
-//    @Query("select f from flights as f where f.landingLocation = " +
-//           ":landingLocation and f.departureDay >= :departureDay and " +
-//           "f.departureHour >= :departureHour")
-//    List<Flight> getByDepartureLocationAndDateTime(
-//            @Param("landingLocation") String landingLocation,
-//            @Param("departureDay") LocalDate departureDay,
-//            @Param("departureHour") LocalTime departureHour);
-
 
 }//end interface
