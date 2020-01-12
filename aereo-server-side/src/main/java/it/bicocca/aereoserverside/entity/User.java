@@ -1,7 +1,6 @@
 package it.bicocca.aereoserverside.entity;
 
 
-import com.fasterxml.jackson.annotation.JsonIgnore;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -35,7 +34,7 @@ public class User implements Serializable {
     //@JsonIgnore
     private String password;
     @OneToOne
-    private FideltyCard fideltyCardNumber;
+    private FidelityCard fidelityCardNumber;
     @NotNull
     private LocalDateTime dateCreation;
     private LocalDateTime dateDeletion;
@@ -48,7 +47,7 @@ public class User implements Serializable {
         return "User{" + "id=" + id + ", name='" + name + '\'' + ", surname='" +
                surname + '\'' + ", dateOfBirth=" + dateOfBirth + ", email='" +
                email + '\'' + ", password='" + password + '\'' +
-               ", fideltyCardNumber=" + fideltyCardNumber + ", dateCreation=" +
+               ", fidelityCardNumber=" + fidelityCardNumber + ", dateCreation=" +
                dateCreation + ", dateDeletion=" + dateDeletion + '}';
     }
 }//end class

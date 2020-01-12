@@ -9,7 +9,7 @@
     <div class="columns">
       <div class="column is-4 is-offset-4">
         <div class="box">
-          <form (ngSubmit)="submitForm()" #registrationForm="ngForm">
+          <form (ngSubmit)="test1()" #registrationForm="ngForm">
             <!-- first row -->
             <div class="columns">
               <div class="column is-6">
@@ -112,7 +112,7 @@
 <!-- to format-->
             <div class="field is-grouped">
               <div class="control">
-                <button class="button is-success" [disabled]="registrationForm.invalid || (password != repeatPassword)">
+                <button class="button is-success">  <!-- [disabled]="registrationForm.invalid || (password != repeatPassword)" -->
                   Register
                 </button>
               </div>

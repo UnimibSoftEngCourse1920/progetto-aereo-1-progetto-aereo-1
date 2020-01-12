@@ -25,6 +25,13 @@ export class RegistrationComponent implements OnInit {
   ngOnInit() {
   }
 
+  test1() {
+    this.http.get(environment.apiUrl + '/test').subscribe(response => {
+        alert('res ' + response);
+      }
+    );
+  }
+
   submitForm() {
 
     const user: User = new User();

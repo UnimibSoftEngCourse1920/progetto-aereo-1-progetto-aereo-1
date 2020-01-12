@@ -11,19 +11,23 @@ import org.springframework.web.bind.annotation.*;
 
 @RestController
 @RequestMapping
+@CrossOrigin
 public class UserController {
 
     @Autowired
     private UserServiceImpl userService;
 
-    @PostMapping("/register")
-    public ResponseEntity registerUser(
+    @PostMapping("/register/{test}")
+    /*public ResponseEntity registerUser(
             @RequestParam(name = "user") String userStr) //to be checked
     throws JsonProcessingException {
         User user = new ObjectMapper().readValue(userStr, User.class);
         userService.save(user);
+        return new ResponseEntity<>(HttpStatus.CREATED);*/
+    public ResponseEntity registerUser(@PathVariable String test){
+        System.out.println(test);
         return new ResponseEntity<>(HttpStatus.CREATED);
-    }
+}
 
     @GetMapping("/user/{id}")
     public ResponseEntity getUserById(@PathVariable Long id) {

@@ -6,20 +6,23 @@ import javax.persistence.*;
 import java.time.LocalDate;
 
 @Entity
-@Table(name = "fidelty_card")
+@Table(name = "fidelity_card")
 @Data
-public class FideltyCard {
+public class FidelityCard {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long cardNumber;
     private Long points;
     private LocalDate lastPurchaseDate;
+    @OneToOne
+    private User owner;
 
-    public FideltyCard() {
+    public FidelityCard() {
         this.points = 0L;
         this.lastPurchaseDate = LocalDate.now();
     }
-    public FideltyCard(long points) {
+
+    public FidelityCard(long points) {
         this.points = points;
         this.lastPurchaseDate = LocalDate.now();
     }

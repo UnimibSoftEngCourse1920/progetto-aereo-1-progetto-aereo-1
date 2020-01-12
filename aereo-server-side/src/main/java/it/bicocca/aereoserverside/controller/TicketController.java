@@ -3,7 +3,6 @@ package it.bicocca.aereoserverside.controller;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import it.bicocca.aereoserverside.entity.Ticket;
-import it.bicocca.aereoserverside.entity.User;
 import it.bicocca.aereoserverside.services.impl.TicketsServiceImpl;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
@@ -12,6 +11,7 @@ import org.springframework.web.bind.annotation.*;
 
 @RestController
 @RequestMapping
+@CrossOrigin
 public class TicketController {
 
     @Autowired
