@@ -18,7 +18,7 @@ public class UserController {
 
     @PostMapping("/register")
     public ResponseEntity registerUser(
-            @RequestParam(name = "user") String userStr)
+            @RequestParam(name = "user") String userStr) //to be checked
     throws JsonProcessingException {
         User user = new ObjectMapper().readValue(userStr, User.class);
         userService.save(user);

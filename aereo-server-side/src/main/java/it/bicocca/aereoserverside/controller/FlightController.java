@@ -11,7 +11,6 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import java.time.LocalDate;
-import java.time.LocalTime;
 
 @RestController
 @RequestMapping
@@ -30,25 +29,21 @@ public class FlightController {
         return new ResponseEntity<>(flightService.getById(id), HttpStatus.OK);
     }
 
-    @GetMapping("/flights/{landingLocation}")
+    @GetMapping(
+            "/flights/{landingLocation}/{departureDay}/{departureHour}/{departureLocation}")
     public ResponseEntity getByLandingLocation(
-            @PathVariable String landingLocation) {
-        return new ResponseEntity<>(
-                flightService.getByLandingLocation(landingLocation),
-                HttpStatus.OK);
+            @PathVariable String landingLocation,
+            @PathVariable String departureDay,
+            @PathVariable String departureLocation) {
+        LocalDate jdepartureDay = LocalDate.of(
+                Integer.parseInt(departureDay.substring(5)),
+                Integer.parseInt(departureDay.substring(3, 4)),
+                Integer.parseInt(departureDay.substring(0, 2)));
+        return new ResponseEntity<>(flightService
+                                            .getByLandingLocationAndDepartureDayAndDepartureLocation(
+                                                    landingLocation,
+                                                    jdepartureDay,
+                                                    departureLocation),
+                                    HttpStatus.OK);
     }
-
-//    @GetMapping("/flights/{landingLocation}/{departureDay}/{departureHour}")
-//    public ResponseEntity getByDepartureLocationAndDateTime(
-//            @PathVariable String landingLocation,
-//            @PathVariable LocalDate departureDay,
-//            @PathVariable LocalTime departureHour) {
-//        return new ResponseEntity<>(flightService
-//                                            .getByDepartureLocationAndDateTime(
-//                                                    landingLocation,
-//                                                    departureDay,
-//                                                    departureHour),
-//                                    HttpStatus.OK);
-//    }
-
 }//end class

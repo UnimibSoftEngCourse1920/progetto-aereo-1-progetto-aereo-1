@@ -1,16 +1,12 @@
 package it.bicocca.aereoserverside.services.impl;
 
 import it.bicocca.aereoserverside.entity.Flight;
-import it.bicocca.aereoserverside.exception.NotFoundException;
 import it.bicocca.aereoserverside.repository.FlightRepository;
 import it.bicocca.aereoserverside.services.FlightService;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.context.i18n.LocaleContextHolder;
 import org.springframework.stereotype.Service;
 
 import java.time.LocalDate;
-import java.time.LocalTime;
-import java.util.ArrayList;
 import java.util.List;
 
 @Service
@@ -28,22 +24,12 @@ public class FlightServiceImpl implements FlightService {
     }
 
     @Override
-    public List<Flight> getByLandingLocation(String landingLocation) {
-        return flightRepository.getByLandingLocation(landingLocation);
-    }
-
-//    @Override
-//    public List<Flight> getByDepartureLocationAndDateTime(
-//            String landingLocation, LocalDate departureDay,
-//            LocalTime departureHour) {
-//        return flightRepository.getByDepartureLocationAndDateTime(
-//                landingLocation, departureDay, departureHour);
-//    }
-
-    @Override
-    public List<Flight> getByDepartureLocationAndDateTime(
+    public List<Flight> getByLandingLocationAndDepartureDayAndDepartureLocation(
             String landingLocation, LocalDate departureDay,
-            LocalTime departureHour) {
-        return new ArrayList<Flight>();
+            String departureLocation) {
+        return flightRepository
+                .findByLandingLocationAndDepartureDayAndDepartureLocation(
+                        landingLocation, departureDay, departureLocation);
     }
+
 }//end class
