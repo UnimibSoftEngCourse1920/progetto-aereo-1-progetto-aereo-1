@@ -2,21 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6329b797-0377-4ac5-9231-0643e3dd64e6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/it/bicocca/aereoserverside/controller/FidelityCardController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/it/bicocca/aereoserverside/repository/FidelityCardRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/it/bicocca/aereoserverside/services/impl/FidelityCardServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../aereo-client-side/src/app/pages/registration/registration.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../aereo-client-side/src/app/pages/registration/registration.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../aereo-client-side/src/app/pages/registration/registration.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../aereo-client-side/src/app/pages/registration/registration.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/it/bicocca/aereoserverside/configuration/WebSecurityConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/it/bicocca/aereoserverside/controller/FlightController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/it/bicocca/aereoserverside/controller/FlightController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/it/bicocca/aereoserverside/controller/TicketController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/it/bicocca/aereoserverside/controller/TicketController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/it/bicocca/aereoserverside/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/it/bicocca/aereoserverside/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/it/bicocca/aereoserverside/entity/FideltyCard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/it/bicocca/aereoserverside/entity/FidelityCard.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/it/bicocca/aereoserverside/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/it/bicocca/aereoserverside/entity/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/it/bicocca/aereoserverside/repository/FideltyCardRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/it/bicocca/aereoserverside/services/FideltyCardService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/it/bicocca/aereoserverside/services/FidelityCardService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/it/bicocca/aereoserverside/services/impl/FlightServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/it/bicocca/aereoserverside/services/impl/FlightServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/it/bicocca/aereoserverside/services/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/it/bicocca/aereoserverside/services/impl/UserServiceImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,11 +76,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="it.bicocca.aereoserverside.configuration" />
       <recent name="it.bicocca.aereoserverside.controller" />
       <recent name="it.bicocca.aereoserverside.repository" />
       <recent name="it.bicocca.aereoserverside.services.impl" />
       <recent name="it.bicocca.aereoserverside.services" />
-      <recent name="it.bicocca.aereoserverside.exception" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\nextre\Desktop\progetto\aereo-server-side\src\main\resources" />
@@ -124,7 +112,7 @@
       <workItem from="1577787569006" duration="13955000" />
       <workItem from="1577974295571" duration="290000" />
       <workItem from="1577974770718" duration="5914000" />
-      <workItem from="1578736726128" duration="15766000" />
+      <workItem from="1578736726128" duration="20024000" />
     </task>
     <task id="LOCAL-00001" summary="run debug config adeed">
       <created>1577987268548</created>
@@ -185,38 +173,38 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="485" y="29" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1577987267621" />
-    <state width="1877" height="242" key="GridCell.Tab.0.bottom" timestamp="1578845610530">
+    <state width="1877" height="239" key="GridCell.Tab.0.bottom" timestamp="1579388739734">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="242" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1578845610530" />
-    <state width="1877" height="242" key="GridCell.Tab.0.center" timestamp="1578845610530">
+    <state width="1877" height="239" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1579388739734" />
+    <state width="1877" height="239" key="GridCell.Tab.0.center" timestamp="1579388739734">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="242" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1578845610530" />
-    <state width="1877" height="242" key="GridCell.Tab.0.left" timestamp="1578845610529">
+    <state width="1877" height="239" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1579388739734" />
+    <state width="1877" height="239" key="GridCell.Tab.0.left" timestamp="1579388739734">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="242" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1578845610529" />
-    <state width="1877" height="242" key="GridCell.Tab.0.right" timestamp="1578845610530">
+    <state width="1877" height="239" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1579388739734" />
+    <state width="1877" height="239" key="GridCell.Tab.0.right" timestamp="1579388739734">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="242" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1578845610530" />
-    <state width="1877" height="242" key="GridCell.Tab.1.bottom" timestamp="1578845610531">
+    <state width="1877" height="239" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1579388739734" />
+    <state width="1877" height="239" key="GridCell.Tab.1.bottom" timestamp="1579388739735">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="242" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1578845610531" />
-    <state width="1877" height="242" key="GridCell.Tab.1.center" timestamp="1578845610530">
+    <state width="1877" height="239" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1579388739735" />
+    <state width="1877" height="239" key="GridCell.Tab.1.center" timestamp="1579388739734">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="242" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1578845610530" />
-    <state width="1877" height="242" key="GridCell.Tab.1.left" timestamp="1578845610530">
+    <state width="1877" height="239" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1579388739734" />
+    <state width="1877" height="239" key="GridCell.Tab.1.left" timestamp="1579388739734">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="242" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1578845610530" />
-    <state width="1877" height="242" key="GridCell.Tab.1.right" timestamp="1578845610530">
+    <state width="1877" height="239" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1579388739734" />
+    <state width="1877" height="239" key="GridCell.Tab.1.right" timestamp="1579388739735">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="242" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1578845610530" />
+    <state width="1877" height="239" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1579388739735" />
     <state x="69" y="1" width="1341" height="818" key="SettingsEditor" timestamp="1578763546128">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

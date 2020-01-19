@@ -18,8 +18,9 @@ public class FlightController {
     private FlightServiceImpl flightService;
 
     @GetMapping("/test")
-    public String getTest() {
-        return "ciccia";
+    public ResponseEntity getTest() {
+        System.out.println("test");
+        return new ResponseEntity<>("Test", HttpStatus.OK);
     }
 
     @GetMapping("/flights")
