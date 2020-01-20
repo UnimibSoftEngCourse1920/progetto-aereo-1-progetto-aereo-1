@@ -10,8 +10,11 @@ import java.util.List;
 @Repository
 public interface FlightRepository extends JpaRepository<Flight, Long> {
 
-    List<Flight> findByLandingLocationAndDepartureDayAndDepartureLocation(
+    List<Flight> findByLandingLocationAndDepartureDayGreaterThanEqualAndDepartureLocation(
             String landingLocation, LocalDate departureDay,
             String departureLocation);
+
+    List<Flight> findByDepartureLocationAndDepartureDay(
+            String departureLocation, LocalDate departureDay);
 
 }//end interface

@@ -13,4 +13,7 @@ public interface FlightService {
     List<Flight> getByLandingLocationAndDepartureDayAndDepartureLocation(
             String landingLocation, LocalDate departureDay,
             String departureLocation);
+
+    List<Flight> getByDepartureLocationAndDepartureDay(
+            String departureLocation, LocalDate departureDay);
 }

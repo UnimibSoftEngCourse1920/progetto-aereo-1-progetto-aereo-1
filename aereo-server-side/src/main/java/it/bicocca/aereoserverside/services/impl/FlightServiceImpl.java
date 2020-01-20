@@ -27,9 +27,14 @@ public class FlightServiceImpl implements FlightService {
     public List<Flight> getByLandingLocationAndDepartureDayAndDepartureLocation(
             String landingLocation, LocalDate departureDay,
             String departureLocation) {
-        return flightRepository
-                .findByLandingLocationAndDepartureDayAndDepartureLocation(
-                        landingLocation, departureDay, departureLocation);
+        return flightRepository.findByLandingLocationAndDepartureDayGreaterThanEqualAndDepartureLocation(
+                landingLocation, departureDay, departureLocation);
     }
 
+    @Override
+    public List<Flight> getByDepartureLocationAndDepartureDay(String departureLocation,
+                                               LocalDate departureDay) {
+        return flightRepository.findByDepartureLocationAndDepartureDay(
+                departureLocation, departureDay);
+    }
 }//end class
