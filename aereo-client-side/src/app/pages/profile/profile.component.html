@@ -12,34 +12,60 @@
     <table class="table has-text-centered">
       <tbody>
       <tr>
-        <th>Name</th>
-        <td>Mario</td>
-        <td>Rossi</td>
+        <th>Nome</th>
+        <td>{{//.name}}</td>
+        <td>{{//.surname}}</td>
       </tr>
       <tr>
-        <th>Address</th>
-        <td>Roma</td>
+        <th>Indirizzo</th>
+        <td>{{//.address}}</td>
         <td></td>
       </tr>
       <tr>
-        <th>Birthday</th>
-        <td>01/07/1990</td>
+        <th>Compleanno</th>
+        <td>{{//.dateOfBirth}}</td>
         <td></td>
       </tr>
       <tr>
-        <th>Mail</th>
-        <td>Mario@gay.com</td>
+        <th>Email</th>
+        <td>{{//.email  }}</td>
         <td></td>
       </tr>
       <tr>
-        <th>Premium since</th>
-        <td>02/08/2001</td>
+        <th>Data Ultimo Acquisto</th>
+        <td>{{//.lastDate}}</td>
+        <td></td>
+      </tr>
+      <tr>
+        <th>Saldo Punti fedeltà</th>
+        <td>{{//.fedeltaPunti}}</td>
         <td></td>
       </tr>
       </tbody>
     </table>
     <h1 class="title">
       <br>Purchases and Bookings: <!--TO DO-->
+      <table class="table has-text-centered">
+        <thead>
+        <tr class="is-selected">
+          <th><abbr title="ID">ID Volo</abbr></th>
+          <th><abbr title="From">From</abbr></th>
+          <th><abbr title="To">To</abbr></th>
+          <th><abbr title="DepTime">Data</abbr></th>
+          <th><abbr title="Date">Costo</abbr></th>
+        </tr>
+        </thead>
+        <tbody>
+
+        <tr> <!--*ngFor="let data of tickets" TO LINK-->
+          <td{{//ticket.flightID}}</td>
+          <td>{{//ticket.LP}}</td>
+          <td>{{//ticket.LA}}</td>
+          <td>{{//ticket.date}}</td>
+          <td>{{//ticket.price}}</td>
+        </tr>
+        </tbody>
+      </table>
     </h1>
   </div>
 </section>

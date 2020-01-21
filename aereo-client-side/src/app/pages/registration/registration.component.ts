@@ -18,6 +18,9 @@ export class RegistrationComponent implements OnInit {
   password: string;
   repeatPassword: string;
   address: string;
+  lastDate: string;
+  fedeltaPunti: bigint;
+  // aggiungere Data creazione account/ultimo acquisto e punti fedeltà
 
   constructor(private http: HttpClient, private router: Router) {
   }
@@ -46,7 +49,11 @@ export class RegistrationComponent implements OnInit {
       'Content-Type': 'application/json'
     });
 
-    this.http.post(environment.apiUrl + '/user', user, {headers, observe: 'response', withCredentials: true}).subscribe(response => {
+    this.http.post(environment.apiUrl + '/user', user, {
+      headers,
+      observe: 'response',
+      withCredentials: true
+    }).subscribe(response => {
         alert('Registrazione avvenuta con successo!');
         setTimeout(() => {
           this.router.navigate(['/home']);
