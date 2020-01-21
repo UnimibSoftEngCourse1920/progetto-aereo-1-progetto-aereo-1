@@ -23,15 +23,13 @@ public class Flight implements Serializable {
     @NotNull
     private Integer seatsNumber;
     @NotNull
+    private Integer seatsLeft;
+    @NotNull
     private LocalDate departureDay;
     @NotNull
     private LocalTime departureHour;
     @NotNull
     private String departureLocation;
-    @NotNull
-    private LocalDate landingDay;
-    @NotNull
-    private LocalTime landingHour;
     @NotNull
     private String landingLocation;
     @NotNull

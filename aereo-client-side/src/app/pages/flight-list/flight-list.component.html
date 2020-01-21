@@ -10,8 +10,8 @@
         <th><abbr title="ID">Flight ID</abbr></th>
         <th><abbr title="From">From</abbr></th>
         <th><abbr title="To">To</abbr></th>
-        <th><abbr title="DepTime">Departure Time</abbr></th>
         <th><abbr title="Date">Date</abbr></th>
+        <th><abbr title="DepTime">Departure Time</abbr></th>
         <th><abbr title="SeatsLeft">Seats Left</abbr></th>
         <th><abbr title="Promo">Promozione</abbr></th>
         <th><abbr title="BuyColumn"><!--Buy column--></abbr></th>
@@ -19,15 +19,16 @@
       </thead>
       <tbody>
 
-      <tr *ngFor="let data of data">
-        <td *ngIf="data.state===true">{{data.id}}</td>
-        <td *ngIf="data.state===true">{{data.LP}}</td>
-        <td *ngIf="data.state===true">{{data.LA}}</td>
-        <td *ngIf="data.state===true">{{data.OP}}</td>
-        <td *ngIf="data.state===true">{{data.DP}}</td>
-        <td *ngIf="data.state===true">{{data.posti}}</td>
-        <td *ngIf="data.state===true">Nessuna</td> <!-- To Do-->
-        <td *ngIf="data.state===true">
+      <tr *ngFor="let flight of flightList">
+        <td>{{flight.id}}</td>
+        <td>{{flight.departureLocation}}</td>
+        <td>{{flight.landingLocation}}</td>
+        <td>{{flight.departureDay}}</td>
+        <td>{{flight.departureHour}}</td>
+        <td>{{flight.seatsLeft}}</td>
+        <td>{{flight.price}}</td>
+        <td>Nessuna</td> <!-- To Do-->
+        <td>
           <button class="button is-success"> Compra Subito!</button>
         </td>
       </tr>

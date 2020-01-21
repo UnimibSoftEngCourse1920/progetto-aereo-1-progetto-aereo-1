@@ -1,7 +1,5 @@
 import {Component, OnInit} from '@angular/core';
-import {HttpClient} from '@angular/common/http';
 import {Router} from '@angular/router';
-import {environment} from '../../../environments/environment';
 
 @Component({
   selector: 'app-home',
@@ -12,20 +10,17 @@ export class HomeComponent implements OnInit {
   departureLocation: string;
   landingLocation: string;
   departureDay: string;
-  flightList: any = [];
-
-  constructor(private http: HttpClient, private router: Router) {
+  constructor(private router: Router) {
   }
 
   ngOnInit() {
   }
 
   submitSearch() {
-    this.http.get(environment.apiUrl + '/flights/ ' + this.landingLocation + '/' + this.departureDay + '/' + this.departureLocation)
-      .subscribe(response => {
-        this.flightList = response;
-      }
-    );
+    sessionStorage.setItem('departureLocation', this.departureLocation);
+    sessionStorage.setItem('landingLocation', this.landingLocation);
+    sessionStorage.setItem('departureDay', this.departureDay);
+    this.router.navigate(['/flight-list']);
   }
 
 }

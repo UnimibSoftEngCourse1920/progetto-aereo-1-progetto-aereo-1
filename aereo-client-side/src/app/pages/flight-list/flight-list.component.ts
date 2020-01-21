@@ -1,7 +1,6 @@
-import {Component, OnInit, PipeTransform, Pipe} from '@angular/core';
-
-
-import {FlightList} from './flight'; // Importa classe voli
+import {Component, OnInit} from '@angular/core';
+import {environment} from '../../../environments/environment';
+import {HttpClient} from '@angular/common/http'; // Importa classe voli
 
 
 @Component({
@@ -10,7 +9,10 @@ import {FlightList} from './flight'; // Importa classe voli
   styleUrls: ['./flight-list.component.css']
 })
 export class FlightListComponent implements OnInit {
-
+  departureLocation;
+  landingLocation;
+  departureDay;
+  flightList: any = [];
   data = [ // Test data
     {
       id: '2783',
@@ -41,10 +43,22 @@ export class FlightListComponent implements OnInit {
     }
   ];
 
-  constructor() {
+  constructor(private http: HttpClient) {
   }
 
   ngOnInit() {
+
+    this.departureLocation = sessionStorage.getItem('departureLocation');
+    this.landingLocation = sessionStorage.getItem('landingLocation');
+    this.departureDay = sessionStorage.getItem('departureDay');
+
+    this.http.get(environment.apiUrl + '/flights/ ' + this.landingLocation + '/' + this.departureDay + '/' + this.departureLocation)
+      .subscribe(response => {
+          this.flightList = response;
+        }, err => {
+          alert('Error: ' + err);
+        }
+      );
   }
 
 }

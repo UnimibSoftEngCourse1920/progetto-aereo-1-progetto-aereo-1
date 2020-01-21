@@ -9,6 +9,8 @@ import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
+import java.util.List;
+
 @RestController
 @RequestMapping
 @CrossOrigin
@@ -18,9 +20,8 @@ public class TicketController {
     private TicketsServiceImpl ticketsService;
 
     @GetMapping("/tickets/{buyerId}")
-    public ResponseEntity getTickets(@PathVariable Long buyerId) {
-        return new ResponseEntity<>(ticketsService.getByBuyer(buyerId),
-                                    HttpStatus.OK);
+    public List<Ticket> getTickets(@PathVariable Long buyerId) {
+        return ticketsService.getByBuyer(buyerId);
     }
 
     @PostMapping("/tickets/save")

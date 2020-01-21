@@ -13,32 +13,32 @@
       <tbody>
       <tr>
         <th>Nome</th>
-        <td>{{//.name}}</td>
-        <td>{{//.surname}}</td>
+        <td>{{user.name}}</td>
+        <td>{{user.surname}}</td>
       </tr>
       <tr>
         <th>Indirizzo</th>
-        <td>{{//.address}}</td>
+        <td>{{user.address}}</td>
         <td></td>
       </tr>
       <tr>
         <th>Compleanno</th>
-        <td>{{//.dateOfBirth}}</td>
+        <td>{{user.dateOfBirth}}</td>
         <td></td>
       </tr>
       <tr>
         <th>Email</th>
-        <td>{{//.email  }}</td>
+        <td>{{user.email  }}</td>
         <td></td>
       </tr>
       <tr>
         <th>Data Ultimo Acquisto</th>
-        <td>{{//.lastDate}}</td>
+        <td>{{user.fidelityCard.lastPurchaseDate}}</td>
         <td></td>
       </tr>
       <tr>
         <th>Saldo Punti fedeltà</th>
-        <td>{{//.fedeltaPunti}}</td>
+        <td>{{user.fidelityCard.points}}</td>
         <td></td>
       </tr>
       </tbody>
@@ -48,21 +48,21 @@
       <table class="table has-text-centered">
         <thead>
         <tr class="is-selected">
-          <th><abbr title="ID">ID Volo</abbr></th>
+          <th><abbr title="Code">Codice Volo</abbr></th>
           <th><abbr title="From">From</abbr></th>
           <th><abbr title="To">To</abbr></th>
-          <th><abbr title="DepTime">Data</abbr></th>
+          <th><abbr title="DepTime">Data</abbr></th> //ora?
           <th><abbr title="Date">Costo</abbr></th>
         </tr>
         </thead>
         <tbody>
 
-        <tr> <!--*ngFor="let data of tickets" TO LINK-->
-          <td{{//ticket.flightID}}</td>
-          <td>{{//ticket.LP}}</td>
-          <td>{{//ticket.LA}}</td>
-          <td>{{//ticket.date}}</td>
-          <td>{{//ticket.price}}</td>
+        <tr *ngFor="let ticket of ticketsList">
+          <td>{{ticket.flight.id}}</td>
+          <td>{{ticket.flight.departureLocation}}</td>
+          <td>{{ticket.flight.landingLocation}}</td>
+          <td>{{ticket.flight.departureDay}}</td> //ora?
+          <td>{{ticket.flight.price}}</td>
         </tr>
         </tbody>
       </table>

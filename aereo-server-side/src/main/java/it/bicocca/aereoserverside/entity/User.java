@@ -34,7 +34,7 @@ public class User implements Serializable {
     //@JsonIgnore
     private String password;
     @OneToOne
-    private FidelityCard fidelityCardNumber;
+    private FidelityCard fidelityCard;
     @NotNull
     private LocalDateTime dateCreation;
     private LocalDateTime dateDeletion;
@@ -47,7 +47,7 @@ public class User implements Serializable {
         return "User{" + "id=" + id + ", name='" + name + '\'' + ", surname='" +
                surname + '\'' + ", dateOfBirth=" + dateOfBirth + ", email='" +
                email + '\'' + ", password='" + password + '\'' +
-               ", fidelityCardNumber=" + fidelityCardNumber + ", dateCreation=" +
+               ", fidelityCard=" + fidelityCard + ", dateCreation=" +
                dateCreation + ", dateDeletion=" + dateDeletion + '}';
     }
 }//end class

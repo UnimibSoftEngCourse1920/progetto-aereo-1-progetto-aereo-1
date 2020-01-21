@@ -24,7 +24,7 @@ public class Ticket implements Serializable {
     private User buyer;
     @NotNull
     @ManyToOne
-    private Flight flightCode;
+    private Flight flight;
     private Boolean reserved;
 
 }//end class
