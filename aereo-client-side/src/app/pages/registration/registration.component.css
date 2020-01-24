@@ -1,5 +1,14 @@
 .box {
-  border: 1px #cccccc solid
+  border: 1px #cccccc solid;
+}
+
+.box2 {
+  width: 1200px;
+  border: 1px #cccccc solid;
+  margin-left: auto;
+  margin-right: auto;
+  padding:5px;
+  background-color: white;
 }
 
 .bg-img {
@@ -20,5 +29,11 @@
 
 
 h1 {
-  color: black !important;
+   color: black !important;
+   text-align: center;
+ }
+
+h2 {
+  color: black;
+  text-align: left;
 }
