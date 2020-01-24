@@ -26,15 +26,15 @@ const routes: Routes = [
     component: RegistrationComponent
   },
   {
-    path: 'profile',
+    path: 'profile',//TOLTO /{profileId} PER TESTARE
     component: ProfileComponent
   },
   {
-    path: 'tickets/buy-ticket/{flightId}',
+    path: 'tickets/buy-ticket', //TOLTO /{flightId} PER TESTARE
     component: BuyTicketComponent
   },
   {
-    path: 'tickets/edit-ticket/{ticketId}',
+    path: 'tickets/edit-ticket', //TOLTO /{ticketId} PER TESTARE
     component: BuyTicketComponent
   },
   {

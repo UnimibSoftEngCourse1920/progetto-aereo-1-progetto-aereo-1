@@ -51,8 +51,9 @@
           <th><abbr title="Code">Codice Volo</abbr></th>
           <th><abbr title="From">From</abbr></th>
           <th><abbr title="To">To</abbr></th>
-          <th><abbr title="DepTime">Data</abbr></th> //ora?
-          <th><abbr title="Date">Costo</abbr></th>
+          <th><abbr title="Date">Data</abbr></th>
+          <th><abbr title="DepTime">Ora</abbr></th>
+          <th><abbr title="Price">Costo</abbr></th>
         </tr>
         </thead>
         <tbody>
@@ -61,7 +62,8 @@
           <td>{{ticket.flight.id}}</td>
           <td>{{ticket.flight.departureLocation}}</td>
           <td>{{ticket.flight.landingLocation}}</td>
-          <td>{{ticket.flight.departureDay}}</td> //ora?
+          <td>{{ticket.flight.departureDay}}</td>
+          <td>{{ticket.flight.departureHour}}</td>
           <td>{{ticket.flight.price}}</td>
         </tr>
         </tbody>
