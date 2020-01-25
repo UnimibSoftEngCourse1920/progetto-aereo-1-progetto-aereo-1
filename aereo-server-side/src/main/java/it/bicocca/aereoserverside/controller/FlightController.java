@@ -17,19 +17,11 @@ public class FlightController {
     @Autowired
     private FlightServiceImpl flightService;
 
+    @CrossOrigin
     @GetMapping("/flights")
     public List<Flight> getFlights() {
         return flightService.getAll();
     }
-
-    /*@GetMapping("/flights")
-    public List<Flight> getFlights() {
-        List<Flight> flightList = new ArrayList<Flight>();
-        flightList.add(new Flight(0L,123, LocalDate.now(), LocalTime.now(),
-                                  "milan", LocalDate.now(), LocalTime.now(),
-                                  "paris", 300, false));
-        return flightList;
-    }*/
 
     @GetMapping("/flights/{id}")
     public Flight getFlightById(@PathVariable Long id) {

@@ -9,70 +9,7 @@
     <h2 class="subtitle">
       <div style="text-align: center;">Imagination is the only limit</div>
     </h2>
+    <br>
+    <app-search></app-search>
   </div>
-  <div class="columns">
-    <div class="column is-4 is-offset-4">
-      <div class="box">
-        <form (ngSubmit)="submitSearch()" #registrationForm="ngForm">
-          <div class="columns">
-            <div class="column is-6">
-              <div class="field">
-                <label class="label">Departure:</label>
-                <div class="control">
-                  <div class="select">
-                    <select [(ngModel)]="departureLocation">
-                      <option>Any Departure</option>
-                      <option>Milano</option>
-                      <option>Budapest</option>
-                      <option>New York</option>
-                      <option>Tokyo</option>
-                      <option>Mosca</option>
-                      <option>Londra</option>
-                    </select>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="column is-6">
-              <div class="field">
-                <label class="label">Arrival:</label>
-                <div class="control">
-                  <div class="select">
-                    <select [(ngModel)]="landingLocation">
-                      <option>Any Arrival</option>
-                      <option>Milano</option>
-                      <option>Budapest</option>
-                      <option>New York</option>
-                      <option>Tokyo</option>
-                      <option>Mosca</option>
-                      <option>Londra</option>
-                    </select>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="columns">
-            <div class="column is-6">
-              <div class="field">
-                <label class="label">Date</label>
-                <div class="control is-inline-block">
-                  <input class="input" maxlength="5" name="date" pattern="[0-1][0-9]/[0-3][0-9]"
-                         placeholder="dd/mm" type="text" [(ngModel)]="departureDay">
-                </div>
-              </div>
-            </div>
-            <div class="column is-6">
-              <div class="field is-grouped">
-                <div class="control">
-                  <button class="button is-success">Find Flights!</button>
-                </div>
-              </div>
-            </div>
-          </div>
-        </form>
-      </div>
-    </div>
-  </div>
-  <br><br><br><br><br><br><br><!--sono stupido non ho trovato modi più eleganti-->
 </section>
