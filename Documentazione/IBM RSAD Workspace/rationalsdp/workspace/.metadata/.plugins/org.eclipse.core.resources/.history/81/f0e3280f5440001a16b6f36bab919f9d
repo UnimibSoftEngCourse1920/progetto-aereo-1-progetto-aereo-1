@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--xtools2_universal_type_manager-->
+<!--Rational Software Architect Designer 9.7.0-->
+<?com.ibm.xtools.emf.core.signature <signature id="com.ibm.xtools.mmi.ui.signatures.diagram" version="7.0.0"><feature description="" name="Rational Modeling Platform (com.ibm.xtools.rmp)" url="" version="7.0.0"/></signature>?>
+<umlnotation:UMLDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmlns:umlnotation="http://www.ibm.com/xtools/1.5.3/Umlnotation" xmi:id="_9f5PsEAqEeqmMMnandptZQ" type="Class" name="DomainModelDiagram.dnx">
+  <eAnnotations xmi:id="_9f5PsUAqEeqmMMnandptZQ" source="com.ibm.xtools.common.ui.reduction.editingCapabilities">
+    <details xmi:id="_9f5PskAqEeqmMMnandptZQ" key="com.ibm.xtools.activities.umlBBStateMachine2" value="1"/>
+    <details xmi:id="_9f5Ps0AqEeqmMMnandptZQ" key="com.ibm.xtools.activities.umlBBSpecificInstanceType2" value="1"/>
+    <details xmi:id="_9f5PtEAqEeqmMMnandptZQ" key="com.ibm.xtools.activities.umlBBStateMachine1" value="1"/>
+    <details xmi:id="_9f5PtUAqEeqmMMnandptZQ" key="com.ibm.xtools.activities.umlBBSpecificInstanceType1" value="1"/>
+    <details xmi:id="_9f5PtkAqEeqmMMnandptZQ" key="com.ibm.xtools.activities.analysisAndDesign.zephyrUML" value="1"/>
+    <details xmi:id="_9f5Pt0AqEeqmMMnandptZQ" key="com.ibm.xtools.activities.umlBBPackageTemplateParameter" value="1"/>
+    <details xmi:id="_9f5PuEAqEeqmMMnandptZQ" key="com.ibm.xtools.activities.umlBBTemplate" value="1"/>
+    <details xmi:id="_9f5PuUAqEeqmMMnandptZQ" key="com.ibm.xtools.activities.umlBBEvent2" value="1"/>
+    <details xmi:id="_9f5PukAqEeqmMMnandptZQ" key="com.ibm.xtools.activities.umlBBEvent1" value="1"/>
+    <details xmi:id="_9f5Pu0AqEeqmMMnandptZQ" key="com.ibm.xtools.activities.umlBBRelationship3" value="1"/>
+    <details xmi:id="_9f5PvEAqEeqmMMnandptZQ" key="com.ibm.xtools.activities.umlBBInterfaceTemplateParameter" value="1"/>
+    <details xmi:id="_9f5PvUAqEeqmMMnandptZQ" key="com.ibm.xtools.activities.umlBBRelationship1" value="1"/>
+    <details xmi:id="_9f5PvkAqEeqmMMnandptZQ" key="com.ibm.xtools.activities.umlBBRelationship2" value="1"/>
+    <details xmi:id="_9f5Pv0AqEeqmMMnandptZQ" key="com.ibm.xtools.activities.umlBBInformationFlow" value="1"/>
+    <details xmi:id="_9f5PwEAqEeqmMMnandptZQ" key="com.ibm.xtools.activities.umlBBCommunicationDiagram" value="1"/>
+    <details xmi:id="_9f5PwUAqEeqmMMnandptZQ" key="com.ibm.ccl.soa.deploy.core.ui.activity.generic" value="1"/>
+    <details xmi:id="_9f5PwkAqEeqmMMnandptZQ" key="com.ibm.xtools.activities.umlBBActivity1" value="1"/>
+    <details xmi:id="_9f5Pw0AqEeqmMMnandptZQ" key="com.ibm.xtools.activities.umlBBComponentTemplateParameter" value="1"/>
+    <details xmi:id="_9f5PxEAqEeqmMMnandptZQ" key="com.ibm.xtools.activities.umlBBActivity2" value="1"/>
+    <details xmi:id="_9f5PxUAqEeqmMMnandptZQ" key="com.ibm.xtools.activities.umlBBCompositeStructure1" value="1"/>
+    <details xmi:id="_9f5PxkAqEeqmMMnandptZQ" key="com.ibm.xtools.activities.umlBBDeploymentDiagram" value="1"/>
+    <details xmi:id="_9f5Px0AqEeqmMMnandptZQ" key="com.ibm.xtools.activities.umlBBActivity3" value="1"/>
+    <details xmi:id="_9f5PyEAqEeqmMMnandptZQ" key="com.ibm.xtools.activities.umlBBCompositeStructure2" value="1"/>
+    <details xmi:id="_9f5PyUAqEeqmMMnandptZQ" key="com.ibm.xtools.activities.umlBBSubsystem" value="1"/>
+    <details xmi:id="_9f5PykAqEeqmMMnandptZQ" key="com.ibm.xtools.activities.umlBBActivity4" value="1"/>
+    <details xmi:id="_9f5Py0AqEeqmMMnandptZQ" key="com.ibm.xtools.activities.umlBBFragment" value="1"/>
+    <details xmi:id="_9f5PzEAqEeqmMMnandptZQ" key="com.ibm.xtools.activities.umlBBInteraction" value="1"/>
+    <details xmi:id="_9f5PzUAqEeqmMMnandptZQ" key="com.ibm.xtools.activities.umlBBInterface" value="1"/>
+    <details xmi:id="_9f5PzkAqEeqmMMnandptZQ" key="com.ibm.xtools.activities.umlBBClassDiagram" value="1"/>
+    <details xmi:id="_9f5Pz0AqEeqmMMnandptZQ" key="com.ibm.xtools.activities.umlBBFreeFormDiagram" value="1"/>
+    <details xmi:id="_9f52wEAqEeqmMMnandptZQ" key="com.ibm.xtools.activities.umlBBCommunication" value="1"/>
+    <details xmi:id="_9f52wUAqEeqmMMnandptZQ" key="com.ibm.xtools.activities.umlBBStateChartDiagram" value="1"/>
+    <details xmi:id="_9f52wkAqEeqmMMnandptZQ" key="com.ibm.xtools.activities.umlBBStereotypedComponent" value="1"/>
+    <details xmi:id="_9f52w0AqEeqmMMnandptZQ" key="com.ibm.xtools.activities.umlBBDependancy" value="1"/>
+    <details xmi:id="_9f52xEAqEeqmMMnandptZQ" key="com.ibm.xtools.activities.umlBBPackage" value="1"/>
+    <details xmi:id="_9f52xUAqEeqmMMnandptZQ" key="com.ibm.xtools.activities.umlBBStereotypedArtifact" value="1"/>
+    <details xmi:id="_9f52xkAqEeqmMMnandptZQ" key="com.ibm.xtools.activities.umlBBClass" value="1"/>
+    <details xmi:id="_9f52x0AqEeqmMMnandptZQ" key="com.ibm.xtools.activities.umlBBRealization" value="1"/>
+    <details xmi:id="_9f52yEAqEeqmMMnandptZQ" key="com.ibm.xtools.activities.umlBBFunction" value="1"/>
+    <details xmi:id="_9f52yUAqEeqmMMnandptZQ" key="com.ibm.xtools.activities.umlBBComponentDiagram" value="1"/>
+    <details xmi:id="_9f52ykAqEeqmMMnandptZQ" key="com.ibm.xtools.activities.umlBBComponent" value="1"/>
+    <details xmi:id="_9f52y0AqEeqmMMnandptZQ" key="com.ibm.xtools.activities.umlBBTypes1" value="1"/>
+    <details xmi:id="_9f52zEAqEeqmMMnandptZQ" key="com.ibm.xtools.activities.umlBBAction" value="1"/>
+    <details xmi:id="_9f52zUAqEeqmMMnandptZQ" key="com.ibm.xtools.activities.umlBBArtifact" value="1"/>
+    <details xmi:id="_9f52zkAqEeqmMMnandptZQ" key="com.ibm.xtools.activities.umlBBSequence1" value="1"/>
+    <details xmi:id="_9f52z0AqEeqmMMnandptZQ" key="com.ibm.xtools.activities.umlBBStructureDiagram" value="1"/>
+    <details xmi:id="_9f520EAqEeqmMMnandptZQ" key="com.ibm.xtools.activities.umlBBSequence2" value="1"/>
+    <details xmi:id="_9f520UAqEeqmMMnandptZQ" key="com.ibm.xtools.activities.umlBBClassTemplateParameter" value="1"/>
+    <details xmi:id="_9f520kAqEeqmMMnandptZQ" key="com.ibm.xtools.activities.umlBBDeployment1" value="1"/>
+    <details xmi:id="_9f5200AqEeqmMMnandptZQ" key="com.ibm.xtools.activities.umlBBDeployment2" value="1"/>
+    <details xmi:id="_9f521EAqEeqmMMnandptZQ" key="com.ibm.xtools.activities.umlBBCollaboration" value="1"/>
+    <details xmi:id="_9f521UAqEeqmMMnandptZQ" key="com.ibm.xtools.activities.umlBBAbstractionRelation" value="1"/>
+    <details xmi:id="_9f521kAqEeqmMMnandptZQ" key="com.ibm.xtools.activities.umlBBElementImport2" value="1"/>
+    <details xmi:id="_9f5210AqEeqmMMnandptZQ" key="com.ibm.xtools.activities.umlBBUsage" value="1"/>
+    <details xmi:id="_9f522EAqEeqmMMnandptZQ" key="com.ibm.xtools.activities.umlBBSequenceDiagram" value="1"/>
+    <details xmi:id="_9f522UAqEeqmMMnandptZQ" key="com.ibm.xtools.activities.umlBBInstance" value="1"/>
+    <details xmi:id="_9f522kAqEeqmMMnandptZQ" key="com.ibm.xtools.activities.umlBBTypes4" value="1"/>
+    <details xmi:id="_9f5220AqEeqmMMnandptZQ" key="com.ibm.xtools.activities.umlBBCollaborationUse" value="1"/>
+    <details xmi:id="_9f523EAqEeqmMMnandptZQ" key="com.ibm.xtools.activities.umlBBElementImport1" value="1"/>
+    <details xmi:id="_9f523UAqEeqmMMnandptZQ" key="com.ibm.xtools.activities.umlBBProfile" value="1"/>
+    <details xmi:id="_9f523kAqEeqmMMnandptZQ" key="com.ibm.xtools.activities.umlBBTypes3" value="1"/>
+    <details xmi:id="_9f5230AqEeqmMMnandptZQ" key="com.ibm.xtools.activities.umlBBTypes2" value="1"/>
+    <details xmi:id="_9f524EAqEeqmMMnandptZQ" key="com.ibm.xtools.activities.umlBBObjectDiagram" value="1"/>
+    <details xmi:id="_9f524UAqEeqmMMnandptZQ" key="com.ibm.ccl.soa.deploy.core.ui.activity.core" value="1"/>
+    <details xmi:id="_9f524kAqEeqmMMnandptZQ" key="com.ibm.xtools.activities.umlBBInteractionOverviewDiagram" value="1"/>
+    <details xmi:id="_9f5240AqEeqmMMnandptZQ" key="com.ibm.xtools.activities.umlBBProfileApplication" value="1"/>
+    <details xmi:id="_9f525EAqEeqmMMnandptZQ" key="com.ibm.xtools.activities.umlBBStereotypedClass" value="1"/>
+    <details xmi:id="_9f525UAqEeqmMMnandptZQ" key="com.ibm.xtools.activities.umlBBPrimitiveTypeTemplateParameter" value="1"/>
+    <details xmi:id="_9f525kAqEeqmMMnandptZQ" key="com.ibm.xtools.activities.umlBBTiming" value="1"/>
+    <details xmi:id="_9f5250AqEeqmMMnandptZQ" key="com.ibm.xtools.activities.umlBBLifeLine" value="1"/>
+    <details xmi:id="_9f526EAqEeqmMMnandptZQ" key="com.ibm.xtools.activities.umlBBFunctionTemplateParameter" value="1"/>
+    <details xmi:id="_9f526UAqEeqmMMnandptZQ" key="com.ibm.xtools.activities.umlBBUseCaseDiagram" value="1"/>
+    <details xmi:id="_9f526kAqEeqmMMnandptZQ" key="com.ibm.xtools.activities.umlBBSignal" value="1"/>
+    <details xmi:id="_9f5260AqEeqmMMnandptZQ" key="com.ibm.xtools.activities.umlBBStereotypedDeployment1" value="1"/>
+    <details xmi:id="_9f527EAqEeqmMMnandptZQ" key="com.ibm.xtools.activities.umlBBTimingDiagram" value="1"/>
+    <details xmi:id="_9f6d0EAqEeqmMMnandptZQ" key="com.ibm.xtools.activities.umlBBConstraint" value="1"/>
+    <details xmi:id="_9f6d0UAqEeqmMMnandptZQ" key="com.ibm.xtools.activities.umlBBComment2" value="1"/>
+    <details xmi:id="_9f6d0kAqEeqmMMnandptZQ" key="com.ibm.xtools.activities.umlBBComment3" value="1"/>
+    <details xmi:id="_9f6d00AqEeqmMMnandptZQ" key="com.ibm.xtools.activities.umlBBUseCase1" value="1"/>
+    <details xmi:id="_9f6d1EAqEeqmMMnandptZQ" key="com.ibm.xtools.activities.umlBBInteractionOverview" value="1"/>
+    <details xmi:id="_9f6d1UAqEeqmMMnandptZQ" key="com.ibm.xtools.activities.umlBBUseCase2" value="1"/>
+    <details xmi:id="_9f6d1kAqEeqmMMnandptZQ" key="com.ibm.xtools.activities.umlBBActivityDiagram" value="1"/>
+    <details xmi:id="_9f6d10AqEeqmMMnandptZQ" key="com.ibm.xtools.activities.umlBBComment1" value="1"/>
+    <details xmi:id="_9f6d2EAqEeqmMMnandptZQ" key="com.ibm.xtools.activities.umlBBDeploymentSpecification" value="1"/>
+  </eAnnotations>
+  <children xmi:type="umlnotation:UMLShape" xmi:id="_Qafq8UBLEeqmMMnandptZQ" fontName="Segoe UI" fontHeight="8" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
+    <children xmi:type="notation:DecorationNode" xmi:id="_Qafq8kBLEeqmMMnandptZQ" type="ImageCompartment">
+      <layoutConstraint xmi:type="notation:Size" xmi:id="_Qafq80BLEeqmMMnandptZQ" width="1320" height="1320"/>
+    </children>
+    <children xmi:type="notation:BasicDecorationNode" xmi:id="_Qafq9EBLEeqmMMnandptZQ" type="Stereotype"/>
+    <children xmi:type="notation:BasicDecorationNode" xmi:id="_Qafq9UBLEeqmMMnandptZQ" type="Name"/>
+    <children xmi:type="notation:BasicDecorationNode" xmi:id="_Qafq9kBLEeqmMMnandptZQ" type="Parent"/>
+    <children xmi:type="notation:SemanticListCompartment" xmi:id="_Qafq90BLEeqmMMnandptZQ" type="AttributeCompartment"/>
+    <children xmi:type="notation:SemanticListCompartment" xmi:id="_Qafq-EBLEeqmMMnandptZQ" type="OperationCompartment"/>
+    <children xmi:type="notation:SemanticListCompartment" xmi:id="_Qafq-UBLEeqmMMnandptZQ" visible="false" type="SignalCompartment"/>
+    <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_Qafq-kBLEeqmMMnandptZQ" visible="false" type="StructureCompartment"/>
+    <element xmi:type="uml:Class" href="platform:/resource/UML_Project_Compagnia_Aerea/Blank%20Analysis%20Model.emx#_ewRMwEBCEeqmMMnandptZQ?Blank%20Analysis%20Model/Volo?"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Qafq-0BLEeqmMMnandptZQ" x="1056" y="792" width="7355" height="7090"/>
+  </children>
+  <children xmi:type="umlnotation:UMLShape" xmi:id="_QagSAEBLEeqmMMnandptZQ" fontName="Segoe UI" fontHeight="8" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
+    <children xmi:type="notation:DecorationNode" xmi:id="_QagSAUBLEeqmMMnandptZQ" type="ImageCompartment">
+      <layoutConstraint xmi:type="notation:Size" xmi:id="_QagSAkBLEeqmMMnandptZQ" width="1320" height="1320"/>
+    </children>
+    <children xmi:type="notation:BasicDecorationNode" xmi:id="_QagSA0BLEeqmMMnandptZQ" type="Stereotype"/>
+    <children xmi:type="notation:BasicDecorationNode" xmi:id="_QagSBEBLEeqmMMnandptZQ" type="Name"/>
+    <children xmi:type="notation:BasicDecorationNode" xmi:id="_QagSBUBLEeqmMMnandptZQ" type="Parent"/>
+    <children xmi:type="notation:SemanticListCompartment" xmi:id="_QagSBkBLEeqmMMnandptZQ" type="AttributeCompartment"/>
+    <children xmi:type="notation:SemanticListCompartment" xmi:id="_QagSB0BLEeqmMMnandptZQ" type="OperationCompartment"/>
+    <children xmi:type="notation:SemanticListCompartment" xmi:id="_QagSCEBLEeqmMMnandptZQ" visible="false" type="SignalCompartment"/>
+    <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_QagSCUBLEeqmMMnandptZQ" visible="false" type="StructureCompartment"/>
+    <element xmi:type="uml:Class" href="platform:/resource/UML_Project_Compagnia_Aerea/Blank%20Analysis%20Model.emx#_hThsUEBFEeqmMMnandptZQ?Blank%20Analysis%20Model/Utente%20Non%20Registrato?"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_QagSCkBLEeqmMMnandptZQ" x="16632" y="792" width="8014" height="7380"/>
+  </children>
+  <children xmi:type="umlnotation:UMLShape" xmi:id="_Qag5EEBLEeqmMMnandptZQ" fontName="Segoe UI" fontHeight="8" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
+    <children xmi:type="notation:DecorationNode" xmi:id="_Qag5EUBLEeqmMMnandptZQ" type="ImageCompartment">
+      <layoutConstraint xmi:type="notation:Size" xmi:id="_Qag5EkBLEeqmMMnandptZQ" width="1320" height="1320"/>
+    </children>
+    <children xmi:type="notation:BasicDecorationNode" xmi:id="_Qag5E0BLEeqmMMnandptZQ" type="Stereotype"/>
+    <children xmi:type="notation:BasicDecorationNode" xmi:id="_Qag5FEBLEeqmMMnandptZQ" type="Name"/>
+    <children xmi:type="notation:BasicDecorationNode" xmi:id="_Qag5FUBLEeqmMMnandptZQ" type="Parent"/>
+    <children xmi:type="notation:SemanticListCompartment" xmi:id="_Qag5FkBLEeqmMMnandptZQ" type="AttributeCompartment"/>
+    <children xmi:type="notation:SemanticListCompartment" xmi:id="_Qag5F0BLEeqmMMnandptZQ" type="OperationCompartment"/>
+    <children xmi:type="notation:SemanticListCompartment" xmi:id="_Qag5GEBLEeqmMMnandptZQ" visible="false" type="SignalCompartment"/>
+    <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_Qag5GUBLEeqmMMnandptZQ" visible="false" type="StructureCompartment"/>
+    <element xmi:type="uml:Class" href="platform:/resource/UML_Project_Compagnia_Aerea/Blank%20Analysis%20Model.emx#_iobNQEBGEeqmMMnandptZQ?Blank%20Analysis%20Model/Utente%20Registrato%20Fedeltà?"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Qag5GkBLEeqmMMnandptZQ" x="16896" y="11220" width="7910" height="6826"/>
+  </children>
+  <children xmi:type="umlnotation:UMLShape" xmi:id="_Qag5G0BLEeqmMMnandptZQ" fontName="Segoe UI" fontHeight="8" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
+    <children xmi:type="notation:DecorationNode" xmi:id="_Qag5HEBLEeqmMMnandptZQ" type="ImageCompartment">
+      <layoutConstraint xmi:type="notation:Size" xmi:id="_Qag5HUBLEeqmMMnandptZQ" width="1320" height="1320"/>
+    </children>
+    <children xmi:type="notation:BasicDecorationNode" xmi:id="_Qag5HkBLEeqmMMnandptZQ" type="Stereotype"/>
+    <children xmi:type="notation:BasicDecorationNode" xmi:id="_Qag5H0BLEeqmMMnandptZQ" type="Name"/>
+    <children xmi:type="notation:BasicDecorationNode" xmi:id="_Qag5IEBLEeqmMMnandptZQ" type="Parent"/>
+    <children xmi:type="notation:SemanticListCompartment" xmi:id="_Qag5IUBLEeqmMMnandptZQ" type="AttributeCompartment"/>
+    <children xmi:type="notation:SemanticListCompartment" xmi:id="_Qag5IkBLEeqmMMnandptZQ" type="OperationCompartment"/>
+    <children xmi:type="notation:SemanticListCompartment" xmi:id="_Qag5I0BLEeqmMMnandptZQ" visible="false" type="SignalCompartment"/>
+    <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_Qag5JEBLEeqmMMnandptZQ" visible="false" type="StructureCompartment"/>
+    <element xmi:type="uml:Class" href="platform:/resource/UML_Project_Compagnia_Aerea/Blank%20Analysis%20Model.emx#_9NOhoEBGEeqmMMnandptZQ?Blank%20Analysis%20Model/Promozione?"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Qag5JUBLEeqmMMnandptZQ" x="1320" y="13068" width="9207" height="8678"/>
+  </children>
+  <element xsi:nil="true"/>
+  <edges xmi:type="umlnotation:UMLConnector" xmi:id="_QahgIEBLEeqmMMnandptZQ" source="_Qafq8UBLEeqmMMnandptZQ" target="_QagSAEBLEeqmMMnandptZQ" fontName="Segoe UI" fontHeight="8" roundedBendpointsRadius="4" routing="Rectilinear" lineColor="8421504" lineWidth="1" showStereotype="Text">
+    <children xmi:type="notation:DecorationNode" xmi:id="_QahgIUBLEeqmMMnandptZQ" type="NameLabel">
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_QahgIkBLEeqmMMnandptZQ" type="Stereotype"/>
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_QahgI0BLEeqmMMnandptZQ" type="Name"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_QahgJEBLEeqmMMnandptZQ" y="-186"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_QahgJUBLEeqmMMnandptZQ" type="ToMultiplicityLabel">
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_QahgJkBLEeqmMMnandptZQ" type="ToMultiplicity"/>
+      <element xmi:type="uml:Property" href="platform:/resource/UML_Project_Compagnia_Aerea/Blank%20Analysis%20Model.emx#_NbNooEBGEeqmMMnandptZQ?Blank%20Analysis%20Model/Utente%20Non%20Registrato/volo?"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_QahgJ0BLEeqmMMnandptZQ" y="396"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_QahgKEBLEeqmMMnandptZQ" type="ToRoleLabel">
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_QahgKUBLEeqmMMnandptZQ" type="ToRole"/>
+      <element xmi:type="uml:Property" href="platform:/resource/UML_Project_Compagnia_Aerea/Blank%20Analysis%20Model.emx#_NbNooEBGEeqmMMnandptZQ?Blank%20Analysis%20Model/Utente%20Non%20Registrato/volo?"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_QahgKkBLEeqmMMnandptZQ" y="-397"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_QahgK0BLEeqmMMnandptZQ" type="FromMultiplicityLabel">
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_QahgLEBLEeqmMMnandptZQ" type="FromMultiplicity"/>
+      <element xmi:type="uml:Property" href="platform:/resource/UML_Project_Compagnia_Aerea/Blank%20Analysis%20Model.emx#_NbLMYEBGEeqmMMnandptZQ?Blank%20Analysis%20Model/Volo/utente?"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_QahgLUBLEeqmMMnandptZQ" y="396"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_QahgLkBLEeqmMMnandptZQ" type="FromRoleLabel">
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_QahgL0BLEeqmMMnandptZQ" type="FromRole"/>
+      <element xmi:type="uml:Property" href="platform:/resource/UML_Project_Compagnia_Aerea/Blank%20Analysis%20Model.emx#_NbLMYEBGEeqmMMnandptZQ?Blank%20Analysis%20Model/Volo/utente?"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_QahgMEBLEeqmMMnandptZQ" y="-397"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_QahgMUBLEeqmMMnandptZQ" type="ToQualifierLabel">
+      <children xmi:type="notation:SemanticListCompartment" xmi:id="_QahgMkBLEeqmMMnandptZQ" type="QualifierCompartment"/>
+      <element xmi:type="uml:Property" href="platform:/resource/UML_Project_Compagnia_Aerea/Blank%20Analysis%20Model.emx#_NbNooEBGEeqmMMnandptZQ?Blank%20Analysis%20Model/Utente%20Non%20Registrato/volo?"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_QahgM0BLEeqmMMnandptZQ" y="-186"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_QahgNEBLEeqmMMnandptZQ" type="FromQualifierLabel">
+      <children xmi:type="notation:SemanticListCompartment" xmi:id="_QahgNUBLEeqmMMnandptZQ" type="QualifierCompartment"/>
+      <element xmi:type="uml:Property" href="platform:/resource/UML_Project_Compagnia_Aerea/Blank%20Analysis%20Model.emx#_NbLMYEBGEeqmMMnandptZQ?Blank%20Analysis%20Model/Volo/utente?"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_QahgNkBLEeqmMMnandptZQ" y="-186"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_QahgN0BLEeqmMMnandptZQ" type="ToConstraintLabel">
+      <children xmi:type="notation:ListCompartment" xmi:id="_QahgOEBLEeqmMMnandptZQ" type="ToConstraintCompartment"/>
+      <element xmi:type="uml:Property" href="platform:/resource/UML_Project_Compagnia_Aerea/Blank%20Analysis%20Model.emx#_NbNooEBGEeqmMMnandptZQ?Blank%20Analysis%20Model/Utente%20Non%20Registrato/volo?"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_QahgOUBLEeqmMMnandptZQ" y="1058"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_QahgOkBLEeqmMMnandptZQ" type="FromConstraintLabel">
+      <children xmi:type="notation:ListCompartment" xmi:id="_QahgO0BLEeqmMMnandptZQ" type="FromConstraintCompartment"/>
+      <element xmi:type="uml:Property" href="platform:/resource/UML_Project_Compagnia_Aerea/Blank%20Analysis%20Model.emx#_NbLMYEBGEeqmMMnandptZQ?Blank%20Analysis%20Model/Volo/utente?"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_QahgPEBLEeqmMMnandptZQ" y="1058"/>
+    </children>
+    <element xmi:type="uml:Association" href="platform:/resource/UML_Project_Compagnia_Aerea/Blank%20Analysis%20Model.emx#_NbJ-QEBGEeqmMMnandptZQ?Blank%20Analysis%20Model/%3CAssociation%3E?"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_QahgPUBLEeqmMMnandptZQ" points="[137, -7, -671, -27]$[668, -152, -140, -172]"/>
+  </edges>
+  <edges xmi:type="umlnotation:UMLConnector" xmi:id="_QaiHMEBLEeqmMMnandptZQ" source="_Qag5EEBLEeqmMMnandptZQ" target="_Qafq8UBLEeqmMMnandptZQ" fontName="Segoe UI" fontHeight="8" roundedBendpointsRadius="4" routing="Rectilinear" lineColor="8421504" lineWidth="1" showStereotype="Text">
+    <children xmi:type="notation:DecorationNode" xmi:id="_QaiHMUBLEeqmMMnandptZQ" type="NameLabel">
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_QaiHMkBLEeqmMMnandptZQ" type="Stereotype"/>
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_QaiHM0BLEeqmMMnandptZQ" type="Name"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_QaiHNEBLEeqmMMnandptZQ" y="-186"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_QaiHNUBLEeqmMMnandptZQ" type="ToMultiplicityLabel">
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_QaiHNkBLEeqmMMnandptZQ" type="ToMultiplicity"/>
+      <element xmi:type="uml:Property" href="platform:/resource/UML_Project_Compagnia_Aerea/Blank%20Analysis%20Model.emx#_4ATUUEBHEeqmMMnandptZQ?Blank%20Analysis%20Model/Volo/utente%20Registrato%20Fedeltà?"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_QaiHN0BLEeqmMMnandptZQ" y="396"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_QaiHOEBLEeqmMMnandptZQ" type="ToRoleLabel">
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_QaiHOUBLEeqmMMnandptZQ" type="ToRole"/>
+      <element xmi:type="uml:Property" href="platform:/resource/UML_Project_Compagnia_Aerea/Blank%20Analysis%20Model.emx#_4ATUUEBHEeqmMMnandptZQ?Blank%20Analysis%20Model/Volo/utente%20Registrato%20Fedeltà?"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_QaiHOkBLEeqmMMnandptZQ" x="25" y="-1518"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_QaiHO0BLEeqmMMnandptZQ" type="FromMultiplicityLabel">
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_QaiHPEBLEeqmMMnandptZQ" type="FromMultiplicity"/>
+      <element xmi:type="uml:Property" href="platform:/resource/UML_Project_Compagnia_Aerea/Blank%20Analysis%20Model.emx#_4ARfIEBHEeqmMMnandptZQ?Blank%20Analysis%20Model/Utente%20Registrato%20Fedeltà/volo?"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_QaiHPUBLEeqmMMnandptZQ" y="396"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_QaiHPkBLEeqmMMnandptZQ" type="FromRoleLabel">
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_QaiHP0BLEeqmMMnandptZQ" type="FromRole"/>
+      <element xmi:type="uml:Property" href="platform:/resource/UML_Project_Compagnia_Aerea/Blank%20Analysis%20Model.emx#_4ARfIEBHEeqmMMnandptZQ?Blank%20Analysis%20Model/Utente%20Registrato%20Fedeltà/volo?"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_QaiHQEBLEeqmMMnandptZQ" y="-397"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_QaiHQUBLEeqmMMnandptZQ" type="ToQualifierLabel">
+      <children xmi:type="notation:SemanticListCompartment" xmi:id="_QaiHQkBLEeqmMMnandptZQ" type="QualifierCompartment"/>
+      <element xmi:type="uml:Property" href="platform:/resource/UML_Project_Compagnia_Aerea/Blank%20Analysis%20Model.emx#_4ATUUEBHEeqmMMnandptZQ?Blank%20Analysis%20Model/Volo/utente%20Registrato%20Fedeltà?"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_QaiHQ0BLEeqmMMnandptZQ" y="-186"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_QaiHREBLEeqmMMnandptZQ" type="FromQualifierLabel">
+      <children xmi:type="notation:SemanticListCompartment" xmi:id="_QaiHRUBLEeqmMMnandptZQ" type="QualifierCompartment"/>
+      <element xmi:type="uml:Property" href="platform:/resource/UML_Project_Compagnia_Aerea/Blank%20Analysis%20Model.emx#_4ARfIEBHEeqmMMnandptZQ?Blank%20Analysis%20Model/Utente%20Registrato%20Fedeltà/volo?"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_QaiHRkBLEeqmMMnandptZQ" y="-186"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_QaiHR0BLEeqmMMnandptZQ" type="ToConstraintLabel">
+      <children xmi:type="notation:ListCompartment" xmi:id="_QaiHSEBLEeqmMMnandptZQ" type="ToConstraintCompartment"/>
+      <element xmi:type="uml:Property" href="platform:/resource/UML_Project_Compagnia_Aerea/Blank%20Analysis%20Model.emx#_4ATUUEBHEeqmMMnandptZQ?Blank%20Analysis%20Model/Volo/utente%20Registrato%20Fedeltà?"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_QaiHSUBLEeqmMMnandptZQ" y="1058"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_QaiHSkBLEeqmMMnandptZQ" type="FromConstraintLabel">
+      <children xmi:type="notation:ListCompartment" xmi:id="_QaiHS0BLEeqmMMnandptZQ" type="FromConstraintCompartment"/>
+      <element xmi:type="uml:Property" href="platform:/resource/UML_Project_Compagnia_Aerea/Blank%20Analysis%20Model.emx#_4ARfIEBHEeqmMMnandptZQ?Blank%20Analysis%20Model/Utente%20Registrato%20Fedeltà/volo?"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_QaiHTEBLEeqmMMnandptZQ" y="1058"/>
+    </children>
+    <element xmi:type="uml:Association" href="platform:/resource/UML_Project_Compagnia_Aerea/Blank%20Analysis%20Model.emx#_4AQRAEBHEeqmMMnandptZQ?Blank%20Analysis%20Model/%3CAssociation%3E?"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_QaiHTUBLEeqmMMnandptZQ" points="[-2090, -3360, -229, 9444]$[-2090, -9311, -229, 3493]"/>
+  </edges>
+  <edges xmi:type="umlnotation:UMLConnector" xmi:id="_QaiHTkBLEeqmMMnandptZQ" source="_Qag5G0BLEeqmMMnandptZQ" target="_Qafq8UBLEeqmMMnandptZQ" fontName="Segoe UI" fontHeight="8" roundedBendpointsRadius="4" routing="Rectilinear" lineColor="8421504" lineWidth="1" showStereotype="Text">
+    <children xmi:type="notation:DecorationNode" xmi:id="_QaiHT0BLEeqmMMnandptZQ" type="NameLabel">
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_QaiHUEBLEeqmMMnandptZQ" type="Stereotype"/>
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_QaiHUUBLEeqmMMnandptZQ" type="Name"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_QaiHUkBLEeqmMMnandptZQ" y="-186"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_QaiHU0BLEeqmMMnandptZQ" type="ToMultiplicityLabel">
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_QaiHVEBLEeqmMMnandptZQ" type="ToMultiplicity"/>
+      <element xmi:type="uml:Property" href="platform:/resource/UML_Project_Compagnia_Aerea/Blank%20Analysis%20Model.emx#_kQbJAkBKEeqmMMnandptZQ?Blank%20Analysis%20Model/Volo/promozione?"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_QaiHVUBLEeqmMMnandptZQ" y="396"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_QaiHVkBLEeqmMMnandptZQ" type="ToRoleLabel">
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_QaiHV0BLEeqmMMnandptZQ" type="ToRole"/>
+      <element xmi:type="uml:Property" href="platform:/resource/UML_Project_Compagnia_Aerea/Blank%20Analysis%20Model.emx#_kQbJAkBKEeqmMMnandptZQ?Blank%20Analysis%20Model/Volo/promozione?"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_QaiHWEBLEeqmMMnandptZQ" x="-41" y="-773"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_QaiHWUBLEeqmMMnandptZQ" type="FromMultiplicityLabel">
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_QaiHWkBLEeqmMMnandptZQ" type="FromMultiplicity"/>
+      <element xmi:type="uml:Property" href="platform:/resource/UML_Project_Compagnia_Aerea/Blank%20Analysis%20Model.emx#_kQah8EBKEeqmMMnandptZQ?Blank%20Analysis%20Model/Promozione/volo?"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_QaiHW0BLEeqmMMnandptZQ" y="396"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_QaiHXEBLEeqmMMnandptZQ" type="FromRoleLabel">
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_QaiHXUBLEeqmMMnandptZQ" type="FromRole"/>
+      <element xmi:type="uml:Property" href="platform:/resource/UML_Project_Compagnia_Aerea/Blank%20Analysis%20Model.emx#_kQah8EBKEeqmMMnandptZQ?Blank%20Analysis%20Model/Promozione/volo?"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_QaiHXkBLEeqmMMnandptZQ" y="-397"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_QaiHX0BLEeqmMMnandptZQ" type="ToQualifierLabel">
+      <children xmi:type="notation:SemanticListCompartment" xmi:id="_QaiHYEBLEeqmMMnandptZQ" type="QualifierCompartment"/>
+      <element xmi:type="uml:Property" href="platform:/resource/UML_Project_Compagnia_Aerea/Blank%20Analysis%20Model.emx#_kQbJAkBKEeqmMMnandptZQ?Blank%20Analysis%20Model/Volo/promozione?"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_QaiHYUBLEeqmMMnandptZQ" y="-186"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_QaiHYkBLEeqmMMnandptZQ" type="FromQualifierLabel">
+      <children xmi:type="notation:SemanticListCompartment" xmi:id="_QaiHY0BLEeqmMMnandptZQ" type="QualifierCompartment"/>
+      <element xmi:type="uml:Property" href="platform:/resource/UML_Project_Compagnia_Aerea/Blank%20Analysis%20Model.emx#_kQah8EBKEeqmMMnandptZQ?Blank%20Analysis%20Model/Promozione/volo?"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_QaiHZEBLEeqmMMnandptZQ" y="-186"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_QaiHZUBLEeqmMMnandptZQ" type="ToConstraintLabel">
+      <children xmi:type="notation:ListCompartment" xmi:id="_QaiHZkBLEeqmMMnandptZQ" type="ToConstraintCompartment"/>
+      <element xmi:type="uml:Property" href="platform:/resource/UML_Project_Compagnia_Aerea/Blank%20Analysis%20Model.emx#_kQbJAkBKEeqmMMnandptZQ?Blank%20Analysis%20Model/Volo/promozione?"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_QaiHZ0BLEeqmMMnandptZQ" y="1058"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_QaiHaEBLEeqmMMnandptZQ" type="FromConstraintLabel">
+      <children xmi:type="notation:ListCompartment" xmi:id="_QaiHaUBLEeqmMMnandptZQ" type="FromConstraintCompartment"/>
+      <element xmi:type="uml:Property" href="platform:/resource/UML_Project_Compagnia_Aerea/Blank%20Analysis%20Model.emx#_kQah8EBKEeqmMMnandptZQ?Blank%20Analysis%20Model/Promozione/volo?"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_QaiHakBLEeqmMMnandptZQ" y="1058"/>
+    </children>
+    <element xmi:type="uml:Association" href="platform:/resource/UML_Project_Compagnia_Aerea/Blank%20Analysis%20Model.emx#_kQZ64EBKEeqmMMnandptZQ?Blank%20Analysis%20Model/%3CAssociation%3E?"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_QaiHa0BLEeqmMMnandptZQ" points="[93, -203, -325, 402]$[246, -589, -172, 16]"/>
+  </edges>
+</umlnotation:UMLDiagram>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move &apos;UML_Exported_test2&apos; to &apos;aereoserverside&apos;" description="Move &apos;UML_Exported_test2&apos; to &apos;aereoserverside&apos;" destination="/aereoserverside" element1="UML_Exported_test1/UML_Exported_test2" flags="7" id="org.eclipse.ltk.core.refactoring.move.resources" resources="1" stamp="1579752737568" updateReferences="true"/>
+</session>
