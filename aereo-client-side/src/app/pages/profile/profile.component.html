@@ -50,22 +50,24 @@
           <th><abbr title="Code">Codice Volo</abbr></th>
           <th><abbr title="From">From</abbr></th>
           <th><abbr title="To">To</abbr></th>
-          <th><abbr title="DepTime">Data</abbr></th> //ora?
+          <th><abbr title="DepTime">Data</abbr></th>
+          //ora?
           <th><abbr title="Date">Costo</abbr></th>
         </tr>
         </thead>
         <tbody>
 
-        <tr *ngFor="let ticket of ticketsList">
+        <tr *ngFor="let ticket of ticketsList"> <!-- guarda come ho fatto io su acquista biglietto, l'id non va qui-->
           <td>{{ticket.flight.id}}</td>
           <td>{{ticket.flight.departureLocation}}</td>
           <td>{{ticket.flight.landingLocation}}</td>
           <td>{{ticket.flight.departureDay}}</td>
           <td>{{ticket.flight.price}}</td>
-          <td> reee <button class="button is-success" routerLink="/tickets/edit-tickets/[ADD ID HERE]"> <!--NON POSSO TESTARE I BOTTONI SENZA BACKEND-->
-            Modify Ticket!
-          </button></td>
-          <td> <button class="button is-success" routerLink="/tickets/buy-ticket/[ADD ID HERE]"> <!--NON POSSO TESTARE I BOTTONI SENZA BACKEND-->
+          <!--    <td> reee <button class="button is-success" routerLink="/tickets/edit-tickets/[ADD ID HERE]"> &lt;!&ndash;NON POSSO TESTARE I BOTTONI SENZA BACKEND&ndash;&gt;
+                Modify Ticket!
+              </button></td>-->
+          <td>
+            <button class="button is-success" routerLink="/ticket/buy"> <!--NON POSSO TESTARE I BOTTONI SENZA BACKEND--> <!-- sta roba non funziona perchè così mi manderesti a comprare un altro biglietto non modificheresti/cancelleresti questo-->
             Pay Booking!
           </button></td>
         </tr>

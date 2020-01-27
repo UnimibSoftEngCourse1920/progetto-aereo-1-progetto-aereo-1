@@ -43,7 +43,7 @@ export class FlightListComponent implements OnInit {
     const target = event.target || event.srcElement || event.currentTarget;
     const idAttr = target.attributes.id;
     sessionStorage.setItem('flightId', idAttr.nodeValue);
-    this.router.navigate(['/tickets/buy-ticket']);
+    this.router.navigate(['/ticket/buy']);
   }
 
 }

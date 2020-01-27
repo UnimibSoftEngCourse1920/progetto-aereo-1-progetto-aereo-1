@@ -8,13 +8,11 @@ import {HomeComponent} from './pages/home/home.component';
 import {LoginComponent} from './pages/login/login.component';
 import {RegistrationComponent} from './pages/registration/registration.component';
 import {ProfileComponent} from './pages/profile/profile.component';
-import {BuyTicketComponent} from './pages/tickets/buy-ticket/buy-ticket.component';
-import {EditTicketComponent} from './pages/tickets/edit-ticket/edit-ticket.component';
 import {FlightListComponent} from './pages/flight-list/flight-list.component';
 import {FormsModule} from '@angular/forms';
 import {HttpClientModule} from '@angular/common/http';
-import { BuyComponent } from './pages/ticket/buy/buy.component';
-import { PromoComponent } from './pages/promo/promo.component';
+import {BuyComponent} from './pages/ticket/buy/buy.component';
+import {PromoComponent} from './pages/promo/promo.component';
 
 @NgModule({
   declarations: [
@@ -23,8 +21,6 @@ import { PromoComponent } from './pages/promo/promo.component';
     LoginComponent,
     RegistrationComponent,
     ProfileComponent,
-    BuyTicketComponent,
-    EditTicketComponent,
     FlightListComponent,
     BuyComponent,
     PromoComponent
