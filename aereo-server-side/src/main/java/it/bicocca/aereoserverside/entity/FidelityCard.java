@@ -14,8 +14,6 @@ public class FidelityCard {
     private Long cardNumber;
     private Long points;
     private LocalDate lastPurchaseDate;
-    @OneToOne
-    private User owner;
 
     public FidelityCard() {
         this.points = 0L;

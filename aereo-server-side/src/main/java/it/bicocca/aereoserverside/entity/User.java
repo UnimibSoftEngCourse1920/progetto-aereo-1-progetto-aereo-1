@@ -1,6 +1,7 @@
 package it.bicocca.aereoserverside.entity;
 
 
+import it.bicocca.aereoserverside.DTO.UserDTO;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -9,6 +10,7 @@ import javax.persistence.*;
 import javax.validation.constraints.NotNull;
 import java.io.Serializable;
 import java.time.LocalDateTime;
+import java.util.ArrayList;
 import java.util.List;
 
 @Entity
@@ -26,13 +28,12 @@ public class User implements Serializable {
     @NotNull
     private String surname;
     @NotNull
-    private LocalDateTime dateOfBirth;
-    @NotNull
     @Column(unique = true)
     private String email;
     @NotNull
     //@JsonIgnore
     private String password;
+    private String address;
     @OneToOne
     private FidelityCard fidelityCard;
     @NotNull
@@ -45,9 +46,24 @@ public class User implements Serializable {
     @Override
     public String toString() {
         return "User{" + "id=" + id + ", name='" + name + '\'' + ", surname='" +
-               surname + '\'' + ", dateOfBirth=" + dateOfBirth + ", email='" +
-               email + '\'' + ", password='" + password + '\'' +
-               ", fidelityCard=" + fidelityCard + ", dateCreation=" +
-               dateCreation + ", dateDeletion=" + dateDeletion + '}';
+               surname + '\'' + " email='" + email + '\'' + ", password='" +
+               password + '\'' + ", fidelityCard=" + fidelityCard +
+               ", dateCreation=" + dateCreation + ", dateDeletion=" +
+               dateDeletion + '}';
+    }
+
+    public User(UserDTO other, FidelityCard card) {
+        this.name = other.getName();
+        this.surname = other.getSurname();
+        this.email = other.getEmail();
+        this.password = other.getPassword();
+        this.address = (address == null) ? "" : address;
+        this.fidelityCard = card;
+        this.dateCreation = LocalDateTime.now();
+        this.tickets = new ArrayList<>();
+    }
+
+    public void setDateDeletion(LocalDateTime dateDeletion) {
+        this.dateDeletion = dateDeletion;
     }
 }//end class

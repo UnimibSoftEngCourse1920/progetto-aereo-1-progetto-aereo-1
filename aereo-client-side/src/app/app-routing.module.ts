@@ -1,11 +1,12 @@
-import { NgModule } from '@angular/core';
-import { Routes, RouterModule } from '@angular/router';
+import {NgModule} from '@angular/core';
+import {RouterModule, Routes} from '@angular/router';
 import {HomeComponent} from './pages/home/home.component';
 import {LoginComponent} from './pages/login/login.component';
 import {ProfileComponent} from './pages/profile/profile.component';
 import {RegistrationComponent} from './pages/registration/registration.component';
-import {BuyTicketComponent} from './pages/tickets/buy-ticket/buy-ticket.component';
 import {FlightListComponent} from './pages/flight-list/flight-list.component';
+import {BuyComponent} from './pages/ticket/buy/buy.component';
+import {PromoComponent} from './pages/promo/promo.component';
 
 
 const routes: Routes = [
@@ -26,16 +27,16 @@ const routes: Routes = [
     component: RegistrationComponent
   },
   {
-    path: 'profile',//TOLTO /{profileId} PER TESTARE
+    path: 'profile',
     component: ProfileComponent
   },
   {
-    path: 'tickets/buy-ticket', //TOLTO /{flightId} PER TESTARE
-    component: BuyTicketComponent
+    path: 'ticket/buy',
+    component: BuyComponent
   },
   {
-    path: 'tickets/edit-ticket', //TOLTO /{ticketId} PER TESTARE
-    component: BuyTicketComponent
+    path: 'promo',
+    component: PromoComponent
   },
   {
     path: 'flight-list',

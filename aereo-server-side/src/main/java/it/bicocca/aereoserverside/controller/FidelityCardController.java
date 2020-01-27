@@ -15,14 +15,8 @@ public class FidelityCardController {
 
     @Autowired
     private FidelityCardServiceImpl cardService;
+    @Autowired
     private UserServiceImpl userService;
-
-    @GetMapping("/card/{ownerId}")
-    public ResponseEntity getCard(@PathVariable Long ownerId) {
-        return new ResponseEntity<>(
-                cardService.getByOwner(userService.getById(ownerId)),
-                HttpStatus.OK);
-    }
 
     @PostMapping("/card/update/{cardId}/{points}")
     public ResponseEntity saveCard(@PathVariable Long points,
@@ -31,11 +25,4 @@ public class FidelityCardController {
         return new ResponseEntity<>(HttpStatus.CREATED);
     }
 
-    @PostMapping("/card/create/{ownerId}")
-    public ResponseEntity saveCard(@PathVariable Long ownerId) {
-        FidelityCard fidelityCard = new FidelityCard();
-        fidelityCard.setOwner(userService.getById(ownerId));
-        cardService.saveCard(fidelityCard);
-        return new ResponseEntity<>(HttpStatus.CREATED);
-    }
 }//end class

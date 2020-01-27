@@ -9,7 +9,7 @@
     <div class="columns">
       <div class="column is-4 is-offset-4">
         <div class="box">
-          <form (ngSubmit)="test1()" #registrationForm="ngForm">
+          <form (ngSubmit)="submitForm()" #registrationForm="ngForm">
             <!-- first row -->
             <div class="columns">
               <div class="column is-6">
@@ -54,8 +54,8 @@
                 <div class="field">
                   <label class="label">Date of birth</label>
                   <div class="control">
-                    <input class="input" type="text" placeholder="dd/mm/yyyy" maxlength="10"
-                           pattern="[0-3][0-9]/[0-1][0-9]/[0-9][0-9][0-9][0-9]" name="dateOfBirth"
+                    <input class="input" type="text" placeholder="dd-mm-yyyy" maxlength="10"
+                           pattern="[0-3][0-9]-[0-1][0-9]-[0-9][0-9][0-9][0-9]" name="dateOfBirth"
                            [(ngModel)]="dateOfBirth" #birthInput="ngModel" required>
                   </div>
                   <p class="help is-danger" *ngIf="(birthInput.touched || birthInput.dirty) && birthInput.invalid">
@@ -97,22 +97,21 @@
                 </div>
               </div>
             </div>
-            <!-- button -->
-
             <div class="columns">
               <div class="column is-6">
-              <label class="label">Address</label>
+                <label class="label">Address</label>
                 <div class="field">
                   <div class="control">
-                    <input class="input" type="text" placeholder="Address">
+                    <input class="input" type="text" name="address" placeholder="Address"  [(ngModel)]="address">
                   </div>
                 </div>
               </div>
             </div>
-<!-- to format-->
+            <!-- button -->
             <div class="field is-grouped">
               <div class="control">
-                <button class="button is-success">  <!-- [disabled]="registrationForm.invalid || (password != repeatPassword)" -->
+                <button class="button is-success">
+                  <!-- [disabled]="registrationForm.invalid || (password != repeatPassword)" -->
                   Register
                 </button>
               </div>
@@ -123,11 +122,15 @@
     </div>
     <div class="box2" width="20">
       <h2>Registering a Premium <font color="red">Fedeltà™</font> account gives you a few extra benefits!<br>
-      It's free to sign up, and in return you'll be able to Book your flights and get discounts with exclusive promotions we hand out to our <font color="red">Fedeltà™</font> members only.<br>
-      Every purchase you make will allow you to accumulate <font color="red">Fedeltà™</font> points, which you can later convert in free tickets.<br>
-      All the other services and fees are available as usual, plus you'll be notified when we release new promotions and discounts for all our flights!<br>
-      Don't miss this chance, and sign up for an account now, it's free, it's easy, it's <font color="red">Fedeltà™</font>!</h2>
+        It's free to sign up, and in return you'll be able to Book your flights and get discounts with exclusive
+        promotions we hand out to our <font color="red">Fedeltà™</font> members only.<br>
+        Every purchase you make will allow you to accumulate <font color="red">Fedeltà™</font> points, which you can
+        later convert in free tickets.<br>
+        All the other services and fees are available as usual, plus you'll be notified when we release new promotions
+        and discounts for all our flights!<br>
+        Don't miss this chance, and sign up for an account now, it's free, it's easy, it's <font
+          color="red">Fedeltà™</font>!</h2>
     </div>
   </div>
-  </section>
+</section>
 

@@ -23,11 +23,13 @@ public class FlightController {
         return flightService.getAll();
     }
 
+    @CrossOrigin
     @GetMapping("/flights/{id}")
     public Flight getFlightById(@PathVariable Long id) {
         return flightService.getById(id);
     }
 
+    @CrossOrigin
     @GetMapping("/flights/{landingLocation}/{departureDay}/" +
                 "{departureLocation}")
     public List<Flight> getByLandingLocation(

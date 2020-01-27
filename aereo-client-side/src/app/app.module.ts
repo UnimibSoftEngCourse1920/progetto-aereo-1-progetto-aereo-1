@@ -13,6 +13,8 @@ import {EditTicketComponent} from './pages/tickets/edit-ticket/edit-ticket.compo
 import {FlightListComponent} from './pages/flight-list/flight-list.component';
 import {FormsModule} from '@angular/forms';
 import {HttpClientModule} from '@angular/common/http';
+import { BuyComponent } from './pages/ticket/buy/buy.component';
+import { PromoComponent } from './pages/promo/promo.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +25,9 @@ import {HttpClientModule} from '@angular/common/http';
     ProfileComponent,
     BuyTicketComponent,
     EditTicketComponent,
-    FlightListComponent
+    FlightListComponent,
+    BuyComponent,
+    PromoComponent
   ],
   imports: [
     BrowserModule,

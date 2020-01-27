@@ -17,13 +17,14 @@ public class FidelityCardServiceImpl implements FidelityCardService {
     private FidelityCardRepository fidelityCardRepository;
 
     @Override
-    public FidelityCard getByOwner(User ownerId) {
-        return fidelityCardRepository.findByOwner(ownerId);
+    public FidelityCard getByCardNumber(Long cardNumber) {
+        return fidelityCardRepository.findByCardNumber(cardNumber);
     }
 
     @Override
-    public FidelityCard getByCardNumber(Long cardNumber) {
-        return fidelityCardRepository.findByCardNumber(cardNumber);
+    public FidelityCard saveCard() {
+        FidelityCard card = new FidelityCard();
+        return fidelityCardRepository.save(card);
     }
 
     @Override

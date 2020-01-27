@@ -1,8 +1,8 @@
 import {Component, OnInit} from '@angular/core';
 import {HttpClient, HttpHeaders} from '@angular/common/http';
-import {environment} from '../../../environments/environment';
 import {Router} from '@angular/router';
 import {User} from '../../class-for-entity/User';
+import {environment} from '../../../environments/environment';
 
 @Component({
   selector: 'app-registration',
@@ -18,9 +18,7 @@ export class RegistrationComponent implements OnInit {
   password: string;
   repeatPassword: string;
   address: string;
-  lastDate: string;
-  fedeltaPunti: bigint;
-  // aggiungere Data creazione account/ultimo acquisto e punti fedeltà
+  user: User = new User();
 
   constructor(private http: HttpClient, private router: Router) {
   }
@@ -28,39 +26,22 @@ export class RegistrationComponent implements OnInit {
   ngOnInit() {
   }
 
-  test1() {
-    this.http.get(environment.apiUrl + '/test').subscribe(response => {
-        alert('res ' + response);
-      }
-    );
-  }
-
   submitForm() {
-
-    const user: User = new User();
-    user.name = this.name;
-    user.surname = this.surname;
-    user.dateOfBirth = this.dateOfBirth;
-    user.email = this.email;
-    user.password = this.password;
-    user.address = this.address;
-
-    const headers: HttpHeaders = new HttpHeaders({
+    this.user.name = this.name;
+    this.user.surname = this.surname;
+    this.user.email = this.email;
+    this.user.password = this.password;
+    this.user.address = (this.address === null) ? '' : this.address;
+    const headers = new HttpHeaders({
       'Content-Type': 'application/json'
     });
 
-    this.http.post(environment.apiUrl + '/user', user, {
-      headers,
-      observe: 'response',
-      withCredentials: true
-    }).subscribe(response => {
-        alert('Registrazione avvenuta con successo!');
-        setTimeout(() => {
-          this.router.navigate(['/home']);
-        }, 3000);
-      },
-      err => {
-        alert(err.error);
-      });
+    this.http.post(environment.apiUrl + '/register', this.user, {headers, observe: 'response'}).subscribe( response => {
+      this.router.navigate(['/home']);
+    }, err => {
+      console.log('err', err);
+    });
+
+
   }
 }

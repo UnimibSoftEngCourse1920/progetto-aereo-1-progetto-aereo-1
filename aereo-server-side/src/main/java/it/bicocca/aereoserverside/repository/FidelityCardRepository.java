@@ -9,6 +9,5 @@ import org.springframework.stereotype.Repository;
 public interface FidelityCardRepository extends JpaRepository<FidelityCard, Long> {
 
     FidelityCard findByCardNumber(Long cardNumber);
-    FidelityCard findByOwner(User owner);
 
 }//end interface
