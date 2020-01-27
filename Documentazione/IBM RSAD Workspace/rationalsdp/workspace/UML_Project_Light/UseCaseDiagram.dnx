@@ -1,0 +1,751 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--xtools2_universal_type_manager-->
+<!--Rational Software Architect Designer 9.7.0-->
+<?com.ibm.xtools.emf.core.signature <signature id="com.ibm.xtools.mmi.ui.signatures.diagram" version="7.0.0"><feature description="" name="Rational Modeling Platform (com.ibm.xtools.rmp)" url="" version="7.0.0"/></signature>?>
+<umlnotation:UMLDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmlns:umlnotation="http://www.ibm.com/xtools/1.5.3/Umlnotation" xmi:id="_rlKvgEAqEeqmMMnandptZQ" type="Class" name="classdiagram.dnx">
+  <eAnnotations xmi:id="_rlLWkEAqEeqmMMnandptZQ" source="com.ibm.xtools.common.ui.reduction.editingCapabilities">
+    <details xmi:id="_rlLWkUAqEeqmMMnandptZQ" key="com.ibm.xtools.activities.umlBBStateMachine2" value="1"/>
+    <details xmi:id="_rlLWkkAqEeqmMMnandptZQ" key="com.ibm.xtools.activities.umlBBSpecificInstanceType2" value="1"/>
+    <details xmi:id="_rlLWk0AqEeqmMMnandptZQ" key="com.ibm.xtools.activities.umlBBStateMachine1" value="1"/>
+    <details xmi:id="_rlLWlEAqEeqmMMnandptZQ" key="com.ibm.xtools.activities.umlBBSpecificInstanceType1" value="1"/>
+    <details xmi:id="_rlLWlUAqEeqmMMnandptZQ" key="com.ibm.xtools.activities.umlBBPackageTemplateParameter" value="1"/>
+    <details xmi:id="_rlLWlkAqEeqmMMnandptZQ" key="com.ibm.xtools.activities.umlBBTemplate" value="1"/>
+    <details xmi:id="_rlLWl0AqEeqmMMnandptZQ" key="com.ibm.xtools.activities.umlBBEvent2" value="1"/>
+    <details xmi:id="_rlLWmEAqEeqmMMnandptZQ" key="com.ibm.xtools.activities.umlBBEvent1" value="1"/>
+    <details xmi:id="_rlLWmUAqEeqmMMnandptZQ" key="com.ibm.xtools.activities.umlBBRelationship3" value="1"/>
+    <details xmi:id="_rlLWmkAqEeqmMMnandptZQ" key="com.ibm.xtools.activities.umlBBInterfaceTemplateParameter" value="1"/>
+    <details xmi:id="_rlLWm0AqEeqmMMnandptZQ" key="com.ibm.xtools.activities.umlBBRelationship1" value="1"/>
+    <details xmi:id="_rlLWnEAqEeqmMMnandptZQ" key="com.ibm.xtools.activities.umlBBRelationship2" value="1"/>
+    <details xmi:id="_rlLWnUAqEeqmMMnandptZQ" key="com.ibm.xtools.activities.umlBBInformationFlow" value="1"/>
+    <details xmi:id="_rlLWnkAqEeqmMMnandptZQ" key="com.ibm.xtools.activities.umlBBCommunicationDiagram" value="1"/>
+    <details xmi:id="_rlLWn0AqEeqmMMnandptZQ" key="com.ibm.xtools.activities.umlBBActivity1" value="1"/>
+    <details xmi:id="_rlLWoEAqEeqmMMnandptZQ" key="com.ibm.xtools.activities.umlBBComponentTemplateParameter" value="1"/>
+    <details xmi:id="_rlLWoUAqEeqmMMnandptZQ" key="com.ibm.xtools.activities.umlBBActivity2" value="1"/>
+    <details xmi:id="_rlLWokAqEeqmMMnandptZQ" key="com.ibm.xtools.activities.umlBBCompositeStructure1" value="1"/>
+    <details xmi:id="_rlLWo0AqEeqmMMnandptZQ" key="com.ibm.xtools.activities.umlBBDeploymentDiagram" value="1"/>
+    <details xmi:id="_rlLWpEAqEeqmMMnandptZQ" key="com.ibm.xtools.activities.umlBBActivity3" value="1"/>
+    <details xmi:id="_rlLWpUAqEeqmMMnandptZQ" key="com.ibm.xtools.activities.umlBBCompositeStructure2" value="1"/>
+    <details xmi:id="_rlLWpkAqEeqmMMnandptZQ" key="com.ibm.xtools.activities.umlBBSubsystem" value="1"/>
+    <details xmi:id="_rlLWp0AqEeqmMMnandptZQ" key="com.ibm.xtools.activities.umlBBActivity4" value="1"/>
+    <details xmi:id="_rlLWqEAqEeqmMMnandptZQ" key="com.ibm.xtools.activities.umlBBFragment" value="1"/>
+    <details xmi:id="_rlLWqUAqEeqmMMnandptZQ" key="com.ibm.xtools.activities.umlBBInteraction" value="1"/>
+    <details xmi:id="_rlLWqkAqEeqmMMnandptZQ" key="com.ibm.xtools.activities.umlBBInterface" value="1"/>
+    <details xmi:id="_rlLWq0AqEeqmMMnandptZQ" key="com.ibm.xtools.activities.umlBBClassDiagram" value="1"/>
+    <details xmi:id="_rlLWrEAqEeqmMMnandptZQ" key="com.ibm.xtools.activities.umlBBFreeFormDiagram" value="1"/>
+    <details xmi:id="_rlLWrUAqEeqmMMnandptZQ" key="com.ibm.xtools.activities.umlBBCommunication" value="1"/>
+    <details xmi:id="_rlLWrkAqEeqmMMnandptZQ" key="com.ibm.xtools.activities.umlBBStateChartDiagram" value="1"/>
+    <details xmi:id="_rlLWr0AqEeqmMMnandptZQ" key="com.ibm.xtools.activities.umlBBStereotypedComponent" value="1"/>
+    <details xmi:id="_rlLWsEAqEeqmMMnandptZQ" key="com.ibm.xtools.activities.umlBBDependancy" value="1"/>
+    <details xmi:id="_rlLWsUAqEeqmMMnandptZQ" key="com.ibm.xtools.activities.umlBBPackage" value="1"/>
+    <details xmi:id="_rlLWskAqEeqmMMnandptZQ" key="com.ibm.xtools.activities.umlBBStereotypedArtifact" value="1"/>
+    <details xmi:id="_rlLWs0AqEeqmMMnandptZQ" key="com.ibm.xtools.activities.umlBBClass" value="1"/>
+    <details xmi:id="_rlLWtEAqEeqmMMnandptZQ" key="com.ibm.xtools.activities.umlBBRealization" value="1"/>
+    <details xmi:id="_rlLWtUAqEeqmMMnandptZQ" key="com.ibm.xtools.activities.umlBBFunction" value="1"/>
+    <details xmi:id="_rlLWtkAqEeqmMMnandptZQ" key="com.ibm.xtools.activities.umlBBComponentDiagram" value="1"/>
+    <details xmi:id="_rlLWt0AqEeqmMMnandptZQ" key="com.ibm.xtools.activities.umlBBComponent" value="1"/>
+    <details xmi:id="_rlL9oEAqEeqmMMnandptZQ" key="com.ibm.xtools.activities.umlBBTypes1" value="1"/>
+    <details xmi:id="_rlL9oUAqEeqmMMnandptZQ" key="com.ibm.xtools.activities.umlBBAction" value="1"/>
+    <details xmi:id="_rlL9okAqEeqmMMnandptZQ" key="com.ibm.xtools.activities.umlBBArtifact" value="1"/>
+    <details xmi:id="_rlL9o0AqEeqmMMnandptZQ" key="com.ibm.xtools.activities.umlBBSequence1" value="1"/>
+    <details xmi:id="_rlL9pEAqEeqmMMnandptZQ" key="com.ibm.xtools.activities.umlBBStructureDiagram" value="1"/>
+    <details xmi:id="_rlL9pUAqEeqmMMnandptZQ" key="com.ibm.xtools.activities.umlBBSequence2" value="1"/>
+    <details xmi:id="_rlL9pkAqEeqmMMnandptZQ" key="com.ibm.xtools.activities.umlBBClassTemplateParameter" value="1"/>
+    <details xmi:id="_rlL9p0AqEeqmMMnandptZQ" key="com.ibm.xtools.activities.umlBBDeployment1" value="1"/>
+    <details xmi:id="_rlL9qEAqEeqmMMnandptZQ" key="com.ibm.xtools.activities.umlBBDeployment2" value="1"/>
+    <details xmi:id="_rlL9qUAqEeqmMMnandptZQ" key="com.ibm.xtools.activities.umlBBCollaboration" value="1"/>
+    <details xmi:id="_rlL9qkAqEeqmMMnandptZQ" key="com.ibm.xtools.activities.umlBBAbstractionRelation" value="1"/>
+    <details xmi:id="_rlL9q0AqEeqmMMnandptZQ" key="com.ibm.xtools.activities.umlBBElementImport2" value="1"/>
+    <details xmi:id="_rlL9rEAqEeqmMMnandptZQ" key="com.ibm.xtools.activities.umlBBUsage" value="1"/>
+    <details xmi:id="_rlL9rUAqEeqmMMnandptZQ" key="com.ibm.xtools.activities.umlBBSequenceDiagram" value="1"/>
+    <details xmi:id="_rlL9rkAqEeqmMMnandptZQ" key="com.ibm.xtools.activities.umlBBInstance" value="1"/>
+    <details xmi:id="_rlL9r0AqEeqmMMnandptZQ" key="com.ibm.xtools.activities.umlBBTypes4" value="1"/>
+    <details xmi:id="_rlL9sEAqEeqmMMnandptZQ" key="com.ibm.xtools.activities.umlBBCollaborationUse" value="1"/>
+    <details xmi:id="_rlL9sUAqEeqmMMnandptZQ" key="com.ibm.xtools.activities.umlBBElementImport1" value="1"/>
+    <details xmi:id="_rlL9skAqEeqmMMnandptZQ" key="com.ibm.xtools.activities.umlBBProfile" value="1"/>
+    <details xmi:id="_rlL9s0AqEeqmMMnandptZQ" key="com.ibm.xtools.activities.umlBBTypes3" value="1"/>
+    <details xmi:id="_rlL9tEAqEeqmMMnandptZQ" key="com.ibm.xtools.activities.umlBBTypes2" value="1"/>
+    <details xmi:id="_rlL9tUAqEeqmMMnandptZQ" key="com.ibm.xtools.activities.umlBBObjectDiagram" value="1"/>
+    <details xmi:id="_rlL9tkAqEeqmMMnandptZQ" key="com.ibm.xtools.activities.umlBBInteractionOverviewDiagram" value="1"/>
+    <details xmi:id="_rlL9t0AqEeqmMMnandptZQ" key="com.ibm.xtools.activities.umlBBProfileApplication" value="1"/>
+    <details xmi:id="_rlL9uEAqEeqmMMnandptZQ" key="com.ibm.xtools.activities.umlBBStereotypedClass" value="1"/>
+    <details xmi:id="_rlL9uUAqEeqmMMnandptZQ" key="com.ibm.xtools.activities.umlBBPrimitiveTypeTemplateParameter" value="1"/>
+    <details xmi:id="_rlL9ukAqEeqmMMnandptZQ" key="com.ibm.xtools.activities.umlBBTiming" value="1"/>
+    <details xmi:id="_rlL9u0AqEeqmMMnandptZQ" key="com.ibm.xtools.activities.umlBBLifeLine" value="1"/>
+    <details xmi:id="_rlL9vEAqEeqmMMnandptZQ" key="com.ibm.xtools.activities.umlBBFunctionTemplateParameter" value="1"/>
+    <details xmi:id="_rlL9vUAqEeqmMMnandptZQ" key="com.ibm.xtools.activities.umlBBUseCaseDiagram" value="1"/>
+    <details xmi:id="_rlL9vkAqEeqmMMnandptZQ" key="com.ibm.xtools.activities.umlBBSignal" value="1"/>
+    <details xmi:id="_rlL9v0AqEeqmMMnandptZQ" key="com.ibm.xtools.activities.umlBBStereotypedDeployment1" value="1"/>
+    <details xmi:id="_rlL9wEAqEeqmMMnandptZQ" key="com.ibm.xtools.activities.umlBBTimingDiagram" value="1"/>
+    <details xmi:id="_rlL9wUAqEeqmMMnandptZQ" key="com.ibm.xtools.activities.umlBBConstraint" value="1"/>
+    <details xmi:id="_rlL9wkAqEeqmMMnandptZQ" key="com.ibm.xtools.activities.umlBBComment2" value="1"/>
+    <details xmi:id="_rlL9w0AqEeqmMMnandptZQ" key="com.ibm.xtools.activities.umlBBComment3" value="1"/>
+    <details xmi:id="_rlL9xEAqEeqmMMnandptZQ" key="com.ibm.xtools.activities.umlBBUseCase1" value="1"/>
+    <details xmi:id="_rlL9xUAqEeqmMMnandptZQ" key="com.ibm.xtools.activities.umlBBInteractionOverview" value="1"/>
+    <details xmi:id="_rlL9xkAqEeqmMMnandptZQ" key="com.ibm.xtools.activities.umlBBUseCase2" value="1"/>
+    <details xmi:id="_rlL9x0AqEeqmMMnandptZQ" key="com.ibm.xtools.activities.umlBBActivityDiagram" value="1"/>
+    <details xmi:id="_rlL9yEAqEeqmMMnandptZQ" key="com.ibm.xtools.activities.umlBBComment1" value="1"/>
+    <details xmi:id="_rlL9yUAqEeqmMMnandptZQ" key="com.ibm.xtools.activities.umlBBDeploymentSpecification" value="1"/>
+  </eAnnotations>
+  <children xmi:type="umlnotation:UMLClassifierShape" xmi:id="_sdwkYEAqEeqmMMnandptZQ" fontName="Segoe UI" fontHeight="12" fillColor="15912618" transparency="0" lineColor="15912618" lineWidth="1" showStereotype="Label">
+    <children xmi:type="notation:DecorationNode" xmi:id="_sdwkYUAqEeqmMMnandptZQ" type="ImageCompartment">
+      <layoutConstraint xmi:type="notation:Size" xmi:id="_sdwkYkAqEeqmMMnandptZQ" width="1455" height="2381"/>
+    </children>
+    <children xmi:type="notation:BasicDecorationNode" xmi:id="_sdwkY0AqEeqmMMnandptZQ" type="Stereotype"/>
+    <children xmi:type="notation:BasicDecorationNode" xmi:id="_sdwkZEAqEeqmMMnandptZQ" type="Name"/>
+    <children xmi:type="notation:BasicDecorationNode" xmi:id="_sdwkZUAqEeqmMMnandptZQ" type="Parent"/>
+    <element xmi:type="uml:Actor" href="platform:/resource/UML_Project_Compagnia_Aerea/Use%20Case%20Model.emx#_Thd1QD-CEeqmMMnandptZQ?Use%20Case%20Model/Overviews/Utente%20Non%20Registrato?"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sdwkZkAqEeqmMMnandptZQ" x="528" y="396"/>
+  </children>
+  <children xmi:type="umlnotation:UMLClassifierShape" xmi:id="_sdwkZ0AqEeqmMMnandptZQ" fontName="Segoe UI" fontHeight="12" fillColor="15912618" transparency="0" lineColor="15912618" lineWidth="1" showStereotype="Label">
+    <children xmi:type="notation:DecorationNode" xmi:id="_sdwkaEAqEeqmMMnandptZQ" type="ImageCompartment">
+      <layoutConstraint xmi:type="notation:Size" xmi:id="_sdwkaUAqEeqmMMnandptZQ" width="1455" height="2381"/>
+    </children>
+    <children xmi:type="notation:BasicDecorationNode" xmi:id="_sdwkakAqEeqmMMnandptZQ" type="Stereotype"/>
+    <children xmi:type="notation:BasicDecorationNode" xmi:id="_sdwka0AqEeqmMMnandptZQ" type="Name"/>
+    <children xmi:type="notation:BasicDecorationNode" xmi:id="_sdwkbEAqEeqmMMnandptZQ" type="Parent"/>
+    <element xmi:type="uml:Actor" href="platform:/resource/UML_Project_Compagnia_Aerea/Use%20Case%20Model.emx#_WdKKUD-CEeqmMMnandptZQ?Use%20Case%20Model/Overviews/Utente%20Registrato?"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sdwkbUAqEeqmMMnandptZQ" x="660" y="16500"/>
+  </children>
+  <children xmi:type="umlnotation:UMLClassifierShape" xmi:id="_sdxLcEAqEeqmMMnandptZQ" fontName="Segoe UI" fontHeight="12" fillColor="15912618" transparency="0" lineColor="15912618" lineWidth="1" showStereotype="Label">
+    <children xmi:type="notation:DecorationNode" xmi:id="_sdxLcUAqEeqmMMnandptZQ" type="ImageCompartment">
+      <layoutConstraint xmi:type="notation:Size" xmi:id="_sdxLckAqEeqmMMnandptZQ" width="1455" height="2381"/>
+    </children>
+    <children xmi:type="notation:BasicDecorationNode" xmi:id="_sdxLc0AqEeqmMMnandptZQ" type="Stereotype"/>
+    <children xmi:type="notation:BasicDecorationNode" xmi:id="_sdxLdEAqEeqmMMnandptZQ" type="Name"/>
+    <children xmi:type="notation:BasicDecorationNode" xmi:id="_sdxLdUAqEeqmMMnandptZQ" type="Parent"/>
+    <element xmi:type="uml:Actor" href="platform:/resource/UML_Project_Compagnia_Aerea/Use%20Case%20Model.emx#_YCQf4D-CEeqmMMnandptZQ?Use%20Case%20Model/Overviews/Utente%20Fedele?"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sdxLdkAqEeqmMMnandptZQ" x="792" y="36696"/>
+  </children>
+  <children xmi:type="umlnotation:UMLClassifierShape" xmi:id="_sdxLd0AqEeqmMMnandptZQ" fontName="Segoe UI" fontHeight="12" fillColor="16116705" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
+    <children xmi:type="notation:DecorationNode" xmi:id="_sdxLeEAqEeqmMMnandptZQ" type="ImageCompartment">
+      <layoutConstraint xmi:type="notation:Size" xmi:id="_sdxLeUAqEeqmMMnandptZQ" width="2216" height="1322"/>
+    </children>
+    <children xmi:type="notation:BasicDecorationNode" xmi:id="_sdxLekAqEeqmMMnandptZQ" type="Stereotype"/>
+    <children xmi:type="notation:BasicDecorationNode" xmi:id="_sdxLe0AqEeqmMMnandptZQ" type="Name"/>
+    <children xmi:type="notation:BasicDecorationNode" xmi:id="_sdxLfEAqEeqmMMnandptZQ" type="Parent"/>
+    <children xmi:type="notation:ListCompartment" xmi:id="_sdxLfUAqEeqmMMnandptZQ" visible="false" type="Extension_Points"/>
+    <element xmi:type="uml:UseCase" href="platform:/resource/UML_Project_Compagnia_Aerea/Use%20Case%20Model.emx#_eJ7owD-CEeqmMMnandptZQ?Use%20Case%20Model/Overviews/Cerca%20Volo?"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sdxLfkAqEeqmMMnandptZQ" x="18612" y="1452"/>
+  </children>
+  <children xmi:type="umlnotation:UMLClassifierShape" xmi:id="_sdxLf0AqEeqmMMnandptZQ" fontName="Segoe UI" fontHeight="12" fillColor="16116705" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
+    <children xmi:type="notation:DecorationNode" xmi:id="_sdxLgEAqEeqmMMnandptZQ" type="ImageCompartment">
+      <layoutConstraint xmi:type="notation:Size" xmi:id="_sdxLgUAqEeqmMMnandptZQ" width="2216" height="1322"/>
+    </children>
+    <children xmi:type="notation:BasicDecorationNode" xmi:id="_sdxLgkAqEeqmMMnandptZQ" type="Stereotype"/>
+    <children xmi:type="notation:BasicDecorationNode" xmi:id="_sdxLg0AqEeqmMMnandptZQ" type="Name"/>
+    <children xmi:type="notation:BasicDecorationNode" xmi:id="_sdxLhEAqEeqmMMnandptZQ" type="Parent"/>
+    <children xmi:type="notation:ListCompartment" xmi:id="_sdxLhUAqEeqmMMnandptZQ" visible="false" type="Extension_Points"/>
+    <element xmi:type="uml:UseCase" href="platform:/resource/UML_Project_Compagnia_Aerea/Use%20Case%20Model.emx#_bjoC8D-EEeqmMMnandptZQ?Use%20Case%20Model/Overviews/Prenota%20Volo?"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sdxLhkAqEeqmMMnandptZQ" x="19932" y="16104"/>
+  </children>
+  <children xmi:type="umlnotation:UMLClassifierShape" xmi:id="_sdxLh0AqEeqmMMnandptZQ" fontName="Segoe UI" fontHeight="12" fillColor="16116705" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
+    <children xmi:type="notation:DecorationNode" xmi:id="_sdxLiEAqEeqmMMnandptZQ" type="ImageCompartment">
+      <layoutConstraint xmi:type="notation:Size" xmi:id="_sdxLiUAqEeqmMMnandptZQ" width="2216" height="1322"/>
+    </children>
+    <children xmi:type="notation:BasicDecorationNode" xmi:id="_sdxLikAqEeqmMMnandptZQ" type="Stereotype"/>
+    <children xmi:type="notation:BasicDecorationNode" xmi:id="_sdxLi0AqEeqmMMnandptZQ" type="Name"/>
+    <children xmi:type="notation:BasicDecorationNode" xmi:id="_sdxLjEAqEeqmMMnandptZQ" type="Parent"/>
+    <children xmi:type="notation:ListCompartment" xmi:id="_sdxLjUAqEeqmMMnandptZQ" visible="false" type="Extension_Points"/>
+    <element xmi:type="uml:UseCase" href="platform:/resource/UML_Project_Compagnia_Aerea/Use%20Case%20Model.emx#_0Wh74D-EEeqmMMnandptZQ?Use%20Case%20Model/Overviews/Guarda%20Promozioni?"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sdxLjkAqEeqmMMnandptZQ" x="12408" y="23364" width="4744" height="2116"/>
+  </children>
+  <children xmi:type="umlnotation:UMLClassifierShape" xmi:id="_sdxygEAqEeqmMMnandptZQ" fontName="Segoe UI" fontHeight="12" fillColor="16116705" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
+    <children xmi:type="notation:DecorationNode" xmi:id="_sdxygUAqEeqmMMnandptZQ" type="ImageCompartment">
+      <layoutConstraint xmi:type="notation:Size" xmi:id="_sdxygkAqEeqmMMnandptZQ" width="2216" height="1322"/>
+    </children>
+    <children xmi:type="notation:BasicDecorationNode" xmi:id="_sdxyg0AqEeqmMMnandptZQ" type="Stereotype"/>
+    <children xmi:type="notation:BasicDecorationNode" xmi:id="_sdxyhEAqEeqmMMnandptZQ" type="Name"/>
+    <children xmi:type="notation:BasicDecorationNode" xmi:id="_sdxyhUAqEeqmMMnandptZQ" type="Parent"/>
+    <children xmi:type="notation:ListCompartment" xmi:id="_sdxyhkAqEeqmMMnandptZQ" visible="false" type="Extension_Points"/>
+    <element xmi:type="uml:UseCase" href="platform:/resource/UML_Project_Compagnia_Aerea/Use%20Case%20Model.emx#_W8fqUD-FEeqmMMnandptZQ?Use%20Case%20Model/Overviews/Iscrizione%20Programma%20Fedeltà?"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sdxyh0AqEeqmMMnandptZQ" x="11880" y="29172" width="5362" height="3245"/>
+  </children>
+  <children xmi:type="umlnotation:UMLClassifierShape" xmi:id="_sdxyiEAqEeqmMMnandptZQ" fontName="Segoe UI" fontHeight="12" fillColor="16116705" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
+    <children xmi:type="notation:DecorationNode" xmi:id="_sdxyiUAqEeqmMMnandptZQ" type="ImageCompartment">
+      <layoutConstraint xmi:type="notation:Size" xmi:id="_sdxyikAqEeqmMMnandptZQ" width="2216" height="1322"/>
+    </children>
+    <children xmi:type="notation:BasicDecorationNode" xmi:id="_sdxyi0AqEeqmMMnandptZQ" type="Stereotype"/>
+    <children xmi:type="notation:BasicDecorationNode" xmi:id="_sdxyjEAqEeqmMMnandptZQ" type="Name"/>
+    <children xmi:type="notation:BasicDecorationNode" xmi:id="_sdxyjUAqEeqmMMnandptZQ" type="Parent"/>
+    <children xmi:type="notation:ListCompartment" xmi:id="_sdxyjkAqEeqmMMnandptZQ" visible="false" type="Extension_Points"/>
+    <element xmi:type="uml:UseCase" href="platform:/resource/UML_Project_Compagnia_Aerea/Use%20Case%20Model.emx#_1S9nkD-HEeqmMMnandptZQ?Use%20Case%20Model/Overviews/Paga%20con%20carta%20o%20con%20punti?"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sdxyj0AqEeqmMMnandptZQ" x="28644" y="8448"/>
+  </children>
+  <children xmi:type="umlnotation:UMLClassifierShape" xmi:id="_sdxykEAqEeqmMMnandptZQ" fontName="Segoe UI" fontHeight="12" fillColor="16116705" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
+    <children xmi:type="notation:DecorationNode" xmi:id="_sdxykUAqEeqmMMnandptZQ" type="ImageCompartment">
+      <layoutConstraint xmi:type="notation:Size" xmi:id="_sdxykkAqEeqmMMnandptZQ" width="2216" height="1322"/>
+    </children>
+    <children xmi:type="notation:BasicDecorationNode" xmi:id="_sdxyk0AqEeqmMMnandptZQ" type="Stereotype"/>
+    <children xmi:type="notation:BasicDecorationNode" xmi:id="_sdxylEAqEeqmMMnandptZQ" type="Name"/>
+    <children xmi:type="notation:BasicDecorationNode" xmi:id="_sdxylUAqEeqmMMnandptZQ" type="Parent"/>
+    <children xmi:type="notation:ListCompartment" xmi:id="_sdxylkAqEeqmMMnandptZQ" visible="false" type="Extension_Points"/>
+    <element xmi:type="uml:UseCase" href="platform:/resource/UML_Project_Compagnia_Aerea/Use%20Case%20Model.emx#_mSxwcD-IEeqmMMnandptZQ?Use%20Case%20Model/Overviews/Compra%20volo%20europeo%20con%2010.000%20punti%20fedeltà?"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sdxyl0AqEeqmMMnandptZQ" x="11748" y="35640" width="11041" height="3527"/>
+  </children>
+  <children xmi:type="umlnotation:UMLClassifierShape" xmi:id="_sdxymEAqEeqmMMnandptZQ" fontName="Segoe UI" fontHeight="12" fillColor="16116705" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
+    <children xmi:type="notation:DecorationNode" xmi:id="_sdxymUAqEeqmMMnandptZQ" type="ImageCompartment">
+      <layoutConstraint xmi:type="notation:Size" xmi:id="_sdxymkAqEeqmMMnandptZQ" width="2216" height="1322"/>
+    </children>
+    <children xmi:type="notation:BasicDecorationNode" xmi:id="_sdxym0AqEeqmMMnandptZQ" type="Stereotype"/>
+    <children xmi:type="notation:BasicDecorationNode" xmi:id="_sdxynEAqEeqmMMnandptZQ" type="Name"/>
+    <children xmi:type="notation:BasicDecorationNode" xmi:id="_sdxynUAqEeqmMMnandptZQ" type="Parent"/>
+    <children xmi:type="notation:ListCompartment" xmi:id="_sdxynkAqEeqmMMnandptZQ" visible="false" type="Extension_Points"/>
+    <element xmi:type="uml:UseCase" href="platform:/resource/UML_Project_Compagnia_Aerea/Use%20Case%20Model.emx#_4rE9cD-IEeqmMMnandptZQ?Use%20Case%20Model/Overviews/Avviso%20nuove%20promozioni?"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sdxyn0AqEeqmMMnandptZQ" x="22176" y="37884" width="6808" height="3810"/>
+  </children>
+  <children xmi:type="umlnotation:UMLClassifierShape" xmi:id="_sdxyoEAqEeqmMMnandptZQ" fontName="Segoe UI" fontHeight="12" fillColor="16116705" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
+    <children xmi:type="notation:DecorationNode" xmi:id="_sdxyoUAqEeqmMMnandptZQ" type="ImageCompartment">
+      <layoutConstraint xmi:type="notation:Size" xmi:id="_sdxyokAqEeqmMMnandptZQ" width="2216" height="1322"/>
+    </children>
+    <children xmi:type="notation:BasicDecorationNode" xmi:id="_sdxyo0AqEeqmMMnandptZQ" type="Stereotype"/>
+    <children xmi:type="notation:BasicDecorationNode" xmi:id="_sdxypEAqEeqmMMnandptZQ" type="Name"/>
+    <children xmi:type="notation:BasicDecorationNode" xmi:id="_sdxypUAqEeqmMMnandptZQ" type="Parent"/>
+    <children xmi:type="notation:ListCompartment" xmi:id="_sdxypkAqEeqmMMnandptZQ" visible="false" type="Extension_Points"/>
+    <element xmi:type="uml:UseCase" href="platform:/resource/UML_Project_Compagnia_Aerea/Use%20Case%20Model.emx#_C_YskD-OEeqmMMnandptZQ?Use%20Case%20Model/Overviews/Visualizza%20Info%20Utente?"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sdxyp0AqEeqmMMnandptZQ" x="3300" y="22968" width="8360" height="6773"/>
+  </children>
+  <children xmi:type="umlnotation:UMLClassifierShape" xmi:id="_sdyZkEAqEeqmMMnandptZQ" fontName="Segoe UI" fontHeight="12" fillColor="16116705" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
+    <children xmi:type="notation:DecorationNode" xmi:id="_sdyZkUAqEeqmMMnandptZQ" type="ImageCompartment">
+      <layoutConstraint xmi:type="notation:Size" xmi:id="_sdyZkkAqEeqmMMnandptZQ" width="2216" height="1322"/>
+    </children>
+    <children xmi:type="notation:BasicDecorationNode" xmi:id="_sdyZk0AqEeqmMMnandptZQ" type="Stereotype"/>
+    <children xmi:type="notation:BasicDecorationNode" xmi:id="_sdyZlEAqEeqmMMnandptZQ" type="Name"/>
+    <children xmi:type="notation:BasicDecorationNode" xmi:id="_sdyZlUAqEeqmMMnandptZQ" type="Parent"/>
+    <children xmi:type="notation:ListCompartment" xmi:id="_sdyZlkAqEeqmMMnandptZQ" visible="false" type="Extension_Points"/>
+    <element xmi:type="uml:UseCase" href="platform:/resource/UML_Project_Compagnia_Aerea/Use%20Case%20Model.emx#_Un0i4D-OEeqmMMnandptZQ?Use%20Case%20Model/Overviews/Visualizza%20Punti?"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sdyZl0AqEeqmMMnandptZQ" x="5148" y="32868" width="6297" height="2989"/>
+  </children>
+  <children xmi:type="umlnotation:UMLClassifierShape" xmi:id="_sdyZmEAqEeqmMMnandptZQ" fontName="Segoe UI" fontHeight="12" fillColor="16116705" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
+    <children xmi:type="notation:DecorationNode" xmi:id="_sdyZmUAqEeqmMMnandptZQ" type="ImageCompartment">
+      <layoutConstraint xmi:type="notation:Size" xmi:id="_sdyZmkAqEeqmMMnandptZQ" width="2216" height="1322"/>
+    </children>
+    <children xmi:type="notation:BasicDecorationNode" xmi:id="_sdyZm0AqEeqmMMnandptZQ" type="Stereotype"/>
+    <children xmi:type="notation:BasicDecorationNode" xmi:id="_sdyZnEAqEeqmMMnandptZQ" type="Name"/>
+    <children xmi:type="notation:BasicDecorationNode" xmi:id="_sdyZnUAqEeqmMMnandptZQ" type="Parent"/>
+    <children xmi:type="notation:ListCompartment" xmi:id="_sdyZnkAqEeqmMMnandptZQ" visible="false" type="Extension_Points"/>
+    <element xmi:type="uml:UseCase" href="platform:/resource/UML_Project_Compagnia_Aerea/Use%20Case%20Model.emx#_ClbBgD-bEeqmMMnandptZQ?Use%20Case%20Model/Overviews/Compra%20Volo?"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sdyZn0AqEeqmMMnandptZQ" x="13992" y="8844" width="6826" height="4048"/>
+  </children>
+  <element xsi:nil="true"/>
+  <edges xmi:type="umlnotation:UMLConnector" xmi:id="_sdyZoEAqEeqmMMnandptZQ" source="_sdwkZ0AqEeqmMMnandptZQ" target="_sdwkYEAqEeqmMMnandptZQ" fontName="Segoe UI" fontHeight="12" roundedBendpointsRadius="4" routing="Rectilinear" lineColor="8421504" lineWidth="1" showStereotype="Text">
+    <children xmi:type="notation:DecorationNode" xmi:id="_sdyZoUAqEeqmMMnandptZQ" type="NameLabel">
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_sdyZokAqEeqmMMnandptZQ" type="Stereotype"/>
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_sdyZo0AqEeqmMMnandptZQ" type="Name"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sdyZpEAqEeqmMMnandptZQ" y="-186"/>
+    </children>
+    <element xmi:type="uml:Generalization" href="platform:/resource/UML_Project_Compagnia_Aerea/Use%20Case%20Model.emx#_jMPPkD-DEeqmMMnandptZQ?Use%20Case%20Model/Overviews/Utente%20Registrato/%3CGeneralization%3E?"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_sdyZpUAqEeqmMMnandptZQ" points="[0, -9, -2, 285]$[0, -249, -2, 45]"/>
+  </edges>
+  <edges xmi:type="umlnotation:UMLConnector" xmi:id="_sdyZpkAqEeqmMMnandptZQ" source="_sdxLcEAqEeqmMMnandptZQ" target="_sdwkZ0AqEeqmMMnandptZQ" fontName="Segoe UI" fontHeight="12" roundedBendpointsRadius="4" routing="Rectilinear" lineColor="8421504" lineWidth="1" showStereotype="Text">
+    <children xmi:type="notation:DecorationNode" xmi:id="_sdyZp0AqEeqmMMnandptZQ" type="NameLabel">
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_sdyZqEAqEeqmMMnandptZQ" type="Stereotype"/>
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_sdyZqUAqEeqmMMnandptZQ" type="Name"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sdyZqkAqEeqmMMnandptZQ" y="-186"/>
+    </children>
+    <element xmi:type="uml:Generalization" href="platform:/resource/UML_Project_Compagnia_Aerea/Use%20Case%20Model.emx#_n66lMD-DEeqmMMnandptZQ?Use%20Case%20Model/Overviews/Utente%20Fedele/%3CGeneralization%3E?"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_sdyZq0AqEeqmMMnandptZQ" points="[-1, -10, 10, 234]$[-11, -236, 0, 8]"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_sdyZrEAqEeqmMMnandptZQ" id="(0.28031257877489285,0.18143637127257456)"/>
+  </edges>
+  <edges xmi:type="umlnotation:UMLConnector" xmi:id="_sdyZrUAqEeqmMMnandptZQ" source="_sdxLf0AqEeqmMMnandptZQ" target="_sdxLd0AqEeqmMMnandptZQ" fontName="Segoe UI" fontHeight="12" roundedBendpointsRadius="4" routing="Rectilinear" lineColor="8421504" lineWidth="1" showStereotype="Text">
+    <children xmi:type="notation:DecorationNode" xmi:id="_sdyZrkAqEeqmMMnandptZQ" type="KindLabel">
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_sdyZr0AqEeqmMMnandptZQ" type="Stereotype"/>
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_sdyZsEAqEeqmMMnandptZQ" type="Kind"/>
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_sdzAoEAqEeqmMMnandptZQ" type="Name"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sdzAoUAqEeqmMMnandptZQ" y="-186"/>
+    </children>
+    <element xmi:type="uml:Extend" href="platform:/resource/UML_Project_Compagnia_Aerea/Use%20Case%20Model.emx#_CrZIoD-FEeqmMMnandptZQ?Use%20Case%20Model/Overviews/Prenota%20Volo/%3CExtend%3E?"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_sdzAokAqEeqmMMnandptZQ" points="[-6, -7, 5, 112]$[-6, -104, 5, 15]"/>
+  </edges>
+  <edges xmi:type="umlnotation:UMLConnector" xmi:id="_sdzAo0AqEeqmMMnandptZQ" source="_sdxygEAqEeqmMMnandptZQ" target="_sdxLh0AqEeqmMMnandptZQ" fontName="Segoe UI" fontHeight="12" roundedBendpointsRadius="4" routing="Rectilinear" lineColor="8421504" lineWidth="1" showStereotype="Text">
+    <children xmi:type="notation:DecorationNode" xmi:id="_sdzApEAqEeqmMMnandptZQ" type="KindLabel">
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_sdzApUAqEeqmMMnandptZQ" type="Stereotype"/>
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_sdzApkAqEeqmMMnandptZQ" type="Kind"/>
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_sdzAp0AqEeqmMMnandptZQ" type="Name"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sdzAqEAqEeqmMMnandptZQ" y="-186"/>
+    </children>
+    <element xmi:type="uml:Extend" href="platform:/resource/UML_Project_Compagnia_Aerea/Use%20Case%20Model.emx#_d-LkYD-FEeqmMMnandptZQ?Use%20Case%20Model/Overviews/Iscrizione%20Programma%20Fedeltà/%3CExtend%3E?"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_sdzAqUAqEeqmMMnandptZQ" points="[-3, -27, 2, 131]$[-13, -140, -8, 18]"/>
+  </edges>
+  <edges xmi:type="umlnotation:UMLConnector" xmi:id="_sdzAqkAqEeqmMMnandptZQ" source="_sdxymEAqEeqmMMnandptZQ" target="_sdxLcEAqEeqmMMnandptZQ" fontName="Segoe UI" fontHeight="12" roundedBendpointsRadius="4" routing="Rectilinear" lineColor="8421504" lineWidth="1" showStereotype="Text">
+    <children xmi:type="notation:DecorationNode" xmi:id="_sdzAq0AqEeqmMMnandptZQ" type="NameLabel">
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_sdzArEAqEeqmMMnandptZQ" type="Stereotype"/>
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_sdzArUAqEeqmMMnandptZQ" type="Name"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sdzArkAqEeqmMMnandptZQ" y="-186"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_sdzAr0AqEeqmMMnandptZQ" visible="false" type="ToMultiplicityLabel">
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_sdzAsEAqEeqmMMnandptZQ" type="ToMultiplicity"/>
+      <element xmi:type="uml:Property" href="platform:/resource/UML_Project_Compagnia_Aerea/Use%20Case%20Model.emx#_AhJh0D-JEeqmMMnandptZQ?Use%20Case%20Model/Overviews/%3CAssociation%3E/%3CProperty%3E?"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_sdzAsUAqEeqmMMnandptZQ" y="396"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_sdzAskAqEeqmMMnandptZQ" visible="false" type="ToRoleLabel">
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_sdzAs0AqEeqmMMnandptZQ" type="ToRole"/>
+      <element xmi:type="uml:Property" href="platform:/resource/UML_Project_Compagnia_Aerea/Use%20Case%20Model.emx#_AhJh0D-JEeqmMMnandptZQ?Use%20Case%20Model/Overviews/%3CAssociation%3E/%3CProperty%3E?"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_sdzAtEAqEeqmMMnandptZQ" y="-397"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_sdzAtUAqEeqmMMnandptZQ" visible="false" type="FromMultiplicityLabel">
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_sdzAtkAqEeqmMMnandptZQ" type="FromMultiplicity"/>
+      <element xmi:type="uml:Property" href="platform:/resource/UML_Project_Compagnia_Aerea/Use%20Case%20Model.emx#_AhHsoD-JEeqmMMnandptZQ?Use%20Case%20Model/Overviews/%3CAssociation%3E/utenteFedele?"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_sdzAt0AqEeqmMMnandptZQ" y="396"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_sdzAuEAqEeqmMMnandptZQ" visible="false" type="FromRoleLabel">
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_sdzAuUAqEeqmMMnandptZQ" type="FromRole"/>
+      <element xmi:type="uml:Property" href="platform:/resource/UML_Project_Compagnia_Aerea/Use%20Case%20Model.emx#_AhHsoD-JEeqmMMnandptZQ?Use%20Case%20Model/Overviews/%3CAssociation%3E/utenteFedele?"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_sdzAukAqEeqmMMnandptZQ" y="-397"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_sdzAu0AqEeqmMMnandptZQ" type="ToQualifierLabel">
+      <children xmi:type="notation:SemanticListCompartment" xmi:id="_sdzAvEAqEeqmMMnandptZQ" type="QualifierCompartment"/>
+      <element xmi:type="uml:Property" href="platform:/resource/UML_Project_Compagnia_Aerea/Use%20Case%20Model.emx#_AhJh0D-JEeqmMMnandptZQ?Use%20Case%20Model/Overviews/%3CAssociation%3E/%3CProperty%3E?"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_sdzAvUAqEeqmMMnandptZQ" y="-186"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_sdzAvkAqEeqmMMnandptZQ" type="FromQualifierLabel">
+      <children xmi:type="notation:SemanticListCompartment" xmi:id="_sdzAv0AqEeqmMMnandptZQ" type="QualifierCompartment"/>
+      <element xmi:type="uml:Property" href="platform:/resource/UML_Project_Compagnia_Aerea/Use%20Case%20Model.emx#_AhHsoD-JEeqmMMnandptZQ?Use%20Case%20Model/Overviews/%3CAssociation%3E/utenteFedele?"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_sdzAwEAqEeqmMMnandptZQ" y="-186"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_sdzAwUAqEeqmMMnandptZQ" type="ToConstraintLabel">
+      <children xmi:type="notation:ListCompartment" xmi:id="_sdzAwkAqEeqmMMnandptZQ" type="ToConstraintCompartment"/>
+      <element xmi:type="uml:Property" href="platform:/resource/UML_Project_Compagnia_Aerea/Use%20Case%20Model.emx#_AhJh0D-JEeqmMMnandptZQ?Use%20Case%20Model/Overviews/%3CAssociation%3E/%3CProperty%3E?"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_sdzAw0AqEeqmMMnandptZQ" y="1058"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_sdzAxEAqEeqmMMnandptZQ" type="FromConstraintLabel">
+      <children xmi:type="notation:ListCompartment" xmi:id="_sdzAxUAqEeqmMMnandptZQ" type="FromConstraintCompartment"/>
+      <element xmi:type="uml:Property" href="platform:/resource/UML_Project_Compagnia_Aerea/Use%20Case%20Model.emx#_AhHsoD-JEeqmMMnandptZQ?Use%20Case%20Model/Overviews/%3CAssociation%3E/utenteFedele?"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_sdzAxkAqEeqmMMnandptZQ" y="1058"/>
+    </children>
+    <element xmi:type="uml:Association" href="platform:/resource/UML_Project_Compagnia_Aerea/Use%20Case%20Model.emx#_AhGegD-JEeqmMMnandptZQ?Use%20Case%20Model/Overviews/%3CAssociation%3E?"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_sdzAx0AqEeqmMMnandptZQ" points="[-96, -33, 183, 70]$[-279, -97, 0, 6]"/>
+  </edges>
+  <edges xmi:type="umlnotation:UMLConnector" xmi:id="_sdzAyEAqEeqmMMnandptZQ" source="_sdwkZ0AqEeqmMMnandptZQ" target="_sdxygEAqEeqmMMnandptZQ" fontName="Segoe UI" fontHeight="12" roundedBendpointsRadius="4" routing="Rectilinear" lineColor="8421504" lineWidth="1" showStereotype="Text">
+    <children xmi:type="notation:DecorationNode" xmi:id="_sdzAyUAqEeqmMMnandptZQ" type="NameLabel">
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_sdzAykAqEeqmMMnandptZQ" type="Stereotype"/>
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_sdzAy0AqEeqmMMnandptZQ" type="Name"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sdzAzEAqEeqmMMnandptZQ" y="-186"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_sdzAzUAqEeqmMMnandptZQ" visible="false" type="ToMultiplicityLabel">
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_sdzAzkAqEeqmMMnandptZQ" type="ToMultiplicity"/>
+      <element xmi:type="uml:Property" href="platform:/resource/UML_Project_Compagnia_Aerea/Use%20Case%20Model.emx#_EA0tsD-JEeqmMMnandptZQ?Use%20Case%20Model/Overviews/%3CAssociation%3E/%3CProperty%3E?"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_sdzAz0AqEeqmMMnandptZQ" y="396"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_sdzA0EAqEeqmMMnandptZQ" visible="false" type="ToRoleLabel">
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_sdzA0UAqEeqmMMnandptZQ" type="ToRole"/>
+      <element xmi:type="uml:Property" href="platform:/resource/UML_Project_Compagnia_Aerea/Use%20Case%20Model.emx#_EA0tsD-JEeqmMMnandptZQ?Use%20Case%20Model/Overviews/%3CAssociation%3E/%3CProperty%3E?"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_sdzA0kAqEeqmMMnandptZQ" y="-397"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_sdzA00AqEeqmMMnandptZQ" visible="false" type="FromMultiplicityLabel">
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_sdzA1EAqEeqmMMnandptZQ" type="FromMultiplicity"/>
+      <element xmi:type="uml:Property" href="platform:/resource/UML_Project_Compagnia_Aerea/Use%20Case%20Model.emx#_EAzfkD-JEeqmMMnandptZQ?Use%20Case%20Model/Overviews/%3CAssociation%3E/iscrizione%20Programma%20Fedeltà?"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_sdzA1UAqEeqmMMnandptZQ" y="396"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_sdzA1kAqEeqmMMnandptZQ" visible="false" type="FromRoleLabel">
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_sdzA10AqEeqmMMnandptZQ" type="FromRole"/>
+      <element xmi:type="uml:Property" href="platform:/resource/UML_Project_Compagnia_Aerea/Use%20Case%20Model.emx#_EAzfkD-JEeqmMMnandptZQ?Use%20Case%20Model/Overviews/%3CAssociation%3E/iscrizione%20Programma%20Fedeltà?"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_sdzA2EAqEeqmMMnandptZQ" y="-397"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_sdzA2UAqEeqmMMnandptZQ" type="ToQualifierLabel">
+      <children xmi:type="notation:SemanticListCompartment" xmi:id="_sdzA2kAqEeqmMMnandptZQ" type="QualifierCompartment"/>
+      <element xmi:type="uml:Property" href="platform:/resource/UML_Project_Compagnia_Aerea/Use%20Case%20Model.emx#_EA0tsD-JEeqmMMnandptZQ?Use%20Case%20Model/Overviews/%3CAssociation%3E/%3CProperty%3E?"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_sdzA20AqEeqmMMnandptZQ" y="-186"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_sdzA3EAqEeqmMMnandptZQ" type="FromQualifierLabel">
+      <children xmi:type="notation:SemanticListCompartment" xmi:id="_sdzA3UAqEeqmMMnandptZQ" type="QualifierCompartment"/>
+      <element xmi:type="uml:Property" href="platform:/resource/UML_Project_Compagnia_Aerea/Use%20Case%20Model.emx#_EAzfkD-JEeqmMMnandptZQ?Use%20Case%20Model/Overviews/%3CAssociation%3E/iscrizione%20Programma%20Fedeltà?"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_sdzA3kAqEeqmMMnandptZQ" y="-186"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_sdzA30AqEeqmMMnandptZQ" type="ToConstraintLabel">
+      <children xmi:type="notation:ListCompartment" xmi:id="_sdzA4EAqEeqmMMnandptZQ" type="ToConstraintCompartment"/>
+      <element xmi:type="uml:Property" href="platform:/resource/UML_Project_Compagnia_Aerea/Use%20Case%20Model.emx#_EA0tsD-JEeqmMMnandptZQ?Use%20Case%20Model/Overviews/%3CAssociation%3E/%3CProperty%3E?"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_sdzA4UAqEeqmMMnandptZQ" y="1058"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_sdzA4kAqEeqmMMnandptZQ" type="FromConstraintLabel">
+      <children xmi:type="notation:ListCompartment" xmi:id="_sdzA40AqEeqmMMnandptZQ" type="FromConstraintCompartment"/>
+      <element xmi:type="uml:Property" href="platform:/resource/UML_Project_Compagnia_Aerea/Use%20Case%20Model.emx#_EAzfkD-JEeqmMMnandptZQ?Use%20Case%20Model/Overviews/%3CAssociation%3E/iscrizione%20Programma%20Fedeltà?"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_sdzA5EAqEeqmMMnandptZQ" y="1058"/>
+    </children>
+    <element xmi:type="uml:Association" href="platform:/resource/UML_Project_Compagnia_Aerea/Use%20Case%20Model.emx#_EAyRcD-JEeqmMMnandptZQ?Use%20Case%20Model/Overviews/%3CAssociation%3E?"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_sdzA5UAqEeqmMMnandptZQ" points="[245, 1142, -10617, -11001]$[245, 12143, -10617, 0]$[9540, 12143, -1322, 0]"/>
+  </edges>
+  <edges xmi:type="umlnotation:UMLConnector" xmi:id="_sdznsEAqEeqmMMnandptZQ" source="_sdwkZ0AqEeqmMMnandptZQ" target="_sdxLh0AqEeqmMMnandptZQ" fontName="Segoe UI" fontHeight="12" roundedBendpointsRadius="4" routing="Rectilinear" lineColor="8421504" lineWidth="1" showStereotype="Text">
+    <children xmi:type="notation:DecorationNode" xmi:id="_sdznsUAqEeqmMMnandptZQ" type="NameLabel">
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_sdznskAqEeqmMMnandptZQ" type="Stereotype"/>
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_sdzns0AqEeqmMMnandptZQ" type="Name"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sdzntEAqEeqmMMnandptZQ" y="-186"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_sdzntUAqEeqmMMnandptZQ" visible="false" type="ToMultiplicityLabel">
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_sdzntkAqEeqmMMnandptZQ" type="ToMultiplicity"/>
+      <element xmi:type="uml:Property" href="platform:/resource/UML_Project_Compagnia_Aerea/Use%20Case%20Model.emx#_EsBm0D-JEeqmMMnandptZQ?Use%20Case%20Model/Overviews/%3CAssociation%3E/%3CProperty%3E?"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_sdznt0AqEeqmMMnandptZQ" y="396"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_sdznuEAqEeqmMMnandptZQ" visible="false" type="ToRoleLabel">
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_sdznuUAqEeqmMMnandptZQ" type="ToRole"/>
+      <element xmi:type="uml:Property" href="platform:/resource/UML_Project_Compagnia_Aerea/Use%20Case%20Model.emx#_EsBm0D-JEeqmMMnandptZQ?Use%20Case%20Model/Overviews/%3CAssociation%3E/%3CProperty%3E?"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_sdznukAqEeqmMMnandptZQ" y="-397"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_sdznu0AqEeqmMMnandptZQ" visible="false" type="FromMultiplicityLabel">
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_sdznvEAqEeqmMMnandptZQ" type="FromMultiplicity"/>
+      <element xmi:type="uml:Property" href="platform:/resource/UML_Project_Compagnia_Aerea/Use%20Case%20Model.emx#_EsAYsD-JEeqmMMnandptZQ?Use%20Case%20Model/Overviews/%3CAssociation%3E/guarda%20Promozioni?"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_sdznvUAqEeqmMMnandptZQ" y="396"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_sdznvkAqEeqmMMnandptZQ" visible="false" type="FromRoleLabel">
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_sdznv0AqEeqmMMnandptZQ" type="FromRole"/>
+      <element xmi:type="uml:Property" href="platform:/resource/UML_Project_Compagnia_Aerea/Use%20Case%20Model.emx#_EsAYsD-JEeqmMMnandptZQ?Use%20Case%20Model/Overviews/%3CAssociation%3E/guarda%20Promozioni?"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_sdznwEAqEeqmMMnandptZQ" y="-397"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_sdznwUAqEeqmMMnandptZQ" type="ToQualifierLabel">
+      <children xmi:type="notation:SemanticListCompartment" xmi:id="_sdznwkAqEeqmMMnandptZQ" type="QualifierCompartment"/>
+      <element xmi:type="uml:Property" href="platform:/resource/UML_Project_Compagnia_Aerea/Use%20Case%20Model.emx#_EsBm0D-JEeqmMMnandptZQ?Use%20Case%20Model/Overviews/%3CAssociation%3E/%3CProperty%3E?"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_sdznw0AqEeqmMMnandptZQ" y="-186"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_sdznxEAqEeqmMMnandptZQ" type="FromQualifierLabel">
+      <children xmi:type="notation:SemanticListCompartment" xmi:id="_sdznxUAqEeqmMMnandptZQ" type="QualifierCompartment"/>
+      <element xmi:type="uml:Property" href="platform:/resource/UML_Project_Compagnia_Aerea/Use%20Case%20Model.emx#_EsAYsD-JEeqmMMnandptZQ?Use%20Case%20Model/Overviews/%3CAssociation%3E/guarda%20Promozioni?"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_sdznxkAqEeqmMMnandptZQ" y="-186"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_sdznx0AqEeqmMMnandptZQ" type="ToConstraintLabel">
+      <children xmi:type="notation:ListCompartment" xmi:id="_sdznyEAqEeqmMMnandptZQ" type="ToConstraintCompartment"/>
+      <element xmi:type="uml:Property" href="platform:/resource/UML_Project_Compagnia_Aerea/Use%20Case%20Model.emx#_EsBm0D-JEeqmMMnandptZQ?Use%20Case%20Model/Overviews/%3CAssociation%3E/%3CProperty%3E?"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_sdznyUAqEeqmMMnandptZQ" y="1058"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_sdznykAqEeqmMMnandptZQ" type="FromConstraintLabel">
+      <children xmi:type="notation:ListCompartment" xmi:id="_sdzny0AqEeqmMMnandptZQ" type="FromConstraintCompartment"/>
+      <element xmi:type="uml:Property" href="platform:/resource/UML_Project_Compagnia_Aerea/Use%20Case%20Model.emx#_EsAYsD-JEeqmMMnandptZQ?Use%20Case%20Model/Overviews/%3CAssociation%3E/guarda%20Promozioni?"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_sdznzEAqEeqmMMnandptZQ" y="1058"/>
+    </children>
+    <element xmi:type="uml:Association" href="platform:/resource/UML_Project_Compagnia_Aerea/Use%20Case%20Model.emx#_Er_KkD-JEeqmMMnandptZQ?Use%20Case%20Model/Overviews/%3CAssociation%3E?"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_sdznzUAqEeqmMMnandptZQ" points="[18, 10, -244, -148]$[299, 157, 37, -1]"/>
+  </edges>
+  <edges xmi:type="umlnotation:UMLConnector" xmi:id="_sdznzkAqEeqmMMnandptZQ" source="_sdxLcEAqEeqmMMnandptZQ" target="_sdxykEAqEeqmMMnandptZQ" fontName="Segoe UI" fontHeight="12" roundedBendpointsRadius="4" routing="Rectilinear" lineColor="8421504" lineWidth="1" showStereotype="Text">
+    <children xmi:type="notation:DecorationNode" xmi:id="_sdznz0AqEeqmMMnandptZQ" type="NameLabel">
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_sdzn0EAqEeqmMMnandptZQ" type="Stereotype"/>
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_sdzn0UAqEeqmMMnandptZQ" type="Name"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sdzn0kAqEeqmMMnandptZQ" y="-186"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_sdzn00AqEeqmMMnandptZQ" visible="false" type="ToMultiplicityLabel">
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_sdzn1EAqEeqmMMnandptZQ" type="ToMultiplicity"/>
+      <element xmi:type="uml:Property" href="platform:/resource/UML_Project_Compagnia_Aerea/Use%20Case%20Model.emx#_IDKhwD-JEeqmMMnandptZQ?Use%20Case%20Model/Overviews/%3CAssociation%3E/%3CProperty%3E?"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_sdzn1UAqEeqmMMnandptZQ" y="396"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_sdzn1kAqEeqmMMnandptZQ" visible="false" type="ToRoleLabel">
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_sdzn10AqEeqmMMnandptZQ" type="ToRole"/>
+      <element xmi:type="uml:Property" href="platform:/resource/UML_Project_Compagnia_Aerea/Use%20Case%20Model.emx#_IDKhwD-JEeqmMMnandptZQ?Use%20Case%20Model/Overviews/%3CAssociation%3E/%3CProperty%3E?"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_sdzn2EAqEeqmMMnandptZQ" y="-397"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_sdzn2UAqEeqmMMnandptZQ" visible="false" type="FromMultiplicityLabel">
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_sdzn2kAqEeqmMMnandptZQ" type="FromMultiplicity"/>
+      <element xmi:type="uml:Property" href="platform:/resource/UML_Project_Compagnia_Aerea/Use%20Case%20Model.emx#_IDJToD-JEeqmMMnandptZQ?Use%20Case%20Model/Overviews/%3CAssociation%3E/paga%20con%2010.000%20punti%20fedeltà?"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_sdzn20AqEeqmMMnandptZQ" y="396"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_sdzn3EAqEeqmMMnandptZQ" visible="false" type="FromRoleLabel">
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_sdzn3UAqEeqmMMnandptZQ" type="FromRole"/>
+      <element xmi:type="uml:Property" href="platform:/resource/UML_Project_Compagnia_Aerea/Use%20Case%20Model.emx#_IDJToD-JEeqmMMnandptZQ?Use%20Case%20Model/Overviews/%3CAssociation%3E/paga%20con%2010.000%20punti%20fedeltà?"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_sdzn3kAqEeqmMMnandptZQ" y="-397"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_sdzn30AqEeqmMMnandptZQ" type="ToQualifierLabel">
+      <children xmi:type="notation:SemanticListCompartment" xmi:id="_sdzn4EAqEeqmMMnandptZQ" type="QualifierCompartment"/>
+      <element xmi:type="uml:Property" href="platform:/resource/UML_Project_Compagnia_Aerea/Use%20Case%20Model.emx#_IDKhwD-JEeqmMMnandptZQ?Use%20Case%20Model/Overviews/%3CAssociation%3E/%3CProperty%3E?"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_sdzn4UAqEeqmMMnandptZQ" y="-186"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_sdzn4kAqEeqmMMnandptZQ" type="FromQualifierLabel">
+      <children xmi:type="notation:SemanticListCompartment" xmi:id="_sdzn40AqEeqmMMnandptZQ" type="QualifierCompartment"/>
+      <element xmi:type="uml:Property" href="platform:/resource/UML_Project_Compagnia_Aerea/Use%20Case%20Model.emx#_IDJToD-JEeqmMMnandptZQ?Use%20Case%20Model/Overviews/%3CAssociation%3E/paga%20con%2010.000%20punti%20fedeltà?"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_sdzn5EAqEeqmMMnandptZQ" y="-186"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_sdzn5UAqEeqmMMnandptZQ" type="ToConstraintLabel">
+      <children xmi:type="notation:ListCompartment" xmi:id="_sdzn5kAqEeqmMMnandptZQ" type="ToConstraintCompartment"/>
+      <element xmi:type="uml:Property" href="platform:/resource/UML_Project_Compagnia_Aerea/Use%20Case%20Model.emx#_IDKhwD-JEeqmMMnandptZQ?Use%20Case%20Model/Overviews/%3CAssociation%3E/%3CProperty%3E?"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_sdzn50AqEeqmMMnandptZQ" y="1058"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_sdzn6EAqEeqmMMnandptZQ" type="FromConstraintLabel">
+      <children xmi:type="notation:ListCompartment" xmi:id="_sdzn6UAqEeqmMMnandptZQ" type="FromConstraintCompartment"/>
+      <element xmi:type="uml:Property" href="platform:/resource/UML_Project_Compagnia_Aerea/Use%20Case%20Model.emx#_IDJToD-JEeqmMMnandptZQ?Use%20Case%20Model/Overviews/%3CAssociation%3E/paga%20con%2010.000%20punti%20fedeltà?"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_sdzn6kAqEeqmMMnandptZQ" y="1058"/>
+    </children>
+    <element xmi:type="uml:Association" href="platform:/resource/UML_Project_Compagnia_Aerea/Use%20Case%20Model.emx#_IDIFgD-JEeqmMMnandptZQ?Use%20Case%20Model/Overviews/%3CAssociation%3E?"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_sdzn60AqEeqmMMnandptZQ" points="[46, -9, -376, 80]$[387, -81, -35, 8]"/>
+  </edges>
+  <edges xmi:type="umlnotation:UMLConnector" xmi:id="_sd0OwEAqEeqmMMnandptZQ" source="_sdwkZ0AqEeqmMMnandptZQ" target="_sdxLf0AqEeqmMMnandptZQ" fontName="Segoe UI" fontHeight="12" roundedBendpointsRadius="4" routing="Rectilinear" lineColor="8421504" lineWidth="1" showStereotype="Text">
+    <children xmi:type="notation:DecorationNode" xmi:id="_sd0OwUAqEeqmMMnandptZQ" type="NameLabel">
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_sd0OwkAqEeqmMMnandptZQ" type="Stereotype"/>
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_sd0Ow0AqEeqmMMnandptZQ" type="Name"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sd0OxEAqEeqmMMnandptZQ" y="-186"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_sd0OxUAqEeqmMMnandptZQ" visible="false" type="ToMultiplicityLabel">
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_sd0OxkAqEeqmMMnandptZQ" type="ToMultiplicity"/>
+      <element xmi:type="uml:Property" href="platform:/resource/UML_Project_Compagnia_Aerea/Use%20Case%20Model.emx#_MKFT0D-JEeqmMMnandptZQ?Use%20Case%20Model/Overviews/%3CAssociation%3E/%3CProperty%3E?"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_sd0Ox0AqEeqmMMnandptZQ" y="396"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_sd0OyEAqEeqmMMnandptZQ" visible="false" type="ToRoleLabel">
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_sd0OyUAqEeqmMMnandptZQ" type="ToRole"/>
+      <element xmi:type="uml:Property" href="platform:/resource/UML_Project_Compagnia_Aerea/Use%20Case%20Model.emx#_MKFT0D-JEeqmMMnandptZQ?Use%20Case%20Model/Overviews/%3CAssociation%3E/%3CProperty%3E?"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_sd0OykAqEeqmMMnandptZQ" y="-397"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_sd0Oy0AqEeqmMMnandptZQ" visible="false" type="FromMultiplicityLabel">
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_sd0OzEAqEeqmMMnandptZQ" type="FromMultiplicity"/>
+      <element xmi:type="uml:Property" href="platform:/resource/UML_Project_Compagnia_Aerea/Use%20Case%20Model.emx#_MKDeoD-JEeqmMMnandptZQ?Use%20Case%20Model/Overviews/%3CAssociation%3E/prenota%20Volo?"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_sd0OzUAqEeqmMMnandptZQ" y="396"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_sd0OzkAqEeqmMMnandptZQ" visible="false" type="FromRoleLabel">
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_sd0Oz0AqEeqmMMnandptZQ" type="FromRole"/>
+      <element xmi:type="uml:Property" href="platform:/resource/UML_Project_Compagnia_Aerea/Use%20Case%20Model.emx#_MKDeoD-JEeqmMMnandptZQ?Use%20Case%20Model/Overviews/%3CAssociation%3E/prenota%20Volo?"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_sd0O0EAqEeqmMMnandptZQ" y="-397"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_sd0O0UAqEeqmMMnandptZQ" type="ToQualifierLabel">
+      <children xmi:type="notation:SemanticListCompartment" xmi:id="_sd0O0kAqEeqmMMnandptZQ" type="QualifierCompartment"/>
+      <element xmi:type="uml:Property" href="platform:/resource/UML_Project_Compagnia_Aerea/Use%20Case%20Model.emx#_MKFT0D-JEeqmMMnandptZQ?Use%20Case%20Model/Overviews/%3CAssociation%3E/%3CProperty%3E?"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_sd0O00AqEeqmMMnandptZQ" y="-186"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_sd0O1EAqEeqmMMnandptZQ" type="FromQualifierLabel">
+      <children xmi:type="notation:SemanticListCompartment" xmi:id="_sd0O1UAqEeqmMMnandptZQ" type="QualifierCompartment"/>
+      <element xmi:type="uml:Property" href="platform:/resource/UML_Project_Compagnia_Aerea/Use%20Case%20Model.emx#_MKDeoD-JEeqmMMnandptZQ?Use%20Case%20Model/Overviews/%3CAssociation%3E/prenota%20Volo?"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_sd0O1kAqEeqmMMnandptZQ" y="-186"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_sd0O10AqEeqmMMnandptZQ" type="ToConstraintLabel">
+      <children xmi:type="notation:ListCompartment" xmi:id="_sd0O2EAqEeqmMMnandptZQ" type="ToConstraintCompartment"/>
+      <element xmi:type="uml:Property" href="platform:/resource/UML_Project_Compagnia_Aerea/Use%20Case%20Model.emx#_MKFT0D-JEeqmMMnandptZQ?Use%20Case%20Model/Overviews/%3CAssociation%3E/%3CProperty%3E?"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_sd0O2UAqEeqmMMnandptZQ" y="1058"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_sd0O2kAqEeqmMMnandptZQ" type="FromConstraintLabel">
+      <children xmi:type="notation:ListCompartment" xmi:id="_sd0O20AqEeqmMMnandptZQ" type="FromConstraintCompartment"/>
+      <element xmi:type="uml:Property" href="platform:/resource/UML_Project_Compagnia_Aerea/Use%20Case%20Model.emx#_MKDeoD-JEeqmMMnandptZQ?Use%20Case%20Model/Overviews/%3CAssociation%3E/prenota%20Volo?"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_sd0O3EAqEeqmMMnandptZQ" y="1058"/>
+    </children>
+    <element xmi:type="uml:Association" href="platform:/resource/UML_Project_Compagnia_Aerea/Use%20Case%20Model.emx#_MKCQgD-JEeqmMMnandptZQ?Use%20Case%20Model/Overviews/%3CAssociation%3E?"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_sd0O3UAqEeqmMMnandptZQ" points="[11, -10, -333, 277]$[308, -281, -36, 6]"/>
+  </edges>
+  <edges xmi:type="umlnotation:UMLConnector" xmi:id="_sd0O3kAqEeqmMMnandptZQ" source="_sdwkYEAqEeqmMMnandptZQ" target="_sdxLd0AqEeqmMMnandptZQ" fontName="Segoe UI" fontHeight="12" roundedBendpointsRadius="4" routing="Rectilinear" lineColor="8421504" lineWidth="1" showStereotype="Text">
+    <children xmi:type="notation:DecorationNode" xmi:id="_sd0O30AqEeqmMMnandptZQ" type="NameLabel">
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_sd0O4EAqEeqmMMnandptZQ" type="Stereotype"/>
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_sd0O4UAqEeqmMMnandptZQ" type="Name"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sd0O4kAqEeqmMMnandptZQ" y="-186"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_sd0O40AqEeqmMMnandptZQ" visible="false" type="ToMultiplicityLabel">
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_sd0O5EAqEeqmMMnandptZQ" type="ToMultiplicity"/>
+      <element xmi:type="uml:Property" href="platform:/resource/UML_Project_Compagnia_Aerea/Use%20Case%20Model.emx#_NNre0D-JEeqmMMnandptZQ?Use%20Case%20Model/Overviews/%3CAssociation%3E/%3CProperty%3E?"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_sd0O5UAqEeqmMMnandptZQ" y="396"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_sd0O5kAqEeqmMMnandptZQ" visible="false" type="ToRoleLabel">
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_sd0O50AqEeqmMMnandptZQ" type="ToRole"/>
+      <element xmi:type="uml:Property" href="platform:/resource/UML_Project_Compagnia_Aerea/Use%20Case%20Model.emx#_NNre0D-JEeqmMMnandptZQ?Use%20Case%20Model/Overviews/%3CAssociation%3E/%3CProperty%3E?"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_sd0O6EAqEeqmMMnandptZQ" y="-397"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_sd0O6UAqEeqmMMnandptZQ" visible="false" type="FromMultiplicityLabel">
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_sd0O6kAqEeqmMMnandptZQ" type="FromMultiplicity"/>
+      <element xmi:type="uml:Property" href="platform:/resource/UML_Project_Compagnia_Aerea/Use%20Case%20Model.emx#_NNqQsD-JEeqmMMnandptZQ?Use%20Case%20Model/Overviews/%3CAssociation%3E/cerca%20Volo?"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_sd0O60AqEeqmMMnandptZQ" y="396"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_sd0O7EAqEeqmMMnandptZQ" visible="false" type="FromRoleLabel">
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_sd0O7UAqEeqmMMnandptZQ" type="FromRole"/>
+      <element xmi:type="uml:Property" href="platform:/resource/UML_Project_Compagnia_Aerea/Use%20Case%20Model.emx#_NNqQsD-JEeqmMMnandptZQ?Use%20Case%20Model/Overviews/%3CAssociation%3E/cerca%20Volo?"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_sd0O7kAqEeqmMMnandptZQ" y="-397"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_sd0O70AqEeqmMMnandptZQ" type="ToQualifierLabel">
+      <children xmi:type="notation:SemanticListCompartment" xmi:id="_sd0O8EAqEeqmMMnandptZQ" type="QualifierCompartment"/>
+      <element xmi:type="uml:Property" href="platform:/resource/UML_Project_Compagnia_Aerea/Use%20Case%20Model.emx#_NNre0D-JEeqmMMnandptZQ?Use%20Case%20Model/Overviews/%3CAssociation%3E/%3CProperty%3E?"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_sd0O8UAqEeqmMMnandptZQ" y="-186"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_sd0O8kAqEeqmMMnandptZQ" type="FromQualifierLabel">
+      <children xmi:type="notation:SemanticListCompartment" xmi:id="_sd0O80AqEeqmMMnandptZQ" type="QualifierCompartment"/>
+      <element xmi:type="uml:Property" href="platform:/resource/UML_Project_Compagnia_Aerea/Use%20Case%20Model.emx#_NNqQsD-JEeqmMMnandptZQ?Use%20Case%20Model/Overviews/%3CAssociation%3E/cerca%20Volo?"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_sd0O9EAqEeqmMMnandptZQ" y="-186"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_sd0O9UAqEeqmMMnandptZQ" type="ToConstraintLabel">
+      <children xmi:type="notation:ListCompartment" xmi:id="_sd0O9kAqEeqmMMnandptZQ" type="ToConstraintCompartment"/>
+      <element xmi:type="uml:Property" href="platform:/resource/UML_Project_Compagnia_Aerea/Use%20Case%20Model.emx#_NNre0D-JEeqmMMnandptZQ?Use%20Case%20Model/Overviews/%3CAssociation%3E/%3CProperty%3E?"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_sd0O90AqEeqmMMnandptZQ" y="1058"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_sd0O-EAqEeqmMMnandptZQ" type="FromConstraintLabel">
+      <children xmi:type="notation:ListCompartment" xmi:id="_sd0O-UAqEeqmMMnandptZQ" type="FromConstraintCompartment"/>
+      <element xmi:type="uml:Property" href="platform:/resource/UML_Project_Compagnia_Aerea/Use%20Case%20Model.emx#_NNqQsD-JEeqmMMnandptZQ?Use%20Case%20Model/Overviews/%3CAssociation%3E/cerca%20Volo?"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_sd0O-kAqEeqmMMnandptZQ" y="1058"/>
+    </children>
+    <element xmi:type="uml:Association" href="platform:/resource/UML_Project_Compagnia_Aerea/Use%20Case%20Model.emx#_NNpCkD-JEeqmMMnandptZQ?Use%20Case%20Model/Overviews/%3CAssociation%3E?"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_sd0O-0AqEeqmMMnandptZQ" points="[68, -10, -260, 38]$[291, -45, -37, 3]"/>
+  </edges>
+  <edges xmi:type="umlnotation:UMLConnector" xmi:id="_sd010EAqEeqmMMnandptZQ" source="_sdwkZ0AqEeqmMMnandptZQ" target="_sdxyoEAqEeqmMMnandptZQ" fontName="Segoe UI" fontHeight="12" roundedBendpointsRadius="4" routing="Rectilinear" lineColor="8421504" lineWidth="1" showStereotype="Text">
+    <children xmi:type="notation:DecorationNode" xmi:id="_sd010UAqEeqmMMnandptZQ" type="NameLabel">
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_sd010kAqEeqmMMnandptZQ" type="Stereotype"/>
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_sd0100AqEeqmMMnandptZQ" type="Name"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sd011EAqEeqmMMnandptZQ" y="-186"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_sd011UAqEeqmMMnandptZQ" visible="false" type="ToMultiplicityLabel">
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_sd011kAqEeqmMMnandptZQ" type="ToMultiplicity"/>
+      <element xmi:type="uml:Property" href="platform:/resource/UML_Project_Compagnia_Aerea/Use%20Case%20Model.emx#_HtW3kD-OEeqmMMnandptZQ?Use%20Case%20Model/Overviews/%3CAssociation%3E/%3CProperty%3E?"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_sd0110AqEeqmMMnandptZQ" y="396"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_sd012EAqEeqmMMnandptZQ" visible="false" type="ToRoleLabel">
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_sd012UAqEeqmMMnandptZQ" type="ToRole"/>
+      <element xmi:type="uml:Property" href="platform:/resource/UML_Project_Compagnia_Aerea/Use%20Case%20Model.emx#_HtW3kD-OEeqmMMnandptZQ?Use%20Case%20Model/Overviews/%3CAssociation%3E/%3CProperty%3E?"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_sd012kAqEeqmMMnandptZQ" y="-397"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_sd0120AqEeqmMMnandptZQ" visible="false" type="FromMultiplicityLabel">
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_sd013EAqEeqmMMnandptZQ" type="FromMultiplicity"/>
+      <element xmi:type="uml:Property" href="platform:/resource/UML_Project_Compagnia_Aerea/Use%20Case%20Model.emx#_HtVpcD-OEeqmMMnandptZQ?Use%20Case%20Model/Overviews/%3CAssociation%3E/visualizza%20Info%20Utente?"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_sd013UAqEeqmMMnandptZQ" y="396"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_sd013kAqEeqmMMnandptZQ" visible="false" type="FromRoleLabel">
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_sd0130AqEeqmMMnandptZQ" type="FromRole"/>
+      <element xmi:type="uml:Property" href="platform:/resource/UML_Project_Compagnia_Aerea/Use%20Case%20Model.emx#_HtVpcD-OEeqmMMnandptZQ?Use%20Case%20Model/Overviews/%3CAssociation%3E/visualizza%20Info%20Utente?"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_sd014EAqEeqmMMnandptZQ" y="-397"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_sd014UAqEeqmMMnandptZQ" type="ToQualifierLabel">
+      <children xmi:type="notation:SemanticListCompartment" xmi:id="_sd014kAqEeqmMMnandptZQ" type="QualifierCompartment"/>
+      <element xmi:type="uml:Property" href="platform:/resource/UML_Project_Compagnia_Aerea/Use%20Case%20Model.emx#_HtW3kD-OEeqmMMnandptZQ?Use%20Case%20Model/Overviews/%3CAssociation%3E/%3CProperty%3E?"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_sd0140AqEeqmMMnandptZQ" y="-186"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_sd015EAqEeqmMMnandptZQ" type="FromQualifierLabel">
+      <children xmi:type="notation:SemanticListCompartment" xmi:id="_sd015UAqEeqmMMnandptZQ" type="QualifierCompartment"/>
+      <element xmi:type="uml:Property" href="platform:/resource/UML_Project_Compagnia_Aerea/Use%20Case%20Model.emx#_HtVpcD-OEeqmMMnandptZQ?Use%20Case%20Model/Overviews/%3CAssociation%3E/visualizza%20Info%20Utente?"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_sd015kAqEeqmMMnandptZQ" y="-186"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_sd0150AqEeqmMMnandptZQ" type="ToConstraintLabel">
+      <children xmi:type="notation:ListCompartment" xmi:id="_sd016EAqEeqmMMnandptZQ" type="ToConstraintCompartment"/>
+      <element xmi:type="uml:Property" href="platform:/resource/UML_Project_Compagnia_Aerea/Use%20Case%20Model.emx#_HtW3kD-OEeqmMMnandptZQ?Use%20Case%20Model/Overviews/%3CAssociation%3E/%3CProperty%3E?"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_sd016UAqEeqmMMnandptZQ" y="1058"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_sd016kAqEeqmMMnandptZQ" type="FromConstraintLabel">
+      <children xmi:type="notation:ListCompartment" xmi:id="_sd0160AqEeqmMMnandptZQ" type="FromConstraintCompartment"/>
+      <element xmi:type="uml:Property" href="platform:/resource/UML_Project_Compagnia_Aerea/Use%20Case%20Model.emx#_HtVpcD-OEeqmMMnandptZQ?Use%20Case%20Model/Overviews/%3CAssociation%3E/visualizza%20Info%20Utente?"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_sd017EAqEeqmMMnandptZQ" y="1058"/>
+    </children>
+    <element xmi:type="uml:Association" href="platform:/resource/UML_Project_Compagnia_Aerea/Use%20Case%20Model.emx#_HtVCYD-OEeqmMMnandptZQ?Use%20Case%20Model/Overviews/%3CAssociation%3E?"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_sd017UAqEeqmMMnandptZQ" points="[36, 13, -872, -290]$[890, 327, -18, 24]"/>
+  </edges>
+  <edges xmi:type="umlnotation:UMLConnector" xmi:id="_sd017kAqEeqmMMnandptZQ" source="_sdxLcEAqEeqmMMnandptZQ" target="_sdyZkEAqEeqmMMnandptZQ" fontName="Segoe UI" fontHeight="12" roundedBendpointsRadius="4" routing="Rectilinear" lineColor="8421504" lineWidth="1" showStereotype="Text">
+    <children xmi:type="notation:DecorationNode" xmi:id="_sd0170AqEeqmMMnandptZQ" type="NameLabel">
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_sd018EAqEeqmMMnandptZQ" type="Stereotype"/>
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_sd018UAqEeqmMMnandptZQ" type="Name"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sd018kAqEeqmMMnandptZQ" y="-186"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_sd0180AqEeqmMMnandptZQ" visible="false" type="ToMultiplicityLabel">
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_sd019EAqEeqmMMnandptZQ" type="ToMultiplicity"/>
+      <element xmi:type="uml:Property" href="platform:/resource/UML_Project_Compagnia_Aerea/Use%20Case%20Model.emx#_WiuJUD-OEeqmMMnandptZQ?Use%20Case%20Model/Overviews/%3CAssociation%3E/%3CProperty%3E?"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_sd1c4EAqEeqmMMnandptZQ" y="396"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_sd1c4UAqEeqmMMnandptZQ" visible="false" type="ToRoleLabel">
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_sd1c4kAqEeqmMMnandptZQ" type="ToRole"/>
+      <element xmi:type="uml:Property" href="platform:/resource/UML_Project_Compagnia_Aerea/Use%20Case%20Model.emx#_WiuJUD-OEeqmMMnandptZQ?Use%20Case%20Model/Overviews/%3CAssociation%3E/%3CProperty%3E?"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_sd1c40AqEeqmMMnandptZQ" y="-397"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_sd1c5EAqEeqmMMnandptZQ" visible="false" type="FromMultiplicityLabel">
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_sd1c5UAqEeqmMMnandptZQ" type="FromMultiplicity"/>
+      <element xmi:type="uml:Property" href="platform:/resource/UML_Project_Compagnia_Aerea/Use%20Case%20Model.emx#_WisUID-OEeqmMMnandptZQ?Use%20Case%20Model/Overviews/%3CAssociation%3E/visualizza%20Punti?"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_sd1c5kAqEeqmMMnandptZQ" y="396"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_sd1c50AqEeqmMMnandptZQ" visible="false" type="FromRoleLabel">
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_sd1c6EAqEeqmMMnandptZQ" type="FromRole"/>
+      <element xmi:type="uml:Property" href="platform:/resource/UML_Project_Compagnia_Aerea/Use%20Case%20Model.emx#_WisUID-OEeqmMMnandptZQ?Use%20Case%20Model/Overviews/%3CAssociation%3E/visualizza%20Punti?"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_sd1c6UAqEeqmMMnandptZQ" y="-397"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_sd1c6kAqEeqmMMnandptZQ" type="ToQualifierLabel">
+      <children xmi:type="notation:SemanticListCompartment" xmi:id="_sd1c60AqEeqmMMnandptZQ" type="QualifierCompartment"/>
+      <element xmi:type="uml:Property" href="platform:/resource/UML_Project_Compagnia_Aerea/Use%20Case%20Model.emx#_WiuJUD-OEeqmMMnandptZQ?Use%20Case%20Model/Overviews/%3CAssociation%3E/%3CProperty%3E?"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_sd1c7EAqEeqmMMnandptZQ" y="-186"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_sd1c7UAqEeqmMMnandptZQ" type="FromQualifierLabel">
+      <children xmi:type="notation:SemanticListCompartment" xmi:id="_sd1c7kAqEeqmMMnandptZQ" type="QualifierCompartment"/>
+      <element xmi:type="uml:Property" href="platform:/resource/UML_Project_Compagnia_Aerea/Use%20Case%20Model.emx#_WisUID-OEeqmMMnandptZQ?Use%20Case%20Model/Overviews/%3CAssociation%3E/visualizza%20Punti?"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_sd1c70AqEeqmMMnandptZQ" y="-186"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_sd1c8EAqEeqmMMnandptZQ" type="ToConstraintLabel">
+      <children xmi:type="notation:ListCompartment" xmi:id="_sd1c8UAqEeqmMMnandptZQ" type="ToConstraintCompartment"/>
+      <element xmi:type="uml:Property" href="platform:/resource/UML_Project_Compagnia_Aerea/Use%20Case%20Model.emx#_WiuJUD-OEeqmMMnandptZQ?Use%20Case%20Model/Overviews/%3CAssociation%3E/%3CProperty%3E?"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_sd1c8kAqEeqmMMnandptZQ" y="1058"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_sd1c80AqEeqmMMnandptZQ" type="FromConstraintLabel">
+      <children xmi:type="notation:ListCompartment" xmi:id="_sd1c9EAqEeqmMMnandptZQ" type="FromConstraintCompartment"/>
+      <element xmi:type="uml:Property" href="platform:/resource/UML_Project_Compagnia_Aerea/Use%20Case%20Model.emx#_WisUID-OEeqmMMnandptZQ?Use%20Case%20Model/Overviews/%3CAssociation%3E/visualizza%20Punti?"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_sd1c9UAqEeqmMMnandptZQ" y="1058"/>
+    </children>
+    <element xmi:type="uml:Association" href="platform:/resource/UML_Project_Compagnia_Aerea/Use%20Case%20Model.emx#_Wiqe8D-OEeqmMMnandptZQ?Use%20Case%20Model/Overviews/%3CAssociation%3E?"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_sd1c9kAqEeqmMMnandptZQ" points="[465, -619, -5373, 3738]$[465, -2188, -5373, 2169]$[4526, -2188, -1312, 2169]$[4526, -4276, -1312, 81]"/>
+  </edges>
+  <edges xmi:type="umlnotation:UMLConnector" xmi:id="_sd1c90AqEeqmMMnandptZQ" source="_sdyZkEAqEeqmMMnandptZQ" target="_sdxyoEAqEeqmMMnandptZQ" fontName="Segoe UI" fontHeight="12" roundedBendpointsRadius="4" routing="Rectilinear" lineColor="8421504" lineWidth="1" showStereotype="Text">
+    <children xmi:type="notation:DecorationNode" xmi:id="_sd1c-EAqEeqmMMnandptZQ" type="KindLabel">
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_sd1c-UAqEeqmMMnandptZQ" type="Stereotype"/>
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_sd1c-kAqEeqmMMnandptZQ" type="Kind"/>
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_sd1c-0AqEeqmMMnandptZQ" type="Name"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sd1c_EAqEeqmMMnandptZQ" y="-186"/>
+    </children>
+    <element xmi:type="uml:Extend" href="platform:/resource/UML_Project_Compagnia_Aerea/Use%20Case%20Model.emx#_bg0bAD-OEeqmMMnandptZQ?Use%20Case%20Model/Overviews/Visualizza%20Punti/%3CExtend%3E?"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_sd1c_UAqEeqmMMnandptZQ" points="[0, -31, -14, 609]$[-35, -643, -49, -3]"/>
+  </edges>
+  <edges xmi:type="umlnotation:UMLConnector" xmi:id="_sd1c_kAqEeqmMMnandptZQ" source="_sdyZmEAqEeqmMMnandptZQ" target="_sdxLd0AqEeqmMMnandptZQ" fontName="Segoe UI" fontHeight="12" roundedBendpointsRadius="4" routing="Rectilinear" lineColor="8421504" lineWidth="1" showStereotype="Text">
+    <children xmi:type="notation:DecorationNode" xmi:id="_sd1c_0AqEeqmMMnandptZQ" type="KindLabel">
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_sd1dAEAqEeqmMMnandptZQ" type="Stereotype"/>
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_sd1dAUAqEeqmMMnandptZQ" type="Kind"/>
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_sd1dAkAqEeqmMMnandptZQ" type="Name"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sd1dA0AqEeqmMMnandptZQ" y="-186"/>
+    </children>
+    <element xmi:type="uml:Extend" href="platform:/resource/UML_Project_Compagnia_Aerea/Use%20Case%20Model.emx#_KbUmwD-bEeqmMMnandptZQ?Use%20Case%20Model/Overviews/Compra%20Volo/%3CExtend%3E?"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_sd1dBEAqEeqmMMnandptZQ" points="[-19, -52, 124, 329]$[-137, -356, 6, 25]"/>
+  </edges>
+  <edges xmi:type="umlnotation:UMLConnector" xmi:id="_sd1dBUAqEeqmMMnandptZQ" source="_sdwkYEAqEeqmMMnandptZQ" target="_sdyZmEAqEeqmMMnandptZQ" fontName="Segoe UI" fontHeight="12" roundedBendpointsRadius="4" routing="Rectilinear" lineColor="8421504" lineWidth="1" showStereotype="Text">
+    <children xmi:type="notation:DecorationNode" xmi:id="_sd1dBkAqEeqmMMnandptZQ" type="NameLabel">
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_sd1dB0AqEeqmMMnandptZQ" type="Stereotype"/>
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_sd1dCEAqEeqmMMnandptZQ" type="Name"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sd1dCUAqEeqmMMnandptZQ" y="-186"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_sd1dCkAqEeqmMMnandptZQ" visible="false" type="ToMultiplicityLabel">
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_sd1dC0AqEeqmMMnandptZQ" type="ToMultiplicity"/>
+      <element xmi:type="uml:Property" href="platform:/resource/UML_Project_Compagnia_Aerea/Use%20Case%20Model.emx#_MUyp0D-bEeqmMMnandptZQ?Use%20Case%20Model/Overviews/%3CAssociation%3E/%3CProperty%3E?"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_sd1dDEAqEeqmMMnandptZQ" y="396"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_sd1dDUAqEeqmMMnandptZQ" visible="false" type="ToRoleLabel">
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_sd1dDkAqEeqmMMnandptZQ" type="ToRole"/>
+      <element xmi:type="uml:Property" href="platform:/resource/UML_Project_Compagnia_Aerea/Use%20Case%20Model.emx#_MUyp0D-bEeqmMMnandptZQ?Use%20Case%20Model/Overviews/%3CAssociation%3E/%3CProperty%3E?"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_sd1dD0AqEeqmMMnandptZQ" y="-397"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_sd1dEEAqEeqmMMnandptZQ" visible="false" type="FromMultiplicityLabel">
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_sd1dEUAqEeqmMMnandptZQ" type="FromMultiplicity"/>
+      <element xmi:type="uml:Property" href="platform:/resource/UML_Project_Compagnia_Aerea/Use%20Case%20Model.emx#_MUwNkD-bEeqmMMnandptZQ?Use%20Case%20Model/Overviews/%3CAssociation%3E/compra%20Volo?"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_sd1dEkAqEeqmMMnandptZQ" y="396"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_sd1dE0AqEeqmMMnandptZQ" visible="false" type="FromRoleLabel">
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_sd1dFEAqEeqmMMnandptZQ" type="FromRole"/>
+      <element xmi:type="uml:Property" href="platform:/resource/UML_Project_Compagnia_Aerea/Use%20Case%20Model.emx#_MUwNkD-bEeqmMMnandptZQ?Use%20Case%20Model/Overviews/%3CAssociation%3E/compra%20Volo?"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_sd1dFUAqEeqmMMnandptZQ" y="-397"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_sd1dFkAqEeqmMMnandptZQ" type="ToQualifierLabel">
+      <children xmi:type="notation:SemanticListCompartment" xmi:id="_sd1dF0AqEeqmMMnandptZQ" type="QualifierCompartment"/>
+      <element xmi:type="uml:Property" href="platform:/resource/UML_Project_Compagnia_Aerea/Use%20Case%20Model.emx#_MUyp0D-bEeqmMMnandptZQ?Use%20Case%20Model/Overviews/%3CAssociation%3E/%3CProperty%3E?"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_sd1dGEAqEeqmMMnandptZQ" y="-186"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_sd1dGUAqEeqmMMnandptZQ" type="FromQualifierLabel">
+      <children xmi:type="notation:SemanticListCompartment" xmi:id="_sd1dGkAqEeqmMMnandptZQ" type="QualifierCompartment"/>
+      <element xmi:type="uml:Property" href="platform:/resource/UML_Project_Compagnia_Aerea/Use%20Case%20Model.emx#_MUwNkD-bEeqmMMnandptZQ?Use%20Case%20Model/Overviews/%3CAssociation%3E/compra%20Volo?"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_sd1dG0AqEeqmMMnandptZQ" y="-186"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_sd1dHEAqEeqmMMnandptZQ" type="ToConstraintLabel">
+      <children xmi:type="notation:ListCompartment" xmi:id="_sd1dHUAqEeqmMMnandptZQ" type="ToConstraintCompartment"/>
+      <element xmi:type="uml:Property" href="platform:/resource/UML_Project_Compagnia_Aerea/Use%20Case%20Model.emx#_MUyp0D-bEeqmMMnandptZQ?Use%20Case%20Model/Overviews/%3CAssociation%3E/%3CProperty%3E?"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_sd1dHkAqEeqmMMnandptZQ" y="1058"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_sd1dH0AqEeqmMMnandptZQ" type="FromConstraintLabel">
+      <children xmi:type="notation:ListCompartment" xmi:id="_sd1dIEAqEeqmMMnandptZQ" type="FromConstraintCompartment"/>
+      <element xmi:type="uml:Property" href="platform:/resource/UML_Project_Compagnia_Aerea/Use%20Case%20Model.emx#_MUwNkD-bEeqmMMnandptZQ?Use%20Case%20Model/Overviews/%3CAssociation%3E/compra%20Volo?"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_sd1dIUAqEeqmMMnandptZQ" y="1058"/>
+    </children>
+    <element xmi:type="uml:Association" href="platform:/resource/UML_Project_Compagnia_Aerea/Use%20Case%20Model.emx#_MUu_cD-bEeqmMMnandptZQ?Use%20Case%20Model/Overviews/%3CAssociation%3E?"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_sd1dIkAqEeqmMMnandptZQ" points="[226, 1160, -15313, -6363]$[226, 4736, -15313, -2787]$[12744, 4736, -2795, -2787]$[12744, 7515, -2795, -8]$[14217, 7515, -1322, -8]"/>
+  </edges>
+  <edges xmi:type="umlnotation:UMLConnector" xmi:id="_sd2D8EAqEeqmMMnandptZQ" source="_sdyZmEAqEeqmMMnandptZQ" target="_sdxyiEAqEeqmMMnandptZQ" fontName="Segoe UI" fontHeight="12" roundedBendpointsRadius="4" routing="Rectilinear" lineColor="8421504" lineWidth="1" showStereotype="Text">
+    <children xmi:type="notation:DecorationNode" xmi:id="_sd2D8UAqEeqmMMnandptZQ" type="KindLabel">
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_sd2D8kAqEeqmMMnandptZQ" type="Stereotype"/>
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_sd2D80AqEeqmMMnandptZQ" type="Kind"/>
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_sd2D9EAqEeqmMMnandptZQ" type="Name"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sd2D9UAqEeqmMMnandptZQ" y="-186"/>
+    </children>
+    <element xmi:type="uml:Include" href="platform:/resource/UML_Project_Compagnia_Aerea/Use%20Case%20Model.emx#_TOlzMD-bEeqmMMnandptZQ?Use%20Case%20Model/Overviews/Compra%20Volo/%3CInclude%3E?"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_sd2D9kAqEeqmMMnandptZQ" points="[82, 51, -143, -97]$[225, 123, 0, -25]"/>
+  </edges>
+  <edges xmi:type="umlnotation:UMLConnector" xmi:id="_sd2D90AqEeqmMMnandptZQ" source="_sdxLf0AqEeqmMMnandptZQ" target="_sdyZmEAqEeqmMMnandptZQ" fontName="Segoe UI" fontHeight="8" roundedBendpointsRadius="4" routing="Rectilinear" lineColor="8421504" lineWidth="1" showStereotype="Text">
+    <children xmi:type="notation:DecorationNode" xmi:id="_sd2D-EAqEeqmMMnandptZQ" type="KindLabel">
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_sd2D-UAqEeqmMMnandptZQ" type="Stereotype"/>
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_sd2D-kAqEeqmMMnandptZQ" type="Kind"/>
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_sd2D-0AqEeqmMMnandptZQ" type="Name"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sd2D_EAqEeqmMMnandptZQ" y="-186"/>
+    </children>
+    <element xmi:type="uml:Extend" href="platform:/resource/UML_Project_Compagnia_Aerea/Use%20Case%20Model.emx#_nqkIID-bEeqmMMnandptZQ?Use%20Case%20Model/Overviews/Prenota%20Volo/%3CExtend%3E?"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_sd2D_UAqEeqmMMnandptZQ" points="[-9, -14, 146, 244]$[-145, -234, 10, 24]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_sd2D_kAqEeqmMMnandptZQ" id="(0.2148077534159517,0.14447806354009077)"/>
+  </edges>
+</umlnotation:UMLDiagram>

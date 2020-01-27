@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><project name="Untitled Gantt Project" company="" webLink="http://" view-date="2019-12-24" view-index="0" gantt-divider-location="300" resource-divider-location="300" version="2.8.10" locale="it">
+<?xml version="1.0" encoding="UTF-8"?><project name="Untitled Gantt Project" company="" webLink="http://" view-date="2020-01-07" view-index="0" gantt-divider-location="300" resource-divider-location="300" version="2.8.10" locale="it">
     <description/>
     <view zooming-state="default:1" id="gantt-chart">
         <field id="tpd3" name="Nome" width="167" order="0"/>
@@ -54,18 +54,22 @@ Setup SonarQube]]></notes>
         </task>
         <task id="21" name="Routine, Fedelta' e Prenotazione" color="#3333ff" meeting="false" start="2020-01-13" duration="5" complete="0" thirdDate="2019-12-26" thirdDate-constraint="0" expand="true">
             <notes><![CDATA[Implementazione Routine di Controllo Java
-Sviluppo HTML e Java delle features di modifica prenotazione
+Sviluppo HTML e Java delle features di prenotazione
 Pagina Login HTML
 Testing delle features]]></notes>
         </task>
         <task id="25" name="Promozioni e Pagine secondarie" color="#ff6600" meeting="false" start="2020-01-20" duration="5" complete="0" thirdDate="2020-01-06" thirdDate-constraint="0" expand="true">
             <notes><![CDATA[Sviluppo gestione Java Promozioni
-Aggiunta pagine ausiliarie
+Aggiunta pagine ausiliarie (ConfermaPagamento, Lista Promozioni)
 Testing features precedenti
 ]]></notes>
         </task>
         <task id="27" name="Revisione e Test" color="#ffcc00" meeting="false" start="2020-01-27" duration="4" complete="0" thirdDate="2019-12-30" thirdDate-constraint="0" expand="true">
-            <notes><![CDATA[Testing e Revisione del progetto
+            <notes><![CDATA[Ultimazione documentazione e diagrammi
+Popolamento Database
+Aggiunta feature di Edita prenotazione/biglietto
+Migliorie estetiche HTML
+Testing e Revisione del progetto
 ]]></notes>
         </task>
         <task id="30" name="Consegna Progetto" color="#8cb6ce" meeting="false" start="2020-01-31" duration="1" complete="0" thirdDate="2019-12-30" thirdDate-constraint="0" expand="true"/>
