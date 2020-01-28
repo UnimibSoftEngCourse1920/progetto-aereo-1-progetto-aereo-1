@@ -1,2 +1,34 @@
-
-<!-- promoList è la lista di promo -->
+<section class="hero is-primary is-fullheight is-bold">
+  <div class="hero-body is-inline is-inline-block">
+    <br><br><br><br>
+    <h1 class="title">
+      <div style="color: blue; text-align: center;"><br>All Promotions:</div>
+    </h1>
+    <table class="table has-text-centered">
+      <thead>
+      <tr class="is-selected">
+        <th><abbr title="From">FlightID</abbr></th>
+        <th><abbr title="To">From</abbr></th>
+        <th><abbr title="Date">To</abbr></th>
+        <th><abbr title="DepTime">FlightDate</abbr></th>
+        <th><abbr title="ValidFrom">Valid From</abbr></th>
+        <th><abbr title="ValidUntil">Valid Until</abbr></th>
+        <th><abbr title="Discount">PromotionalDiscount</abbr></th>
+        <th><abbr title="Promo">Exclusive</abbr></th>
+      </tr>
+      </thead>
+      <tbody>
+      <tr *ngFor="let promotions of promoList">
+        <td>{{promotions.flight}}</td>
+        <td><!--{{}}--></td> <!-- Need flightList to cross check-->
+        <td><!--{{}}--></td>
+        <td><!--{{}}--></td>
+        <td>{{promotions.start}}</td>
+        <td>{{promotions.end}}</td>
+        <td>{{promotions.discount_percentage}}</td>
+        <td><p *ngIf=" promotions.premium == '0'" class="help is-danger"> Fedeltà Only </p></td> <!--IF premium-->
+      </tr>
+      </tbody>
+    </table>
+  </div>
+</section>

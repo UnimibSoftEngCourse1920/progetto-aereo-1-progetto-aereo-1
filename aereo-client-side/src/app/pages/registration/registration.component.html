@@ -77,8 +77,8 @@
                      *ngIf="(repeatPasswordInput.touched || repeatPasswordInput.dirty) && repeatPasswordInput.invalid">8
                     character password is needed</p>
                   <p class="help is-danger" *ngIf="(password != repeatPassword) && passwordInput.touched">passwords do
-                    not
-                    match</p>
+                  not
+                  match</p>
                 </div>
               </div>
               <div class="column is-6">
@@ -110,8 +110,7 @@
             <!-- button -->
             <div class="field is-grouped">
               <div class="control">
-                <button class="button is-success">
-                  <!-- [disabled]="registrationForm.invalid || (password != repeatPassword)" -->
+                <button class="button is-success" [disabled]="registrationForm.invalid || (password != repeatPassword)" (click)="submitForm()">
                   Register
                 </button>
               </div>
