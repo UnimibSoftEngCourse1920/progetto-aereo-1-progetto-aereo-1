@@ -28,8 +28,8 @@
         <td>{{flight.price}}</td>
         <td>
           <div *ngFor="let promotions of promoList">
-            <div *ngIf="promotions.id==promotions.flight">{{promotions.discount}}
-              <div *ngIf="promotions.premium==1" class="is-danger">  F</div>
+            <div *ngIf="flight.id==promotions.flight">{{promotions.discount}}
+              <div *ngIf="promotions.premium==1" class="is-danger"> Premium</div>
             </div>
           </div>
         </td>

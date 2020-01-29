@@ -21,4 +21,5 @@ public class Promotion implements Serializable {
     private LocalDateTime end;
     private Flight flight;
     private Integer discountPercentage;
+    private Boolean premium;
 }//end class

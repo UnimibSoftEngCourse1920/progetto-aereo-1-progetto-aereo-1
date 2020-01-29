@@ -18,7 +18,9 @@ public class Ticket implements Serializable {
     @NotNull
     @ManyToOne
     private Flight flight;
+    @NotNull
     private Boolean reserved;
+
 
     public Ticket() {
     }

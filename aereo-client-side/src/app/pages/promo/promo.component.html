@@ -2,7 +2,7 @@
   <div class="hero-body is-inline is-inline-block">
     <br><br><br><br>
     <h1 class="title">
-      <div style="color: blue; text-align: center;"><br>All Promotions:</div>
+      <div style="color: blue; text-align: center;"><br>All Promotions of February:</div>
     </h1>
     <table class="table has-text-centered">
       <thead>
@@ -20,13 +20,13 @@
       <tbody>
       <tr *ngFor="let promotions of promoList">
         <td>{{promotions.flight}}</td>
-        <td><!--{{}}--></td> <!-- Need flightList to cross check-->
-        <td><!--{{}}--></td>
-        <td><!--{{}}--></td>
+        <td><!--{{DA}}--></td> <!-- Need flightList to cross check-->
+        <td><!--{{A}}--></td>
+        <td><!--{{DATA}}--></td>
         <td>{{promotions.start}}</td>
         <td>{{promotions.end}}</td>
         <td>{{promotions.discount_percentage}}</td>
-        <td><p *ngIf=" promotions.premium == '0'" class="help is-danger"> Fedeltà Only </p></td> <!--IF premium-->
+        <td><p *ngIf=" promotions.premium == '1'" class="help is-danger"> Fedeltà Only </p></td>
       </tr>
       </tbody>
     </table>

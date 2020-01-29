@@ -13,20 +13,38 @@ export class FlightListComponent implements OnInit {
   flightList: any = [];
   promoList: any = [];
 
-  constructor(private http: HttpClient,  private router: Router) {
+  constructor(private http: HttpClient, private router: Router) {
   }
 
   ngOnInit() {
 
-    this.http.get(environment.apiUrl + '/flights')
+    /*this.http.get(environment.apiUrl + '/flights')
       .subscribe(response => {
           this.flightList = response;
         }, err => {
           console.log('Error: ' + err);
         }
+      );*/
+
+    this.http.get(environment.apiUrl + '/promo')
+      .subscribe(response => {
+          this.promoList = response;
+        }, err => {
+          console.log('Error: ' + err);
+        }
       );
 
-    /*this.departureLocation = sessionStorage.getItem('departureLocation');
+    const promoFilter: any = [];
+
+    for (let flight of this.flightList) {
+      this.promoList.each((promo) => {
+        if (promo.flight === flight.id) {
+          promoFilter.push(promo);
+        }
+      });
+    }
+
+    this.departureLocation = sessionStorage.getItem('departureLocation');
     this.landingLocation = sessionStorage.getItem('landingLocation');
     this.departureDay = sessionStorage.getItem('departureDay');
 
@@ -36,8 +54,7 @@ export class FlightListComponent implements OnInit {
         }, err => {
           alert('Error: ' + err);
         }
-      );*/
-
+      );
   }
 
   buyTicket(event) {

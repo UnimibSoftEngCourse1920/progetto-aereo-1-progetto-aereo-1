@@ -36,16 +36,16 @@
           </button>
         </th>
         <th>
-          <button class="button is-success" [disabled]="(loggedUser=='NULL')" (click)="buyTicketWithPoints()">
+          <button class="button is-success" [disabled]="(loggedUser==null)" (click)="buyTicketWithPoints()">
             Gratis con {{(flightChosen.price) / 10}} punti!
           </button>
-          <p class="help is-danger" *ngIf="(loggedUser=='NULL')"><br>Only for registered users!</p>
+          <p class="help is-danger" *ngIf="(loggedUser==null)"><br>Only for registered users!</p>
         </th>
         <th>
-          <input type="checkbox" value=true [(ngModel)]="reserved" [disabled]="(loggedUser=='NULL')">
+          <input type="checkbox" value=true [(ngModel)]="reserved" [disabled]="(loggedUser==null)">
           <!--non so se funzionano i Disabled-->
           Prenota!
-          <p class="help is-danger" *ngIf="(loggedUser=='NULL')"><br>Only for registered users!</p><br>
+          <p class="help is-danger" *ngIf="(loggedUser==null)"><br>Only for registered users!</p><br>
         </th>
       </tr>
       </tbody>
