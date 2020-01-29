@@ -11,6 +11,7 @@ import {Router} from '@angular/router';
 })
 export class FlightListComponent implements OnInit {
   flightList: any = [];
+  promoList: any = [];
 
   constructor(private http: HttpClient,  private router: Router) {
   }

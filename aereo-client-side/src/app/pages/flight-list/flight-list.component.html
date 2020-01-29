@@ -26,7 +26,13 @@
         <td>{{flight.departureHour}}</td>
         <td>{{flight.seatsLeft}}</td>
         <td>{{flight.price}}</td>
-        <td>Nessuna</td> <!-- To Do-->
+        <td>
+          <div *ngFor="let promotions of promoList">
+            <div *ngIf="promotions.id==promotions.flight">{{promotions.discount}}
+              <div *ngIf="promotions.premium==1" class="is-danger">  F</div>
+            </div>
+          </div>
+        </td>
         <td>
           <button class="button is-success" id="{{flight.id}}" (click)="buyTicket($event)"> Compra Subito!</button>
         </td>
