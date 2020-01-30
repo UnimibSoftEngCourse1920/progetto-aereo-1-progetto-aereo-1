@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Rename resource &apos;UML_Prgetto_2/classdiagram.dnx&apos; to &apos;UseCaseDiagram.dnx&apos;" description="Rename resource &apos;classdiagram.dnx&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="classdiagram.dnx" name="UseCaseDiagram.dnx" stamp="1580036314904" updateReferences="true"/>
-</session>

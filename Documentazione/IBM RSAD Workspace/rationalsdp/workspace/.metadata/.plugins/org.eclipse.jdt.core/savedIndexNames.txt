@@ -1,1 +1,0 @@
-INDEX VERSION 1.130+C:\Users\a.calaminici\IBM\rationalsdp\workspace\.metadata\.plugins\org.eclipse.jdt.core
