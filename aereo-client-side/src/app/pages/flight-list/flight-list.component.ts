@@ -12,6 +12,9 @@ import {Router} from '@angular/router';
 export class FlightListComponent implements OnInit {
   flightList: any = [];
   promoList: any = [];
+  departureLocation;
+  landingLocation;
+  departureDay;
 
   constructor(private http: HttpClient, private router: Router) {
   }
@@ -26,24 +29,6 @@ export class FlightListComponent implements OnInit {
         }
       );*/
 
-    this.http.get(environment.apiUrl + '/promo')
-      .subscribe(response => {
-          this.promoList = response;
-        }, err => {
-          console.log('Error: ' + err);
-        }
-      );
-
-    const promoFilter: any = [];
-
-    for (let flight of this.flightList) {
-      this.promoList.each((promo) => {
-        if (promo.flight === flight.id) {
-          promoFilter.push(promo);
-        }
-      });
-    }
-
     this.departureLocation = sessionStorage.getItem('departureLocation');
     this.landingLocation = sessionStorage.getItem('landingLocation');
     this.departureDay = sessionStorage.getItem('departureDay');
@@ -55,6 +40,27 @@ export class FlightListComponent implements OnInit {
           alert('Error: ' + err);
         }
       );
+
+    this.http.get(environment.apiUrl + '/promo')
+      .subscribe(response => {
+          this.promoList = response;
+        }, err => {
+          console.log('Error: ' + err);
+        }
+      );
+
+    for (let flight of this.flightList) {
+      for (let promo of this.promoList) {
+        if ((flight.id === promo.flight) || ((flight.departureDay > promo.start) && (flight.departureDay < promo.end))) {
+          if (promo.premium && (sessionStorage.getItem('loggedUserId') === undefined)) {
+            break;
+          } else {
+            flight.price = flight.price - ((flight.price * promo.discountPercentage) / 100);
+            flight.inPromo = true;
+          }
+        }
+      }
+    }
   }
 
   buyTicket(event) {

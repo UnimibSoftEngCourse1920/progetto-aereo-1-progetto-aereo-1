@@ -35,7 +35,9 @@ public class Flight implements Serializable {
     @NotNull
     private LocalTime landingHour;
     @NotNull
-    private Integer price;
+    private Long price;
     @NotNull
     private Boolean cancelled;
+    @NotNull
+    private Boolean inPromo;
 }//end class

@@ -2,15 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6329b797-0377-4ac5-9231-0643e3dd64e6" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../aereo-client-side/src/app/pages/flight-list/flight-list.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../aereo-client-side/src/app/pages/flight-list/flight-list.component.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../aereo-client-side/src/app/pages/flight-list/flight-list.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../aereo-client-side/src/app/pages/flight-list/flight-list.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../aereo-client-side/src/app/pages/login/login.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../aereo-client-side/src/app/pages/login/login.component.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../aereo-client-side/src/app/pages/profile/profile.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../aereo-client-side/src/app/pages/profile/profile.component.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../aereo-client-side/src/app/pages/profile/profile.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../aereo-client-side/src/app/pages/profile/profile.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../aereo-client-side/src/app/pages/promo/promo.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../aereo-client-side/src/app/pages/promo/promo.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aereo-client-side/src/app/pages/ticket/buy/buy.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../aereo-client-side/src/app/pages/ticket/buy/buy.component.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/it/bicocca/aereoserverside/entity/Promotion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/it/bicocca/aereoserverside/entity/Promotion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/it/bicocca/aereoserverside/entity/Ticket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/it/bicocca/aereoserverside/entity/Ticket.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/it/bicocca/aereoserverside/controller/TicketController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/it/bicocca/aereoserverside/controller/TicketController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/it/bicocca/aereoserverside/entity/Flight.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/it/bicocca/aereoserverside/entity/Flight.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/it/bicocca/aereoserverside/services/TicketService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/it/bicocca/aereoserverside/services/TicketService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/it/bicocca/aereoserverside/services/impl/TicketsServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/it/bicocca/aereoserverside/services/impl/TicketsServiceImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,6 +74,7 @@
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="add_unversioned_files" value="$PROJECT_DIR$/aereo-server-side.iml" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -92,6 +93,16 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\nextre\Desktop\progetto\aereo-server-side\src\main\resources" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="AereoServerSideApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="aereo-server-side" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="it.bicocca.aereoserverside.AereoServerSideApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -154,22 +165,26 @@
     <option name="LAST_COMMIT_MESSAGE" value="run debug config adeed" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="371" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1578738932931">
+    <state x="371" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1580576115769">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="371" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1578738932931" />
-    <state x="765" y="224" key="#com.intellij.ide.util.MemberChooser" timestamp="1580165445755">
+    <state x="371" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1580576115769" />
+    <state x="765" y="224" key="#com.intellij.ide.util.MemberChooser" timestamp="1580570529177">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="765" y="224" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1580165445755" />
-    <state x="1114" y="318" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1578738170228">
+    <state x="765" y="224" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1580570529177" />
+    <state x="903" y="307" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1580575534439">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1114" y="318" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1578738170228" />
+    <state x="903" y="307" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1580575534439" />
     <state x="107" y="176" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1578739842760">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="107" y="176" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1578739842760" />
+    <state x="466" y="437" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1580574308672">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="466" y="437" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1580574308672" />
     <state x="751" y="362" width="432" height="316" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1578824738863">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -230,9 +245,13 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="715" y="365" key="cloudConfig.SelfSettingsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1577975201552" />
-    <state x="646" y="236" width="758" height="638" key="find.popup" timestamp="1578824505953">
+    <state x="646" y="236" width="758" height="638" key="find.popup" timestamp="1580555889866">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="646" y="236" width="758" height="638" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1578824505953" />
+    <state x="646" y="236" width="758" height="638" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1580555889866" />
+    <state x="580" y="294" key="git4idea.merge.GitPullDialog" timestamp="1580551685393">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="580" y="294" key="git4idea.merge.GitPullDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1580551685393" />
   </component>
 </project>

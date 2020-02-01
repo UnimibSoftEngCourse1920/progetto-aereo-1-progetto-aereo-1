@@ -12,32 +12,32 @@
       <tbody>
       <tr>
         <th>Nome</th>
-        <td>{{user.name}}</td>
-        <td>{{user.surname}}</td>
+        <td>{{loggedUser.name}}</td>
+        <td>{{loggedUser.surname}}</td>
       </tr>
       <tr>
         <th>Indirizzo</th>
-        <td>{{user.address}}</td>
+        <td>{{loggedUser.address}}</td>
         <td></td>
       </tr>
       <tr>
         <th>Compleanno</th>
-        <td>{{user.dateOfBirth}}</td>
+        <td>{{loggedUser.dateOfBirth}}</td>
         <td></td>
       </tr>
       <tr>
         <th>Email</th>
-        <td>{{user.email  }}</td>
+        <td>{{loggedUser.email  }}</td>
         <td></td>
       </tr>
       <tr>
         <th>Data Ultimo Acquisto</th>
-        <td>{{user.fidelityCard.lastPurchaseDate}}</td>
+        <td>{{loggedUser.fidelityCard.lastPurchaseDate}}</td>
         <td></td>
       </tr>
       <tr>
         <th>Saldo Punti fedeltà</th>
-        <td>{{user.fidelityCard.points}}</td>
+        <td>{{loggedUser.fidelityCard.points}}</td>
         <td></td>
       </tr>
       </tbody>
@@ -62,7 +62,7 @@
           <td>{{ticket.flight.landingLocation}}</td>
           <td>{{ticket.flight.departureDay}}</td>
           <td>{{ticket.flight.price}}</td>
-          <!--    <td> reee <button class="button is-success" routerLink="/tickets/edit-tickets/[ADD ID HERE]"> &lt;!&ndash;NON POSSO TESTARE I BOTTONI SENZA BACKEND&ndash;&gt;
+          <!--  SOSTITUIRE CON CANCELLA !!!SOLO DI QUELLI PRENOTATI !!!!! <td> reee <button class="button is-success" routerLink="/tickets/edit-tickets/[ADD ID HERE]"> &lt;!&ndash;NON POSSO TESTARE I BOTTONI SENZA BACKEND&ndash;&gt;
                 Modify Ticket!
               </button></td>-->
           <td>

@@ -38,9 +38,22 @@ export class BuyComponent implements OnInit {
           }
         );
     }
-    this.http.get(environment.apiUrl + 'promo').subscribe(response => {
+    this.http.get(environment.apiUrl + '/promo').subscribe(response => {
       this.promoList = response;
     }, error => console.log('error', error));
+
+    for (let promo of this.promoList) {
+      if ((this.flightChosen.id === promo.flight) ||
+        ((this.flightChosen.departureDay > promo.start) && (this.flightChosen.departureDay < promo.end))) {
+        if (promo.premium && (sessionStorage.getItem('loggedUserId') === undefined)) {
+          break;
+        } else {
+          this.flightChosen.price = this.flightChosen.price - ((this.flightChosen.price * promo.discountPercentage) / 100);
+          this.flightChosen.inPromo = true;
+        }
+      }
+    }
+
   }
 
   buyTicket() {
