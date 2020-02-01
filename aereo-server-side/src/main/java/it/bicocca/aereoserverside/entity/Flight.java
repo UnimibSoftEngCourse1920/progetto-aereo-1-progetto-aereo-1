@@ -37,7 +37,5 @@ public class Flight implements Serializable {
     @NotNull
     private Long price;
     @NotNull
-    private Boolean cancelled;
-    @NotNull
     private Boolean inPromo;
 }//end class

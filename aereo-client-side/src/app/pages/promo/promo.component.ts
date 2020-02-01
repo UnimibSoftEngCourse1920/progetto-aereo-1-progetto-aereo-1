@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, OnInit} from '@angular/core';
 import {HttpClient} from '@angular/common/http';
 import {environment} from '../../../environments/environment';
 
@@ -10,7 +10,10 @@ import {environment} from '../../../environments/environment';
 export class PromoComponent implements OnInit {
 
   promoList: any = [];
-  constructor(private http: HttpClient) { }
+  activePromoList: any = [];
+
+  constructor(private http: HttpClient) {
+  }
 
   ngOnInit() {
     this.http.get(environment.apiUrl + '/promo')
@@ -20,6 +23,12 @@ export class PromoComponent implements OnInit {
           console.log('Error: ' + err);
         }
       );
+
+    this.activePromoList = this.promoList.filter(promo => promo.flight != null);
+    const promoTemp = this.promoList.filter(promo => ((promo.start < Date.now()) && (promo.end > Date.now())));
+    for (let promo of promoTemp) {
+      this.activePromoList.push(promo);
+    }
   }
 
 }

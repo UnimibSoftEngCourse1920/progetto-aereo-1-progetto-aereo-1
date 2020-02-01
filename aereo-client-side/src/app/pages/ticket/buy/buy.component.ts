@@ -13,7 +13,8 @@ export class BuyComponent implements OnInit {
   loggedUser;
   flightChosen;
   promoList: any = [];
-  reserved;
+  reserved = false;
+  canReserve;
 
   constructor(private http: HttpClient, private router: Router) {
   }
@@ -37,6 +38,12 @@ export class BuyComponent implements OnInit {
             console.log('Error: ' + err);
           }
         );
+    }
+
+    for (let ticket of this.loggedUser.tickets) {
+      if ((ticket.flight.id === flightId) && ticket.reserved) {
+        this.canReserve = false;
+      }
     }
     this.http.get(environment.apiUrl + '/promo').subscribe(response => {
       this.promoList = response;
@@ -74,7 +81,6 @@ export class BuyComponent implements OnInit {
   }
 
   buyTicketWithMoney() {
-    // this.http.post( environment.apiUrl + 'tickets/save')
     if (this.loggedUser.fidelityCard !== null) {
       this.buyTicket();
     }
