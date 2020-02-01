@@ -1,6 +1,3 @@
-<!-- da togliere la data di nascita -->
-
-
 <section class="hero is-primary is-fullheight is-bold">
   <div class="hero-body is-inline is-inline-block">
     <br><br><br><br>
@@ -12,32 +9,32 @@
       <tbody>
       <tr>
         <th>Nome</th>
-        <td>{{loggedUser.name}}</td>
-        <td>{{loggedUser.surname}}</td>
+        <td>{{user.name}}</td>
+        <td>{{user.surname}}</td>
       </tr>
       <tr>
         <th>Indirizzo</th>
-        <td>{{loggedUser.address}}</td>
+        <td>{{user.address}}</td>
         <td></td>
       </tr>
-      <tr>
+      <!--<tr>
         <th>Compleanno</th>
-        <td>{{loggedUser.dateOfBirth}}</td>
+        <td>{{user.dateOfBirth}}</td>
         <td></td>
-      </tr>
+      </tr>-->
       <tr>
         <th>Email</th>
-        <td>{{loggedUser.email  }}</td>
+        <td>{{user.email}}</td>
         <td></td>
       </tr>
       <tr>
         <th>Data Ultimo Acquisto</th>
-        <td>{{loggedUser.fidelityCard.lastPurchaseDate}}</td>
+        <td>{{user.fidelityCard.lastPurchaseDate}}</td>
         <td></td>
       </tr>
       <tr>
         <th>Saldo Punti fedeltà</th>
-        <td>{{loggedUser.fidelityCard.points}}</td>
+        <td>{{user.fidelityCard.points}}</td>
         <td></td>
       </tr>
       </tbody>
@@ -52,23 +49,34 @@
           <th><abbr title="To">To</abbr></th>
           <th><abbr title="DepTime">Data</abbr></th>
           <th><abbr title="Date">Costo</abbr></th>
+          <th><abbr title="Delete">Cancella</abbr></th>
+          <th><abbr title="PrenPunti">Prenotazione</abbr></th>
+          <th><abbr title="PrenCompra"></abbr></th>
         </tr>
         </thead>
         <tbody>
 
-        <tr *ngFor="let ticket of ticketsList"> <!-- guarda come ho fatto io su acquista biglietto, l'id non va qui-->
+        <tr *ngFor="let ticket of ticketsList">
           <td>{{ticket.flight.id}}</td>
           <td>{{ticket.flight.departureLocation}}</td>
           <td>{{ticket.flight.landingLocation}}</td>
           <td>{{ticket.flight.departureDay}}</td>
           <td>{{ticket.flight.price}}</td>
-          <!--  SOSTITUIRE CON CANCELLA !!!SOLO DI QUELLI PRENOTATI !!!!! <td> reee <button class="button is-success" routerLink="/tickets/edit-tickets/[ADD ID HERE]"> &lt;!&ndash;NON POSSO TESTARE I BOTTONI SENZA BACKEND&ndash;&gt;
-                Modify Ticket!
-              </button></td>-->
           <td>
-            <button class="button is-success" routerLink="/ticket/buy"> <!-- sta roba non funziona perchè così mi manderesti a comprare un altro biglietto non modificheresti/cancelleresti questo-->
-            Pay Booking!
-          </button></td>
+            <button class="button is-success" (click)="deleteTicket(ticket.id)">
+              Cancel Ticket!
+            </button>
+          </td>
+          <td>
+            <button *ngIf="ticket.reserved==1" class="button is-success" (click)="buyTicketWithMoney(ticket.id)">
+              Pay Booking!
+            </button>
+          </td>
+          <td>
+            <button *ngIf="ticket.reserved==1" class="button is-success" (click)="buyTicketWithPoints(ticket.id)">
+              Pay with points!
+            </button>
+          </td>
         </tr>
         </tbody>
       </table>

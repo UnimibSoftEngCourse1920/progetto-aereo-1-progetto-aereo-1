@@ -1,17 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6329b797-0377-4ac5-9231-0643e3dd64e6" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../aereo-client-side/src/app/pages/flight-list/flight-list.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../aereo-client-side/src/app/pages/flight-list/flight-list.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../aereo-client-side/src/app/pages/profile/profile.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../aereo-client-side/src/app/pages/profile/profile.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../aereo-client-side/src/app/pages/profile/profile.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../aereo-client-side/src/app/pages/profile/profile.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../aereo-client-side/src/app/pages/ticket/buy/buy.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../aereo-client-side/src/app/pages/ticket/buy/buy.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/it/bicocca/aereoserverside/controller/TicketController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/it/bicocca/aereoserverside/controller/TicketController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/it/bicocca/aereoserverside/entity/Flight.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/it/bicocca/aereoserverside/entity/Flight.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/it/bicocca/aereoserverside/services/TicketService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/it/bicocca/aereoserverside/services/TicketService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/it/bicocca/aereoserverside/services/impl/TicketsServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/it/bicocca/aereoserverside/services/impl/TicketsServiceImpl.java" afterDir="false" />
-    </list>
+    <list default="true" id="6329b797-0377-4ac5-9231-0643e3dd64e6" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -133,6 +123,7 @@
       <workItem from="1578736726128" duration="28702000" />
       <workItem from="1579640115588" duration="36057000" />
       <workItem from="1580334522327" duration="3006000" />
+      <workItem from="1580577091273" duration="11000" />
     </task>
     <task id="LOCAL-00001" summary="run debug config adeed">
       <created>1577987268548</created>
@@ -165,10 +156,11 @@
     <option name="LAST_COMMIT_MESSAGE" value="run debug config adeed" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="371" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1580576115769">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="371" y="185" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1580577100516">
+      <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="371" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1580576115769" />
+    <state x="371" y="185" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1580577100516" />
     <state x="765" y="224" key="#com.intellij.ide.util.MemberChooser" timestamp="1580570529177">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
