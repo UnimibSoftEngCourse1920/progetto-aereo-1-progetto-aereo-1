@@ -1,6 +1,7 @@
 import {Component, OnInit} from '@angular/core';
 import {environment} from '../../../environments/environment';
 import {HttpClient} from '@angular/common/http';
+import {User} from '../../class-for-entity/User';
 
 @Component({
   selector: 'app-profile',
@@ -8,7 +9,7 @@ import {HttpClient} from '@angular/common/http';
   styleUrls: ['./profile.component.css']
 })
 export class ProfileComponent implements OnInit {
-  loggedUser: any;
+  loggedUser;
   ticketsList: any = [];
   flight;
 

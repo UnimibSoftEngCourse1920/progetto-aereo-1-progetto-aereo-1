@@ -42,10 +42,9 @@
           <p class="help is-danger" *ngIf="(loggedUser==null)"><br>Only for registered users!</p>
         </th>
         <th>
-          <input type="checkbox" value=true [(ngModel)]="reserved" [disabled]="(loggedUser==null)">
-          <!--non so se funzionano i Disabled-->
+          <input type="checkbox" *ngIf="(canReserve!=null)&&(loggedUser!=null)" [(ngModel)]="reserved">
           Prenota!
-          <p class="help is-danger" *ngIf="(loggedUser==null)"><br>Only for registered users!</p><br>
+         <br>
         </th>
       </tr>
       </tbody>
