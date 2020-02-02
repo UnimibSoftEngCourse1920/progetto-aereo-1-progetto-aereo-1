@@ -8,7 +8,7 @@
               <label class="label">Departure:</label>
               <div class="control">
                 <div class="select">
-                  <select > //[(ngModel)]="departureLocation"
+                  <select [(ngModel)]="departureLocation" >
                     <option>Any Departure</option>
                     <option>Milano</option>
                     <option>Budapest</option>
@@ -26,7 +26,7 @@
               <label class="label">Arrival:</label>
               <div class="control">
                 <div class="select">
-                  <select > // [(ngModel)]="landingLocation" //[(ngModel)]="departureDay"
+                  <select [(ngModel)]="landingLocation">
                     <option>Any Arrival</option>
                     <option>Milano</option>
                     <option>Budapest</option>
@@ -43,7 +43,7 @@
             <div class="field">
               <label class="label">Date</label>
               <div class="control is-inline-block">
-                <input class="input" maxlength="5" name="date" pattern="[0-1][0-9]/[0-3][0-9]"
+                <input class="input" [(ngModel)]="departureDay" maxlength="5" name="date" pattern="[0-1][0-9]/[0-3][0-9]"
                        placeholder="dd/mm" type="text" >
               </div>
             </div>
@@ -57,7 +57,7 @@
               <div class="is-4">
                 <div class="field is-grouped is-centered">
                   <div class="control">
-                    <button class="button is-success is-centered" type="submit">Find Flights!</button>
+                    <button class="button is-success is-centered" type="submit" (click)="submitSearch()">Find Flights!</button>
                   </div>
                 </div>
               </div>
