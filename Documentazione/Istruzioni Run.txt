@@ -1,0 +1,8 @@
+1-Per far partire Angular si necessita node.js
+2-Entrando nella cartella aereo-server-side, da linea di comando si
+ esegue il progetto tramite ng serve o npm start (usare npm update a priori se necessario)
+3-Per il backend SQL si necessita un'istanza SQL con nome e password root entrambi,
+  che abbia permessi di creazione tabelle e DB
+4-Popolare inizialmente il database, nella cartella Resources/static c'è il file con le Insert
+5-Per lanciare spring, da aereo-server-side, riga di comando ./mvnw spring-boot:run
+6-Sito live hostato su http://localhost:4200 OPPURE http://localhost:4200/home
