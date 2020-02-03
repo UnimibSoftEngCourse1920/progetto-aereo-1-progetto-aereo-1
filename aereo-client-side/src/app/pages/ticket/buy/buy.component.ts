@@ -47,29 +47,31 @@ export class BuyComponent implements OnInit {
     }
     this.http.get(environment.apiUrl + '/promo').subscribe(response => {
       this.promoList = response;
-    }, error => console.log('error', error));
-
-    for (let promo of this.promoList) {
-      if ((this.flightChosen.id === promo.flight) ||
-        ((this.flightChosen.departureDay > promo.start) && (this.flightChosen.departureDay < promo.end))) {
-        if (promo.premium && (sessionStorage.getItem('loggedUserId') === undefined)) {
-          break;
-        } else {
-          this.flightChosen.price = this.flightChosen.price - ((this.flightChosen.price * promo.discountPercentage) / 100);
-          this.flightChosen.inPromo = true;
+      for (let promo of this.promoList) {
+        if ((this.flightChosen.id === promo.flight) ||
+          ((this.flightChosen.departureDay > promo.start) && (this.flightChosen.departureDay < promo.end))) {
+          if (promo.premium && (sessionStorage.getItem('loggedUserId') === undefined)) {
+            break;
+          } else {
+            this.flightChosen.price = this.flightChosen.price - ((this.flightChosen.price * promo.discountPercentage) / 100);
+            this.flightChosen.inPromo = true;
+          }
         }
       }
-    }
-
+    }, error => console.log('error', error));
   }
 
   buyTicket(points) {
-    this.http.get(environment.apiUrl + '/ticket/buy/' + this.loggedUser + this.flightChosen + points + this.reserved).subscribe(() => {
-      alert('Acquisto effettuato!');
-      this.router.navigate(['/home']);
-    }, error => {
-      console.log('Error ', error);
-    });
+    if (this.loggedUser !== undefined) {
+      this.http.get(environment.apiUrl + '/ticket/buy/' + this.loggedUser + this.flightChosen + points + this.reserved).subscribe(() => {
+        alert('Acquisto effettuato!');
+        this.router.navigate(['/']);
+      }, error => {
+        console.log('Error ', error);
+      });
+    } else {
+      this.router.navigate(['/']);
+    }
   }
 
   buyTicketWithPoints() {
@@ -81,9 +83,14 @@ export class BuyComponent implements OnInit {
   }
 
   buyTicketWithMoney() {
-    if (this.loggedUser.fidelityCard !== null) {
-      let points = String(this.flightChosen.price / 10);
-      this.buyTicket(parseInt(points));
+    if ((this.loggedUser !== undefined)) {
+      if (this.loggedUser.fidelityCard !== null) {
+        let points = String(this.flightChosen.price / 10);
+        this.buyTicket(parseInt(points));
+      }
+    } else {
+      alert('Biglietto acquistato');
+      this.router.navigate(['/']);
     }
   }
 
