@@ -13,7 +13,6 @@ export class RegistrationComponent implements OnInit {
 
   name: string;
   surname: string;
-  dateOfBirth: string;
   email: string;
   password: string;
   repeatPassword: string;

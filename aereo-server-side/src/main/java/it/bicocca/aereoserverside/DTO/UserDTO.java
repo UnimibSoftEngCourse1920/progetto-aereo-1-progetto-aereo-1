@@ -1,11 +1,5 @@
 package it.bicocca.aereoserverside.DTO;
 
-import it.bicocca.aereoserverside.entity.FidelityCard;
-
-import javax.persistence.*;
-import javax.validation.constraints.NotNull;
-import java.time.LocalDateTime;
-
 public class UserDTO {
     private String name;
     private String surname;

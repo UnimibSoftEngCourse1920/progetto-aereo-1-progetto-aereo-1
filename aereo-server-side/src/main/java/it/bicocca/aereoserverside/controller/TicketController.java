@@ -29,15 +29,18 @@ public class TicketController {
     @Autowired
     private FidelityCardServiceImpl cardService;
 
+    @CrossOrigin
     @GetMapping("/tickets/{buyerId}")
     public List<Ticket> getTickets(@PathVariable Long buyerId) {
         return ticketsService.getByBuyer(buyerId);
     }
+    @CrossOrigin
     @GetMapping("/ticket/{Id}")
     public Ticket getTicket(@PathVariable Long ticketId) {
         return ticketsService.getById(ticketId);
     }
 
+    @CrossOrigin
     @PostMapping("/ticket/buy/{userId}/{flightId}/{points}/{reserved}")
     public Ticket saveTicket(@PathVariable Long userId,
                                      @PathVariable Long flightId,
@@ -50,9 +53,11 @@ public class TicketController {
         if (!reserved){
             cardService.updatePoints(cardService.getByCardNumber(buyer.getFidelityCard().getCardNumber()), points);
         }
+        flight.setSeatsLeft(flight.getSeatsLeft() - 1);
         return ticketsService.saveTicket(ticket);
     }
 
+    @CrossOrigin
     @GetMapping("delete-ticket/{id}")
     public void delete(@PathVariable Long id) {
         ticketsService.delete(id);

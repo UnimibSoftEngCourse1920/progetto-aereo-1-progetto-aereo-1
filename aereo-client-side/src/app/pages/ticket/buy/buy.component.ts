@@ -63,18 +63,18 @@ export class BuyComponent implements OnInit {
 
   }
 
-  buyTicket() {
-    this.http.get(environment.apiUrl + '/ticket/buy/' + this.loggedUser + this.flightChosen + this.reserved).subscribe(response => {
+  buyTicket(points) {
+    this.http.get(environment.apiUrl + '/ticket/buy/' + this.loggedUser + this.flightChosen + points + this.reserved).subscribe(() => {
+      alert('Acquisto effettuato!');
       this.router.navigate(['/home']);
-    }, err => {
-      console.log('Error: ' + err);
+    }, error => {
+      console.log('Error ', error);
     });
   }
 
-
   buyTicketWithPoints() {
     if (this.loggedUser.fidelityCard.points >= this.flightChosen.price) {
-      this.buyTicket();
+      this.buyTicket(-this.flightChosen.price);
     } else {
       alert('Punti non sufficienti!');
     }
@@ -82,7 +82,8 @@ export class BuyComponent implements OnInit {
 
   buyTicketWithMoney() {
     if (this.loggedUser.fidelityCard !== null) {
-      this.buyTicket();
+      let points = String(this.flightChosen.price / 10);
+      this.buyTicket(parseInt(points));
     }
   }
 

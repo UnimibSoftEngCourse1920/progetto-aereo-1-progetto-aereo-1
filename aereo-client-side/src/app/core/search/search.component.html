@@ -8,14 +8,14 @@
               <label class="label">Departure:</label>
               <div class="control">
                 <div class="select">
-                  <select [(ngModel)]="departureLocation" >
-                    <option>Any Departure</option>
-                    <option>Milano</option>
-                    <option>Budapest</option>
-                    <option>New York</option>
-                    <option>Tokyo</option>
-                    <option>Mosca</option>
-                    <option>Londra</option>
+                  <select  [(ngModel)]="departureLocation" name="departureLocation">
+                    <option  [ngValue]="'all'">Any Departure</option>
+                    <option [ngValue]="'Manchester'">Manchester</option>
+                    <option [ngValue]="'London'">London</option>
+                    <option [ngValue]="'York'">York</option>
+                    <option [ngValue]="'Birmingham'">Birmingham</option>
+                    <option [ngValue]="'Nottingham'">Nottingham</option>
+                    <option [ngValue]="'Portsmouth'">Portsmouth</option>
                   </select>
                 </div>
               </div>
@@ -26,14 +26,14 @@
               <label class="label">Arrival:</label>
               <div class="control">
                 <div class="select">
-                  <select [(ngModel)]="landingLocation">
-                    <option>Any Arrival</option>
-                    <option>Milano</option>
-                    <option>Budapest</option>
-                    <option>New York</option>
-                    <option>Tokyo</option>
-                    <option>Mosca</option>
-                    <option>Londra</option>
+                  <select [(ngModel)]="landingLocation" name="landingLocation">
+                    <option [ngValue]="'all'">Any Arrival</option>
+                    <option [ngValue]="'Manchester'">Manchester</option>
+                    <option [ngValue]="'London'">London</option>
+                    <option [ngValue]="'York'">York</option>
+                    <option [ngValue]="'Birmingham'">Birmingham</option>
+                    <option [ngValue]="'Nottingham'">Nottingham</option>
+                    <option [ngValue]="'Portsmouth'">Portsmouth</option>
                   </select>
                 </div>
               </div>
@@ -43,8 +43,8 @@
             <div class="field">
               <label class="label">Date</label>
               <div class="control is-inline-block">
-                <input class="input" [(ngModel)]="departureDay" maxlength="5" name="date" pattern="[0-1][0-9]/[0-3][0-9]"
-                       placeholder="dd/mm" type="text" >
+                <input class="input" maxlength="5" name="departureDay" pattern="[0-1][0-9]/[0-3][0-9]"
+                       placeholder="dd/mm" type="text" [(ngModel)]="departureDay">
               </div>
             </div>
           </div>
@@ -57,7 +57,7 @@
               <div class="is-4">
                 <div class="field is-grouped is-centered">
                   <div class="control">
-                    <button class="button is-success is-centered" type="submit" (click)="submitSearch()">Find Flights!</button>
+                    <button class="button is-success is-centered" type="submit">Find Flights!</button>
                   </div>
                 </div>
               </div>

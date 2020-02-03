@@ -38,7 +38,7 @@
             </div>
             <!-- second row -->
             <div class="columns">
-              <div class="column is-6">
+              <div class="column is-12">
                 <div class="field">
                   <label class="label">Email</label>
                   <div class="control">
@@ -48,19 +48,6 @@
                   <p class="help is-danger" *ngIf="(emailInput.touched || emailInput.dirty) && emailInput.invalid">
                     Proper
                     email is required</p>
-                </div>
-              </div>
-              <div class="column is-6">
-                <div class="field">
-                  <label class="label">Date of birth</label>
-                  <div class="control">
-                    <input class="input" type="text" placeholder="dd-mm-yyyy" maxlength="10"
-                           pattern="[0-3][0-9]-[0-1][0-9]-[0-9][0-9][0-9][0-9]" name="dateOfBirth"
-                           [(ngModel)]="dateOfBirth" #birthInput="ngModel" required>
-                  </div>
-                  <p class="help is-danger" *ngIf="(birthInput.touched || birthInput.dirty) && birthInput.invalid">
-                    Proper
-                    date of birth is required</p>
                 </div>
               </div>
             </div>
@@ -110,7 +97,7 @@
             <!-- button -->
             <div class="field is-grouped">
               <div class="control">
-                <button class="button is-success" [disabled]="registrationForm.invalid || (password != repeatPassword)" (click)="submitForm()">
+                <button class="button is-success" [disabled]="registrationForm.invalid || (password != repeatPassword)">
                   Register
                 </button>
               </div>

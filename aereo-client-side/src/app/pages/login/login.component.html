@@ -7,11 +7,11 @@
     <div class="container">
       <div class="columns is-centered">
         <div class="column is-5-tablet is-4-desktop is-3-widescreen">
-          <form action="" class="box">
+          <form (ngSubmit)="submitForm()" #loginForm="ngForm">
             <div class="field">
               <label class="label">Email</label>
               <div class="control has-icons-left">
-                <input type="email" [(ngModel)]="email" placeholder="e.g. bobsmith@gmail.com" class="input" required>
+                <input type="email" [(ngModel)]="email" name="email" placeholder="name@mail.com" class="input" required>
                 <span class="icon is-small is-left">
                   <i class="fa fa-envelope"></i>
                 </span>
@@ -20,7 +20,7 @@
             <div class="field">
               <label class="label">Password</label>
               <div class="control has-icons-left">
-                <input type="password" [(ngModel)]="password" placeholder="*******" class="input" required>
+                <input type="password" [(ngModel)]="password" name="password" placeholder="password" class="input" required>
                 <span class="icon is-small is-left">
                   <i class="fa fa-lock"></i>
                 </span>
@@ -33,7 +33,7 @@
               </label>
             </div>
             <div class="field">
-              <button class="button is-success" (click)="submitForm()">
+              <button class="button is-success" [disabled]="loginForm.invalid">
                 Login
               </button>
             </div>

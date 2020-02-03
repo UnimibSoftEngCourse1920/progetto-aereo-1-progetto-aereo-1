@@ -19,16 +19,17 @@ export class PromoComponent implements OnInit {
     this.http.get(environment.apiUrl + '/promo')
       .subscribe(response => {
           this.promoList = response;
+          this.activePromoList = this.promoList.filter(promo => promo.flight != null);
+          console.log('promo', this.promoList);
+          console.log('promoa', this.activePromoList);
+          const promoTemp = this.promoList.filter(promo => ((promo.start < Date.now()) && (promo.end > Date.now())));
+          for (let promo of promoTemp) {
+            this.activePromoList.push(promo);
+          }
         }, err => {
           console.log('Error: ' + err);
         }
       );
-
-    this.activePromoList = this.promoList.filter(promo => promo.flight != null);
-    const promoTemp = this.promoList.filter(promo => ((promo.start < Date.now()) && (promo.end > Date.now())));
-    for (let promo of promoTemp) {
-      this.activePromoList.push(promo);
-    }
   }
 
 }

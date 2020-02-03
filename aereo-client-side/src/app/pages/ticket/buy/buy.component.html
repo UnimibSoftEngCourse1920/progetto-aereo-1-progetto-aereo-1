@@ -7,7 +7,7 @@
 
 
     <h1 class="title">
-      Acquisto Biglietto Volo #{{flightChosen.id}}:
+      Acquisto Biglietto Volo {{flightChosen.id}}:
     </h1>
 
     <table class="table has-text-centered">
@@ -31,7 +31,7 @@
       </tr>
       <tr>
         <th>
-          <button class="button is-success" type="submit" (click)="buyTicketWithMoney()" [disabled]="CCInput.invalid">
+          <button class="button is-success" type="submit" (click)="buyTicketWithMoney()">
             Acquista Ora!
           </button>
         </th>
@@ -54,12 +54,9 @@
     <div class="field">
       <label class="label">Credit Card number</label>
       <div class="control">
-        <input #CCInput="ngModel" [(ngModel)]="CCInput" class="input" maxlength="18" name="CCinfo"
-               pattern="[0-9][0-9][0-1][0-9] [0-9][0-9][0-9][0-9] [0-9][0-9][0-9][0-9]" placeholder="1234 1234 1234"
+        <input class="input" maxlength="18" pattern="[0-9][0-9][0-1][0-9] [0-9][0-9][0-9][0-9] [0-9][0-9][0-9][0-9]" placeholder="1234 1234 1234"
                type="text">
       </div>
-      <p class="help is-danger" *ngIf="(CCInput.touched || CCInput.dirty) && CCInput.invalid">
-        Incorrect CC number</p>
     </div>
 
   </div>

@@ -8,9 +8,10 @@ import {Router} from '@angular/router';
   styleUrls: ['./search.component.css']
 })
 export class SearchComponent implements OnInit {
-  departureLocation: string;
-  landingLocation: string;
-  departureDay: string;
+  departureLocation: string = 'all';
+  landingLocation: string = 'all';
+  departureDay: string = 'any';
+
   constructor(private http: HttpClient, private router: Router) {
   }
 
@@ -18,9 +19,14 @@ export class SearchComponent implements OnInit {
   }
 
   submitSearch() {
-    sessionStorage.setItem('departureLocation', this.departureLocation);
-    sessionStorage.setItem('landingLocation', this.landingLocation);
-    sessionStorage.setItem('departureDay', this.departureDay);
-    this.router.navigate(['/flight-list']);
+    if ((this.departureLocation === this.landingLocation) && (this.departureLocation !== 'all')) {
+      alert('Attenzione luogo di partenza e arrivo coincidono!');
+      return;
+    } else {
+      sessionStorage.setItem('departureLocation', this.departureLocation);
+      sessionStorage.setItem('landingLocation', this.landingLocation);
+      sessionStorage.setItem('departureDay', this.departureDay);
+      this.router.navigate(['/flight-list']);
+    }
   }
 }

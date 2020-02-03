@@ -5,8 +5,6 @@ import it.bicocca.aereoserverside.entity.User;
 import it.bicocca.aereoserverside.services.impl.FidelityCardServiceImpl;
 import it.bicocca.aereoserverside.services.impl.UserServiceImpl;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.http.HttpStatus;
-import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 import javax.validation.Valid;
@@ -30,10 +28,20 @@ public class UserController {
         return userService.save(newUser);
     }
 
+    @CrossOrigin
     @GetMapping("/user/{id}")
-    public ResponseEntity getUserById(@PathVariable Long id) {
-        return new ResponseEntity<>(userService.getById(id), HttpStatus.OK);
+    public User getUserById(@PathVariable Long id) {
+        return userService.getById(id);
     }
 
-
+    @CrossOrigin
+    @GetMapping("/user/{mail}/{password}")
+    public User getUserByEmail(@PathVariable String mail,
+                               @PathVariable String password) {
+        User loggedU = userService.getByMail(mail);
+        if((loggedU != null) && (loggedU.getPassword().equals(password))) {
+            return loggedU;
+        }
+        return null;
+    }
 }//end class

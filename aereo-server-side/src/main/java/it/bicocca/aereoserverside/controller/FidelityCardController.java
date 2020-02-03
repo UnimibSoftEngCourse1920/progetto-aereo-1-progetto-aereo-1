@@ -18,6 +18,7 @@ public class FidelityCardController {
     @Autowired
     private UserServiceImpl userService;
 
+    @CrossOrigin
     @PostMapping("/card/update/{cardId}/{points}")
     public ResponseEntity saveCard(@PathVariable Long points,
                                    @PathVariable Long cardId) {

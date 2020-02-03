@@ -12,7 +12,6 @@ public class Ticket implements Serializable {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
-    @NotNull
     @ManyToOne
     private User buyer;
     @NotNull

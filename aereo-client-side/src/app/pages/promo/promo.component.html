@@ -18,11 +18,11 @@
       </tr>
       </thead>
       <tbody>
-      <tr *ngFor="let promotions of promoList">
-        <td>{{promotions.flight}}</td>
-        <td><!--{{DA}}--></td> <!-- Need flightList to cross check-->
-        <td><!--{{A}}--></td>
-        <td><!--{{DATA}}--></td>
+      <tr *ngFor="let promotions of activePromoList">
+        <td>{{promotions.flight.id}}</td>
+        <td>{{promotions.flight.departureLocation}}</td> <!-- Need flightList to cross check-->
+        <td>{{promotions.flight.landingLocation}}</td>
+        <td>{{promotions.flight.departureDay}}</td>
         <td>{{promotions.start}}</td>
         <td>{{promotions.end}}</td>
         <td>{{promotions.discount_percentage}}</td>

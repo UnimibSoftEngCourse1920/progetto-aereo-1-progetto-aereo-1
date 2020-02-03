@@ -7,7 +7,6 @@ import java.time.LocalDate;
 
 @Entity
 @Table(name = "fidelity_card")
-@Data
 public class FidelityCard {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -23,5 +22,29 @@ public class FidelityCard {
     public FidelityCard(long points) {
         this.points = points;
         this.lastPurchaseDate = LocalDate.now();
+    }
+
+    public Long getCardNumber() {
+        return cardNumber;
+    }
+
+    public void setCardNumber(Long cardNumber) {
+        this.cardNumber = cardNumber;
+    }
+
+    public Long getPoints() {
+        return points;
+    }
+
+    public void setPoints(Long points) {
+        this.points = points;
+    }
+
+    public LocalDate getLastPurchaseDate() {
+        return lastPurchaseDate;
+    }
+
+    public void setLastPurchaseDate(LocalDate lastPurchaseDate) {
+        this.lastPurchaseDate = lastPurchaseDate;
     }
 }//end class

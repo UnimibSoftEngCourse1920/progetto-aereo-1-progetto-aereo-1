@@ -30,28 +30,32 @@ public class FlightController {
     }
 
     @CrossOrigin
-    @GetMapping("/flights/{landingLocation}/{departureDay}/" +
-                "{departureLocation}")
+    @GetMapping("/flights/{departureLocation}/{landingLocation}/{departureDay}")
     public List<Flight> getByLandingLocation(
+            @PathVariable String departureLocation,
             @PathVariable String landingLocation,
-            @PathVariable String departureDay,
-            @PathVariable String departureLocation) {
+            @PathVariable String departureDay) {
 
-        LocalDate jdepartureDay = LocalDate.now();
-        if(!departureDay.equals("")) {
-            jdepartureDay =
-                    LocalDate.of(Integer.parseInt(departureDay.substring(5)),
-                                 Integer.parseInt(departureDay.substring(3, 4)),
-                                 Integer.parseInt(
-                                         departureDay.substring(0, 2)));
-        }
-        // You cannot retrieve a flight without a date - by default is today
-        if(!landingLocation.equals("")) {
-            return flightService.getByLandingLocationAndDepartureDayAndDepartureLocation(
-                    landingLocation, jdepartureDay, departureLocation);
+        if(departureLocation.equals("all") && landingLocation.equals("all") && departureDay.equals("any")) {
+            return flightService.getAll();
         } else {
-            return flightService.getByDepartureLocationAndDepartureDay(
-                    departureLocation, jdepartureDay);
+            LocalDate jdepartureDay;
+
+            if(!departureDay.equals("any")) {
+                jdepartureDay = LocalDate.of(Integer.parseInt(departureDay.substring(5)),
+                                             Integer.parseInt(departureDay.substring(3, 4)),
+                                             Integer.parseInt(departureDay.substring(0, 2)));
+            } else {
+                jdepartureDay = LocalDate.now();
+            }
+            // You cannot retrieve a flight without a date - by default is today
+            if(!landingLocation.equals("all")) {
+                return flightService.getByLandingLocationAndDepartureDayAndDepartureLocation(
+                        landingLocation, jdepartureDay, departureLocation);
+            } else {
+                return flightService.getByDepartureLocationAndDepartureDay(
+                        departureLocation, jdepartureDay);
+            }
         }
     }
 }//end class

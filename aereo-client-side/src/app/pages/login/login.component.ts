@@ -1,8 +1,6 @@
 import {Component, OnInit} from '@angular/core';
-import {User} from '../../class-for-entity/User';
-import {HttpClient, HttpHeaders} from '@angular/common/http';
+import {HttpClient} from '@angular/common/http';
 import {Router} from '@angular/router';
-import {environment} from '../../../environments/environment';
 
 @Component({
   selector: 'app-login',
@@ -21,9 +19,13 @@ export class LoginComponent implements OnInit {
   }
 
   submitForm() {
-    const headers = new HttpHeaders({
-      'Content-Type': 'application/json'
+    this.http.get('/user/' + this.email + '/' + this.password).subscribe(response => {
+      console.log('response', response);
+      if (response != null) {
+        // sessionStorage.setItem('loggedUserId', response.id);
+      }
     });
+
 
   }
 

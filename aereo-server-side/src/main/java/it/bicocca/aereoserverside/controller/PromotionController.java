@@ -18,6 +18,7 @@ public class PromotionController {
     @Autowired
     private PromotionServiceImpl promotionService;
 
+    @CrossOrigin
     @GetMapping("/promo")
     public List<Promotion> getPromo() {
         return promotionService.getAll();

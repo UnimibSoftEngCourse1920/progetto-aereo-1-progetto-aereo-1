@@ -33,11 +33,11 @@ export class FlightListComponent implements OnInit {
     this.landingLocation = sessionStorage.getItem('landingLocation');
     this.departureDay = sessionStorage.getItem('departureDay');
 
-    this.http.get(environment.apiUrl + '/flights/ ' + this.landingLocation + '/' + this.departureDay + '/' + this.departureLocation)
+    this.http.get(environment.apiUrl + '/flights/' + this.departureLocation + '/' + this.landingLocation + '/' + this.departureDay)
       .subscribe(response => {
           this.flightList = response;
         }, err => {
-          alert('Error: ' + err);
+          console.log('Error: ', err);
         }
       );
 
@@ -48,6 +48,8 @@ export class FlightListComponent implements OnInit {
           console.log('Error: ' + err);
         }
       );
+
+    this.flightList = this.flightList.filter(flight => flight.seatsLeft > 0);
 
     for (let flight of this.flightList) {
       for (let promo of this.promoList) {

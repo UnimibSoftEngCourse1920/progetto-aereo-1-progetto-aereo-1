@@ -4,7 +4,7 @@ import { HeaderComponent } from './components/header/header.component';
 import { FooterComponent } from './components/footer/footer.component';
 import {RouterModule} from '@angular/router';
 import { SearchComponent } from './search/search.component';
-import {FormsModule} from "@angular/forms";
+import {FormsModule} from '@angular/forms';
 
 
 
